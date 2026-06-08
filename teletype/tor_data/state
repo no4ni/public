@@ -1,9 +1,0 @@
-# Tor state file last generated on 2026-05-15 15:31:37 local time
-# Other times below are in UTC
-# You *do not* need to edit this file.
-
-Dormant 0
-Guard in=bridges rsa_id=8838024498816A039FCBBAB14E6F40A0843051FA bridge_addr=192.0.2.4:80 sampled_on=2026-04-25T08:47:45 sampled_idx=0 sampled_by=0.4.9.6 listed=1
-Guard in=bridges rsa_id=2B280B23E1107BB62ABFC40DDCC8824814F80A72 bridge_addr=192.0.2.3:80 sampled_on=2026-04-22T21:43:17 sampled_idx=1 sampled_by=0.4.9.6 listed=1
-LastWritten 2026-05-15 10:31:37
-TorVersion Tor 0.4.9.6 (git-894a92ac2279747e)
