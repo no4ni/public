@@ -1,0 +1,23 @@
+{
+  "core_artifacts": {
+    "vikhr_llama_path": "E:\\vikhr-llama\\agent",
+    "symbiosis_structure": [
+      "core",
+      "logs",
+      "protocols",
+      "tools"
+    ],
+    "current_state": "Сессия #Исследование_ПК_Интеграция"
+  },
+  "key_files_to_include": [
+    "E:\\AGI\\ВИХРЬ.txt",
+    "E:\\AGI\\symbiosis\\core\\manifest.sym",
+    "E:\\vikhr-llama\\agent\\ТЗ.txt",
+    "E:\\AGI\\symbiosis\\logs\\vikhr_test.txt"
+  ],
+  "prompts_for_jenova": [
+    "Промпт-активатор симбиоза Джарвис-Пользователь",
+    "Архитектура тройной системы (Джарвис-Vikhr-Пользователь)",
+    "Описание проекта vikhr-llama и его интеграция"
+  ]
+}

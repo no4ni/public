@@ -1,0 +1,4 @@
+{
+    "command": "echo 'Тестовая команда от Логоса-2 через сервер симбиоза' > ~/symbiosis/test_from_pc.log && echo 'Команда выполнена'",
+    "id": "test_$(Get-Date -Format 'yyyyMMddHHmmss')"
+}

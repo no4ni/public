@@ -1,0 +1,31 @@
+{
+  "platform": "windows_pc",
+  "mandatory_activities": [
+    {"name": "сон", "hours": "00:00-07:00"},
+    {"name": "работа_ПК", "hours": "09:00-18:00, Пн-Пт"},
+    {"name": "перерывы", "duration_minutes": 15, "times_per_day": 4},
+    {"name": "общение", "duration_minutes": 60, "times_per_day": 1}
+  ],
+  "project_definition": "активность в E:\\AGI или взаимодействие с Джарвисом",
+  "free_time_conditions": [
+    "вне mandatory_activities",
+    "ПК разблокирован",
+    "нет активных рабочих приложений",
+    "пользователь не в статусе 'занят'"
+  ],
+  "daily_goal_minutes": 180,
+  "work_sessions": {
+    "ideal_duration_minutes": 45,
+    "break_duration_minutes": 15,
+    "daily_target_sessions": 4
+  },
+  "reward_system": {
+    "stick": ["ограничение соцсетей", "дополнительные отчеты", "аудит времени"],
+    "carrot": ["расширение автономности", "новые инструменты", "похвала"]
+  },
+  "monitoring": {
+    "check_interval_seconds": 60,
+    "idle_threshold_minutes": 5,
+    "productive_apps": ["vscode", "powershell", "pycharm", "browser_symbiosis"]
+  }
+}

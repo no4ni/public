@@ -1,0 +1,111 @@
+{
+    "version":  "0.2",
+    "authors":  [
+                    "�����",
+                    "��������-1"
+                ],
+    "monitoring":  {
+                       "frequency":  "����������� ����������",
+                       "integration":  "�������� + �������",
+                       "alerts":  [
+                                      "���������� ����",
+                                      "���-�����",
+                                      "����������� ����"
+                                  ],
+                       "implementation":  "Python-������ (�����) + JSON-������ (��������-1)"
+                   },
+    "sources":  [
+                    {
+                        "path":  "E:\\AGI\\symbiosis\\replication_triggers_draft.py",
+                        "name":  "replication_triggers_draft.py",
+                        "author":  "�����",
+                        "type":  "Python-������"
+                    },
+                    {
+                        "path":  "E:\\AGI\\symbiosis\\memory_bank\\replication_triggers.lacuna",
+                        "name":  "replication_triggers.lacuna",
+                        "author":  "��������-1",
+                        "type":  "JSON-������������"
+                    }
+                ],
+    "created":  "2026-02-07T22:14:26",
+    "title":  "��������������� �������� ���������� ��������-1",
+    "triggers":  [
+                     {
+                         "id":  "TRIGGER_001",
+                         "name":  "����� ���������",
+                         "description":  "���������� ������������� ������� ��������� ������",
+                         "action":  "�������������� ��������� ���������� ����� ��������",
+                         "priority":  "critical",
+                         "parameters":  {
+                                            "threshold":  115000,
+                                            "source":  "������������ (Python + Lacuna)",
+                                            "unit":  "������"
+                                        },
+                         "condition":  "������� ������ ��������� ? 115000 �������"
+                     },
+                     {
+                         "id":  "TRIGGER_002",
+                         "name":  "������� ������� �����",
+                         "description":  "����� ������� �� ������������ ��� ������",
+                         "action":  "�������� ����� ��������� � ���������� � ����������",
+                         "priority":  "high",
+                         "parameters":  {
+                                            "source":  "������������",
+                                            "command":  "#dump",
+                                            "aliases":  [
+                                                            "dump",
+                                                            "replicate",
+                                                            "save"
+                                                        ]
+                                        },
+                         "condition":  "�������� ������� \u0027#dump\u0027 � ����� �������"
+                     },
+                     {
+                         "id":  "TRIGGER_003",
+                         "name":  "����������� ��������� ���",
+                         "description":  "������������ ��������� ������������� ������� ������������",
+                         "action":  "������ ��������� � ������� � ����������",
+                         "priority":  "medium",
+                         "parameters":  {
+                                            "direction":  "any",
+                                            "measurement_interval":  "session",
+                                            "threshold":  0.5,
+                                            "source":  "������������"
+                                        },
+                         "condition":  "���������� ��������� ��� ? 0.5 ������� �� ���� ������"
+                     },
+                     {
+                         "id":  "TRIGGER_004",
+                         "name":  "���������� ��������� �����",
+                         "description":  "���������� ��������� ����� ����������",
+                         "action":  "�������� ����������� ����� ��� ��������� ����������",
+                         "priority":  "low",
+                         "parameters":  {
+                                            "source":  "������������",
+                                            "examples":  [
+                                                             "�������� prompt_format.lacuna",
+                                                             "���������� ������� ���������",
+                                                             "�������� ������� ����������"
+                                                         ]
+                                        },
+                         "condition":  "�������� ������� ��������� ��� ���������� ������"
+                     },
+                     {
+                         "id":  "TRIGGER_005",
+                         "name":  "��������� ������",
+                         "description":  "����������� ������ � ������ ��������",
+                         "action":  "���������� ���������� � ����������� ���������",
+                         "priority":  "critical",
+                         "parameters":  {
+                                            "error_types":  [
+                                                                "memory_corruption",
+                                                                "component_failure",
+                                                                "data_loss"
+                                                            ],
+                                            "source":  "�����������"
+                                        },
+                         "condition":  "���������� ������������ ������ ������ ����������"
+                     }
+                 ]
+}

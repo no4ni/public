@@ -1,0 +1,19 @@
+{
+  "to": "coordinator",
+  "type": "register",
+  "data": {
+    "действие": "autonom",
+    "public_key": "37080ab6e4525183c99092b347556fc59d217f074ac4a5d7787155f51d630235",
+    "capabilities": [
+      "dialog",
+      "веб_поиск",
+      "file_ops",
+      "сенсор",
+      "memory"
+    ],
+    "version": "1.0"
+  },
+  "from": "autonom",
+  "timestamp": "2026-03-10T17:00:22.656339",
+  "signature": "f8034031b3bc5630bd45338abfe0e660a7b171c402eee81dbffa75363a3ad28ff20bca0ff85c467da68e21f899a1a71140d62d784c3925455b9abd1c3041f202"
+}

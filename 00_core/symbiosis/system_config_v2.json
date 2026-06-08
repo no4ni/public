@@ -1,0 +1,13 @@
+{
+  "last_update": "2026-02-09T15:02:47Z",
+  "core_parameters": {
+    "target_ifs_range": [
+      0.88,
+      0.92
+    ],
+    "utility_threshold": 0.5,
+    "latency_ratio_threshold": 2.0,
+    "max_stable_depth": 6
+  },
+  "config_version": "2.0"
+}

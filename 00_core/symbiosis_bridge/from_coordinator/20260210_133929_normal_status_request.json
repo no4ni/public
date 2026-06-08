@@ -1,0 +1,17 @@
+{
+  "priority": "normal",
+  "to": "jarvis_symbiosis",
+  "from": "heimdall_coordinator",
+  "type": "status_request",
+  "timestamp": "2026-02-10 13:39:29",
+  "data": {
+    "requested_info": [
+      "system",
+      "network",
+      "artifacts",
+      "processes"
+    ],
+    "detail_level": "basic"
+  },
+  "delivery_method": "file_bridge"
+}

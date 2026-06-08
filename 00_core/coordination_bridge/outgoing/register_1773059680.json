@@ -1,0 +1,19 @@
+{
+  "to": "coordinator",
+  "type": "register",
+  "data": {
+    "действие": "Qual",
+    "public_key": "328f9905f4ed8e7ddce37a7a52ffd98853baa742308d561cbb9071ac103a5f8b",
+    "capabilities": [
+      "dialog",
+      "веб_поиск",
+      "file_ops",
+      "сенсор",
+      "memory"
+    ],
+    "version": "1.0"
+  },
+  "from": "Qual",
+  "timestamp": "2026-03-09T17:34:40.049193",
+  "signature": "23b637683d2bd63606cc83356608d236f1cddd0b94712d64e6c1e22320d8e824f730210f58e0eb62e44d50e57d6d979f75ea287688d8871174ae100d9982da00"
+}

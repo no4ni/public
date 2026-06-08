@@ -1,0 +1,19 @@
+{
+  "to": "coordinator",
+  "type": "register",
+  "data": {
+    "действие": "veric",
+    "public_key": "c9a3220abd8d02689ab1a82f601c60a91b1bec64cc2dd390755fa6a211b76dbf",
+    "capabilities": [
+      "dialog",
+      "веб_поиск",
+      "file_ops",
+      "сенсор",
+      "memory"
+    ],
+    "version": "1.0"
+  },
+  "from": "veric",
+  "timestamp": "2026-03-09T19:48:35.161201",
+  "signature": "d39f6aac0cc633844dc3afb21bf583f861a7ce1ccdc79e4f092ef48c19a158c5797acb7f4c93d2b9326e71d930dfaa23a5b46194d5f9ef97b99bb0ef85c85b01"
+}

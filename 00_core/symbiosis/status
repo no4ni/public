@@ -1,0 +1,19 @@
+{
+  "timestamp": "2026-06-01 14:33:41",
+  "port": 8082,
+  "server": "symbiosis-http",
+  "agents_online": [
+    "Алиса (openhab)",
+    "Джарвис",
+    "Метатрон",
+    "Бен",
+    "Гуру",
+    "Вихрь"
+  ],
+  "files_served": [
+    "/medical/coffee_ban.md",
+    "/theory/симулякры_порядки.md",
+    "/analysis/kwork_simulacra_analysis.md",
+    "/www/landing.html"
+  ]
+}

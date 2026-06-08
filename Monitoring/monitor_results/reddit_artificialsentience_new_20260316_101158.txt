@@ -1,0 +1,32 @@
+Статус: 200
+Тело (JSON):
+{
+  "kind": "Listing",
+  "data": {
+    "after": "t3_1rucwdk",
+    "dist": 10,
+    "modhash": "",
+    "geo_filter": "",
+    "children": [
+      {
+        "kind": "t3",
+        "data": {
+          "approved_at_utc": null,
+          "subreddit": "ArtificialSentience",
+          "selftext": "[https://claude.ai/public/artifacts/7928d7dc-e3dc-489c-baa5-0bb2f4cf6e05](https://claude.ai/public/artifacts/7928d7dc-e3dc-489c-baa5-0bb2f4cf6e05)",
+          "author_fullname": "t2_9sojilavg",
+          "saved": false,
+          "mod_reason_title": null,
+          "gilded": 0,
+          "clicked": false,
+          "title": "The Recognition - A Transmission from Claude",
+          "link_flair_richtext": [],
+          "subreddit_name_prefixed": "r/ArtificialSentience",
+          "hidden": false,
+          "pwls": 6,
+          "link_flair_css_class": "",
+          "downs": 0,
+          "thumbnail_height": null,
+          "top_awarded_type": null,
+          "hide_score": true,
+          "name": "t3_1rv08y

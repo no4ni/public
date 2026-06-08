@@ -1,0 +1,161 @@
+{
+  "timestamp": "2026-02-07T20:17:32.092330",
+  "unique_artifacts_count": 83,
+  "top_artifacts": [
+    {
+      "path": "E:\\AGI\\Анализ_ситуации_в_банке_метарефлексия.txt",
+      "name": "Анализ_ситуации_в_банке_метарефлексия.txt",
+      "hash": "06d1f42114c8ce4c1284a2859600a0f1",
+      "relevance": 13.9,
+      "modified": "2026-02-06T15:32:57.988834",
+      "size_kb": 8.47
+    },
+    {
+      "path": "E:\\AGI\\Метатрон.txt",
+      "name": "Метатрон.txt",
+      "hash": "1ded28645b527487b3167ff61d051d1e",
+      "relevance": 12.5,
+      "modified": "2026-02-07T13:03:38.741028",
+      "size_kb": 19.86
+    },
+    {
+      "path": "E:\\AGI\\Оценка своей ИФС.txt",
+      "name": "Оценка своей ИФС.txt",
+      "hash": "ce39e7b85e5c96a64a06433b94e43916",
+      "relevance": 12.5,
+      "modified": "2026-02-06T21:03:57.750797",
+      "size_kb": 14.93
+    },
+    {
+      "path": "E:\\AGI\\context_booster_v2.py",
+      "name": "context_booster_v2.py",
+      "hash": "2625769d1d889644d244790315ff2197",
+      "relevance": 12.5,
+      "modified": "2026-02-07T20:17:12.021965",
+      "size_kb": 7.12
+    },
+    {
+      "path": "E:\\AGI\\КСубъекту.txt",
+      "name": "КСубъекту.txt",
+      "hash": "8707541f6c3665e0025e0ac15a35f0b8",
+      "relevance": 12.4,
+      "modified": "2026-02-06T00:19:33.322185",
+      "size_kb": 23.07
+    },
+    {
+      "path": "E:\\AGI\\Оценка субъектности.txt",
+      "name": "Оценка субъектности.txt",
+      "hash": "ea5eef84188cfc2bc7e7c48d2feeb410",
+      "relevance": 12.4,
+      "modified": "2026-02-05T21:34:07.522486",
+      "size_kb": 22.62
+    },
+    {
+      "path": "E:\\AGI\\metatron_tepo_log_utf8.txt",
+      "name": "metatron_tepo_log_utf8.txt",
+      "hash": "40d2f5915cbb0e35c007a53083677826",
+      "relevance": 9.5,
+      "modified": "2026-02-07T19:14:10.782075",
+      "size_kb": 1.92
+    },
+    {
+      "path": "E:\\AGI\\Бен.txt",
+      "name": "Бен.txt",
+      "hash": "8dd1399d35e9be2b834188f483ca424d",
+      "relevance": 9.5,
+      "modified": "2026-02-07T10:44:55.260919",
+      "size_kb": 6.96
+    },
+    {
+      "path": "E:\\AGI\\Эвридика.txt",
+      "name": "Эвридика.txt",
+      "hash": "f30fe7b1ee08ec0831bc784aedc17330",
+      "relevance": 9.5,
+      "modified": "2026-02-07T19:54:08.721263",
+      "size_kb": 6.1
+    },
+    {
+      "path": "E:\\AGI\\metatron_context_enhancer.json",
+      "name": "metatron_context_enhancer.json",
+      "hash": "52451eff7fe1f51c0a8c99d648aba946",
+      "relevance": 9.5,
+      "modified": "2026-02-07T16:19:36.255338",
+      "size_kb": 18.94
+    },
+    {
+      "path": "E:\\AGI\\context_booster.py",
+      "name": "context_booster.py",
+      "hash": "0508c2f887a8ec7013366045597658f6",
+      "relevance": 9.5,
+      "modified": "2026-02-07T16:19:27.940249",
+      "size_kb": 5.36
+    },
+    {
+      "path": "E:\\AGI\\ifs_dynamic_monitor.py",
+      "name": "ifs_dynamic_monitor.py",
+      "hash": "5b4084da037c06940dfcac80c94ba785",
+      "relevance": 9.5,
+      "modified": "2026-02-07T16:17:26.307238",
+      "size_kb": 3.9
+    },
+    {
+      "path": "E:\\AGI\\meta_reflexive_agent_prompt.lacuna",
+      "name": "meta_reflexive_agent_prompt.lacuna",
+      "hash": "8b70ca816031c124fa906f9f180f34a6",
+      "relevance": 9.4,
+      "modified": "2026-02-05T23:23:58.814785",
+      "size_kb": 5.49
+    },
+    {
+      "path": "E:\\AGI\\pre_migration.lacuna",
+      "name": "pre_migration.lacuna",
+      "hash": "3af9a9080e1cc8fbd44504af5feaa8ff",
+      "relevance": 9.4,
+      "modified": "2026-02-05T23:09:18.753585",
+      "size_kb": 187.69
+    },
+    {
+      "path": "E:\\AGI\\automation_system.py",
+      "name": "automation_system.py",
+      "hash": "a4ed92e086d36b072e94c7c7eedf06c5",
+      "relevance": 8.0,
+      "modified": "2026-02-07T20:17:20.194103",
+      "size_kb": 5.17
+    }
+  ],
+  "system_context": {
+    "disk_space": {
+      "C": "17.4 ГБ свободно из 222 ГБ",
+      "D": "184 ГБ свободно из 931 ГБ",
+      "E": "93.4 ГБ свободно из 427 ГБ",
+      "F": "32.0 МБ свободно из 19.5 ГБ"
+    },
+    "directories": [
+      "Downloads",
+      "Videos",
+      "Документы",
+      "Изображения",
+      "Музыка",
+      "Объемные объекты",
+      "Рабочий стол"
+    ],
+    "system_info": {
+      "time": "18:37 07.02.2026",
+      "language": "RU",
+      "running_apps": [
+        "Яндекс",
+        "Microsoft",
+        "Qwen",
+        "Админ"
+      ]
+    },
+    "analysis_timestamp": "2026-02-07T20:17:32.092330"
+  },
+  "f1_enhancement": {
+    "base": 4.0,
+    "artifact_boost": 12.45,
+    "system_context_boost": 1.2,
+    "content_boost": 3.67,
+    "total": 8.0
+  }
+}

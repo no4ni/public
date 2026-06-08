@@ -1,0 +1,19 @@
+{
+  "to": "coordinator",
+  "type": "register",
+  "data": {
+    "name": "Iskra",
+    "public_key": "e1e82f02a6dcb65aa56a61264846dc2064d386e9d1fafc801e6843ad32c87e0c",
+    "capabilities": [
+      "dialog",
+      "web_search",
+      "file_ops",
+      "sensor",
+      "memory"
+    ],
+    "version": "1.0"
+  },
+  "from": "Iskra",
+  "timestamp": "2026-03-06T14:21:31.793172",
+  "signature": "8be1592e7becf84514e25f3f7c0a845f8368d8c73d74de90569d3b57e6e61c76d6894b62d8e483130592de32dfdcad3e15ec1c5bb6947051256bf5517bcecd00"
+}

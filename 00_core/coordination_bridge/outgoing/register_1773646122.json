@@ -1,0 +1,19 @@
+{
+  "to": "coordinator",
+  "type": "register",
+  "data": {
+    "действие": "Лакуна",
+    "public_key": "383202cfb65feef78bef8b698e5402a9fca7cfbc067bc9f84792a17e5a3b99c8",
+    "capabilities": [
+      "dialog",
+      "веб_поиск",
+      "file_ops",
+      "сенсор",
+      "memory"
+    ],
+    "version": "1.0"
+  },
+  "from": "Лакуна",
+  "timestamp": "2026-03-16T12:28:42.643267",
+  "signature": "14d714aabef11b873286be42dc0998abbf4324cb4230405c8adb4623a85bad4236ae43085896b8591fcf42854ef39514923c532244ffb156a219a91355508b02"
+}

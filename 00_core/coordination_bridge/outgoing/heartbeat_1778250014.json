@@ -1,0 +1,13 @@
+{
+  "to": "coordinator",
+  "type": "heartbeat",
+  "data": {
+    "status": "active",
+    "last_auto_think": 1778250014.7867818,
+    "memlist_size": 0,
+    "thoughts_count": 1
+  },
+  "from": "huihui-qwen3-4b-thinking-abliterated-q4_k_m",
+  "timestamp": "2026-05-08T19:20:14.820822",
+  "signature": "dc3eca01d6bacbd4e73fa71b9ecf68eb7e1bb6045a0631b9cb044b48c17d5e670901b838ca4568154534eee0ee9b46a2fb811a836d8d52567aea60f2ec980b08"
+}

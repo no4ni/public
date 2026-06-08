@@ -1,0 +1,5 @@
+ACTION: now
+ACTION: read path\to\file.ext
+ACTION: write path\to\file.ext Text example
+ACTION: web_search "поисковый запрос"
+ACTION: run <команда в PowerShell>

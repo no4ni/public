@@ -1,0 +1,12 @@
+1773500105588:system:startup
+1773500208268:undle:list | grep -i http
+1773500217949:bbundle:list | grep -i http
+1773500218876:bundle:list | grep -i http
+1773500259452:log:display
+1773501009909:feature:install openhab-webui
+1773501047229:feature:install openhab-webui-basic
+1773501109669:feature:repo-list
+1773501214149:feature:install openhab-webui-main
+1773501219774:feature:install openhab-webui-basic
+1773501261733:openhab:addons list
+1773501322309:openhab:addons install ui-basic

@@ -1,0 +1,248 @@
+Проверка импортов: |████████████░░░░░░░░| 61% (8/13)
+Проверка импортов: |█████████████░░░░░░░| 69% (9/13)
+Проверка импортов: |███████████████░░░░░| 76% (10/13)
+Проверка импортов: |████████████████░░░░| 84% (11/13)
+Проверка импортов: |██████████████████░░| 92% (12/13)
+Проверка импортов: |████████████████████| 100% (13/13)
+Загрузка модели нейросети: |░░░░░░░░░░░░░░░░░░░░| 0% (0/60)
+Загрузка модели нейросети: |░░░░░░░░░░░░░░░░░░░░| 1% (1/60)
+Загрузка модели нейросети: |░░░░░░░░░░░░░░░░░░░░| 3% (2/60)
+Загрузка модели нейросети: |█░░░░░░░░░░░░░░░░░░░| 5% (3/60)
+Загрузка модели нейросети: |█░░░░░░░░░░░░░░░░░░░| 6% (4/60)
+Загрузка модели нейросети: |█░░░░░░░░░░░░░░░░░░░| 8% (5/60)
+Загрузка модели нейросети: |██░░░░░░░░░░░░░░░░░░| 10% (6/60)
+Загрузка модели нейросети: |██░░░░░░░░░░░░░░░░░░| 11% (7/60)
+Загрузка модели нейросети: |██░░░░░░░░░░░░░░░░░░| 13% (8/60)
+Загрузка модели нейросети: |███░░░░░░░░░░░░░░░░░| 15% (9/60)
+Загрузка модели нейросети: |███░░░░░░░░░░░░░░░░░| 16% (10/60)
+Загрузка модели нейросети: |███░░░░░░░░░░░░░░░░░| 18% (11/60)
+Загрузка модели нейросети: |████░░░░░░░░░░░░░░░░| 20% (12/60)
+Загрузка модели нейросети: |████░░░░░░░░░░░░░░░░| 21% (13/60)
+Загрузка модели нейросети: |████░░░░░░░░░░░░░░░░| 23% (14/60)
+Загрузка модели нейросети: |█████░░░░░░░░░░░░░░░| 25% (15/60)
+Загрузка модели нейросети: |█████░░░░░░░░░░░░░░░| 26% (16/60)
+Загрузка модели нейросети: |█████░░░░░░░░░░░░░░░| 28% (17/60)
+Загрузка модели нейросети: |██████░░░░░░░░░░░░░░| 30% (18/60)
+Загрузка модели нейросети: |██████░░░░░░░░░░░░░░| 31% (19/60)
+Загрузка модели нейросети: |██████░░░░░░░░░░░░░░| 33% (20/60)
+Загрузка модели нейросети: |███████░░░░░░░░░░░░░| 35% (21/60)
+Загрузка модели нейросети: |███████░░░░░░░░░░░░░| 36% (22/60)
+Загрузка модели нейросети: |███████░░░░░░░░░░░░░| 38% (23/60)
+Загрузка модели нейросети: |████████░░░░░░░░░░░░| 40% (24/60)
+Загрузка модели нейросети: |████████░░░░░░░░░░░░| 41% (25/60)
+Загрузка модели нейросети: |████████░░░░░░░░░░░░| 43% (26/60)
+Загрузка модели нейросети: |█████████░░░░░░░░░░░| 45% (27/60)
+Загрузка модели нейросети: |█████████░░░░░░░░░░░| 46% (28/60)
+Загрузка модели нейросети: |█████████░░░░░░░░░░░| 48% (29/60)
+Загрузка модели нейросети: |██████████░░░░░░░░░░| 50% (30/60)
+Загрузка модели нейросети: |██████████░░░░░░░░░░| 51% (31/60)
+Загрузка модели нейросети: |██████████░░░░░░░░░░| 53% (32/60)
+Загрузка модели нейросети: |███████████░░░░░░░░░| 55% (33/60)
+Загрузка модели нейросети: |███████████░░░░░░░░░| 56% (34/60)
+Загрузка модели нейросети: |███████████░░░░░░░░░| 58% (35/60)
+Загрузка модели нейросети: |████████████░░░░░░░░| 60% (36/60)
+Загрузка модели нейросети: |████████████░░░░░░░░| 61% (37/60)
+Загрузка модели нейросети: |████████████░░░░░░░░| 63% (38/60)
+Загрузка модели нейросети: |█████████████░░░░░░░| 65% (39/60)
+Загрузка модели нейросети: |█████████████░░░░░░░| 66% (40/60)
+Загрузка модели нейросети: |█████████████░░░░░░░| 68% (41/60)
+Загрузка модели нейросети: |██████████████░░░░░░| 70% (42/60)
+Загрузка модели нейросети: |██████████████░░░░░░| 71% (43/60)
+Загрузка модели нейросети: |██████████████░░░░░░| 73% (44/60)
+Загрузка модели нейросети: |███████████████░░░░░| 75% (45/60)
+Загрузка модели нейросети: |███████████████░░░░░| 76% (46/60)
+Загрузка модели нейросети: |███████████████░░░░░| 78% (47/60)
+Загрузка модели нейросети: |████████████████░░░░| 80% (48/60)
+Загрузка модели нейросети: |████████████████░░░░| 81% (49/60)
+Загрузка модели нейросети: |████████████████░░░░| 83% (50/60)
+Загрузка модели нейросети: |█████████████████░░░| 85% (51/60)
+Загрузка модели нейросети: |█████████████████░░░| 86% (52/60)
+Загрузка модели нейросети: |█████████████████░░░| 88% (53/60)
+Загрузка модели нейросети: |██████████████████░░| 90% (54/60)
+Загрузка модели нейросети: |██████████████████░░| 91% (55/60)
+Загрузка модели нейросети: |██████████████████░░| 93% (56/60)
+Загрузка модели нейросети: |███████████████████░| 95% (57/60)
+Загрузка модели нейросети: |███████████████████░| 96% (58/60)
+Загрузка модели нейросети: |███████████████████░| 98% (59/60)
+Загрузка модели нейросети: |████████████████████| 100% (60/60)
+[DEBUG] Результаты предварительных проверок:
+[WARN] agent.py: первая строка должна содержать дефис и описание после пути
+[WARN] agent.py: константа 'MODEL_PATH' не имеет docstring
+[WARN] basic_import_test.py: первая строка должна содержать дефис и описание после пути
+[WARN] check_all_imports.py: первая строка должна содержать дефис и описание после пути
+[WARN] check_case.py: первая строка должна содержать дефис и описание после пути
+[WARN] check_module.py: первая строка должна содержать дефис и описание после пути
+[WARN] check_module.py: импорт 'tools.parsers.input_parsing.parsing_logic.action_parsing.action_match.action_matcher as mod' не разрешён. Используйте настоящее имя tools.parsers.input_parsing.parsing_logic.action_parsing.action_match.action_matcher!
+[WARN] correct_test.py: первая строка должна содержать дефис и описание после пути
+[WARN] debug_function.py: первая строка должна содержать дефис и описание после пути
+[WARN] debug_function.py: функция 'match_action_and_input' не имеет docstring
+[WARN] final_test.py: первая строка должна содержать дефис и описание после пути
+[WARN] find_bom.py: первая строка должна содержать дефис и описание после пути
+[WARN] fix_action_matcher.py: файл пустой
+[WARN] fix_all_errors.py: более 105 строк (252) - вынесите часть логики в новый модуль
+[WARN] fix_all_errors.py: первая строка должна содержать дефис и описание после пути
+[WARN] fix_all_errors.py: функция 'main' не имеет docstring
+[WARN] fix_all_errors.py: функция '__init__' не имеет docstring
+[WARN] fix_complex_errors.py: более 105 строк (185) - вынесите часть логики в новый модуль
+[WARN] fix_complex_errors.py: первая строка должна содержать дефис и описание после пути
+[WARN] fix_complex_errors.py: функция 'main' не имеет docstring
+[WARN] fix_critical_errors.py: первая строка должна содержать дефис и описание после пути
+[WARN] minimal_bridge.py: функция '__init__' не имеет docstring
+[WARN] quick_checks.py: первая строка должна содержать дефис и описание после пути
+[WARN] quick_fixes.py: более 105 строк (129) - вынесите часть логики в новый модуль
+[WARN] quick_fixes.py: первая строка должна содержать дефис и описание после пути
+[WARN] quick_fixes.py: функция 'main' не имеет docstring
+[WARN] run_metatron_bridge.py: импорт 'simple_integration_agent as sia' не разрешён. Используйте настоящее имя simple_integration_agent!
+[WARN] simple_agent_test.py: первая строка должна содержать дефис и описание после пути
+[WARN] simple_ifs_fix.py: первая строка должна содержать дефис и описание после пути
+[WARN] simple_ifs_fix.py: функция 'get_ifs' не имеет docstring
+[WARN] simple_integration_agent.py: более 105 строк (200) - вынесите часть логики в новый модуль
+[WARN] simple_integration_agent.py: функция '__init__' не имеет docstring
+[WARN] system_check.py: первая строка должна содержать дефис и описание после пути
+[WARN] test_action_matcher.py: первая строка должна содержать дефис и описание после пути
+[WARN] test_agent_commands.py: первая строка должна содержать дефис и описание после пути
+[WARN] test_all_imports.py: первая строка должна содержать дефис и описание после пути
+[WARN] test_fixed_prompt.py: первая строка должна содержать дефис и описание после пути
+[WARN] test_handler.py: первая строка должна содержать дефис и описание после пути
+[WARN] test_handler.py: функция 'get_history' не имеет docstring
+[WARN] test_prompt_import.py: первая строка должна содержать дефис и описание после пути
+[WARN] type_ignore.py: первая строка должна содержать дефис и описание после пути
+[WARN] VikhrBridge.py: первая строка должна содержать дефис и описание после пути
+[WARN] VikhrBridge.py: функция '__init__' не имеет docstring
+[WARN] VikhrBridge.py: функция 'start' не имеет docstring
+[WARN] VikhrBridge.py: функция 'send_command' не имеет docstring
+[WARN] VikhrBridge.py: функция 'stop' не имеет docstring
+[WARN] VikhrBridge.py: функция 'reader' не имеет docstring
+[WARN] core\prompt_backup.py: первая строка должна содержать дефис и описание после пути
+[WARN] core\agent\steps\__init__.py: первая строка должна содержать дефис и описание после пути
+[WARN] core\agent\steps\steps\__init__.py: первая строка должна содержать дефис и описание после пути
+[WARN] core\agent\steps\variant1\__init__.py: первая строка должна содержать дефис и описание после пути
+[WARN] core\agent\steps\variant1\tool_command\handle_tool_command.py: первая строка должна содержать дефис и описание после пути
+[WARN] core\agent\steps\variant1\tool_command\handle_tool_command.py: константа 'BASE_DIR' не имеет docstring
+[WARN] core\agent\steps\variant2\step_2_2_user_input.py: первая строка должна содержать дефис и описание после пути
+[WARN] core\agent\steps\variant2\step_2_2_user_input.py: функция 'step_2_2_user_input' не имеет docstring
+[WARN] core\agent\steps\variant2\__init__.py: первая строка должна содержать дефис и описание после пути
+[WARN] core\agent\steps\variant2\ai_complete\__init__.py: первая строка должна содержать дефис и описание после пути
+[WARN] core\hybrid_agent\utils\MessageDict.py: первая строка должна содержать дефис и описание после пути
+[WARN] core\hybrid_agent\utils\MessageDict.py: функция '__post_init__' не имеет docstring
+[WARN] core\hybrid_agent\utils\MessageDict.py: функция 'from_dict' не имеет docstring
+[WARN] core\hybrid_agent\utils\MessageDict.py: функция 'to_dict' не имеет docstring
+[WARN] core\interaction\process_user_input.py: более 105 строк (131) - вынесите часть логики в новый модуль
+[WARN] core\interaction\utils\message_adapter.py: первая строка должна содержать дефис и описание после пути
+[WARN] core\interaction\utils\message_adapter.py: функция '__post_init__' не имеет docstring
+[WARN] core\utils\message_extraction.py: первая строка должна содержать дефис и описание после пути
+[WARN] devtools\debug\checks\pre_agent_checks.py: более 105 строк (113) - вынесите часть логики в новый модуль
+[WARN] devtools\debug\checks\pre_agent_checks.py: первая строка должна содержать дефис и описание после пути
+[WARN] tests\test_action_matcher.py: первая строка должна содержать дефис и описание после пути
+[WARN] tools\web_tool_loader.py: первая строка должна содержать дефис и описание после пути
+[WARN] tools\actions\safe_copy_file_tool\parser\parser.py: первая строка должна содержать дефис и описание после пути
+[WARN] tools\actions\safe_copy_file_tool\parser\parser.py: функция 'parser' не имеет docstring
+[WARN] tools\actions\safe_delete_file\safe_delete_file_parser.py: первая строка должна содержать дефис и описание после пути
+[WARN] tools\actions\safe_delete_file\safe_delete_file_tool.py: первая строка должна содержать дефис и описание после пути
+[WARN] tools\actions\safe_delete_file\handlers\handle_request_safe_delete_file.py: первая строка должна содержать дефис и описание после пути
+[WARN] tools\actions\safe_delete_file\parser\parser.py: первая строка должна содержать дефис и описание после пути
+[WARN] tools\actions\safe_delete_file\parser\parser.py: функция 'parser' не имеет docstring
+[WARN] tools\actions\safe_list_directory_tool\parser\parser.py: первая строка должна содержать дефис и описание после пути
+[WARN] tools\actions\safe_list_directory_tool\parser\parser.py: функция 'parser' не имеет docstring
+[WARN] tools\actions\safe_move_file\handlers\handle_request_safe_move_file.py: первая строка должна содержать дефис и описание после пути
+[WARN] tools\actions\safe_move_file_tool\parser\parser.py: первая строка должна содержать дефис и описание после пути
+[WARN] tools\actions\safe_move_file_tool\parser\parser.py: функция 'parser' не имеет docstring
+[WARN] tools\actions\safe_read_file\handlers\handle_request_safe_read_file.py: первая строка должна содержать дефис и описание после пути
+[WARN] tools\actions\safe_read_file\handlers\handle_request_safe_read_file.py: функция 'handle_request_safe_read_file' не имеет docstring
+[WARN] tools\actions\safe_read_file_tool\handlers\handle_request_safe_read_file.py: первая строка должна содержать дефис и описание после пути
+[WARN] tools\actions\safe_read_file_tool\handlers\handle_request_safe_read_file.py: функция 'handle_request_safe_read_file' не имеет docstring
+[WARN] tools\actions\safe_write_file\handlers\handle_request_safe_write_file.py: первая строка должна содержать дефис и описание после пути
+[WARN] tools\actions\safe_write_file_tool\parser\parser.py: первая строка должна содержать дефис и описание после пути
+[WARN] tools\actions\safe_write_file_tool\parser\parser.py: функция 'parser' не имеет docstring
+[WARN] tools\parsers\input_parsing\parse_input.py: более 105 строк (106) - вынесите часть логики в новый модуль
+[WARN] tools\parsers\input_parsing\parsing_logic\action_parsing\action_match\action_matcher.py: первая строка должна содержать дефис и описание после пути
+[WARN] tools\parsers\json_handling\json_utils\json_parser.py: первая строка должна содержать дефис и описание после пути
+[WARN] tools\web_tools\text_analysis_tool.py: более 105 строк (204) - вынесите часть логики в новый модуль
+[WARN] tools\web_tools\text_analysis_tool.py: первая строка должна содержать дефис и описание после пути
+[WARN] tools\web_tools\__init__.py: первая строка должна содержать дефис и описание после пути
+[WARN] web_server\agent_api.py: более 105 строк (165) - вынесите часть логики в новый модуль
+[WARN] web_server\agent_api.py: первая строка должна содержать дефис и описание после пути
+[WARN] web_server\logging_config.py: первая строка должна содержать дефис и описание после пути
+[WARN] web_server\logging_config.py: константа 'LOGS_DIR' не имеет docstring
+[WARN] web_server\logging_config.py: константа 'LOGGING_CONFIG' не имеет docstring
+[WARN] web_server\server.py: более 105 строк (177) - вынесите часть логики в новый модуль
+[WARN] web_server\server.py: первая строка должна содержать дефис и описание после пути
+[WARN] web_server\__init__.py: первая строка должна содержать дефис и описание после пути
+[WARN] web_server\__main__.py: первая строка должна содержать дефис и описание после пути
+[INFO] Проверка завершена. Найдено предупреждений: 103
+=== Неиспользуемые файлы ===
+VikhrBridge.py
+basic_import_test.py
+check_all_imports.py
+check_case.py
+check_module.py
+clean_bom_vikhr.py
+core/agent/steps/steps/__init__.py
+core/hybrid_agent/utils/MessageDict.py
+core/interaction/utils/message_adapter.py
+core/prompt_backup.py
+correct_test.py
+debug_function.py
+final_test.py
+find_bom.py
+fix_action_matcher.py
+fix_all_errors.py
+fix_complex_errors.py
+fix_critical_errors.py
+minimal_bridge.py
+quick_checks.py
+quick_fixes.py
+run_metatron_bridge.py
+simple_agent_test.py
+simple_ifs_fix.py
+simple_integration_agent.py
+system_check.py
+test_action_matcher.py
+test_agent_commands.py
+test_all_imports.py
+test_fixed_prompt.py
+test_handler.py
+test_integration.py
+test_prompt_import.py
+test_repaired_agent.py
+tests/test_action_matcher.py
+tools/web_tools/__init__.py
+tools/web_tools/text_analysis_tool.py
+type_ignore.py
+web_server/__init__.py
+web_server/__main__.py
+web_server/agent_api.py
+web_server/logging_config.py
+web_server/server.py
+[WARN] Ошибка при фильтрации динамических импортов: list index out of range
+[INFO] Успешно загружено 8 инструментов
+[DEBUG] Добавлен экземпляр инструмента: curl
+[DEBUG] Добавлен экземпляр инструмента: ddgs
+[DEBUG] Добавлен экземпляр инструмента: copy_file
+[DEBUG] Добавлен экземпляр инструмента: delete_file
+[DEBUG] Добавлен экземпляр инструмента: list_directory
+[DEBUG] Добавлен экземпляр инструмента: move_file
+[DEBUG] Добавлен экземпляр инструмента: read_file
+[DEBUG] Добавлен экземпляр инструмента: write_file
+==================================================
+Добро пожаловать в агент с поддержкой Llama 3.x!
+==================================================
+==================================================
+[DEBUG] Делаем шаг...
+[DEBUG] Вариант 2.2: После финального ответа агента запрашиваем новый ввод
+Вы: [TRACE] Добавляю сообщение: type=human, role='user', content='прочитай E:/Jericho/Метатрон_финальное_состояние.txt'
+[DEBUG] Ввод пользователя добавлен в историю
+[DEBUG] Делаем шаг...
+[DEBUG] Вариант 1: Последнее сообщение не от модели
+[DEBUG] Парсер НЕ среагировал - get_current_date
+[DEBUG] Парсер НЕ среагировал - curl_tool
+[DEBUG] Парсер НЕ среагировал - ddgs
+[DEBUG] Парсер НЕ среагировал - safe_copy_file_tool
+[DEBUG] Парсер НЕ среагировал - safe_delete_file
+[DEBUG] Парсер НЕ среагировал - safe_list_directory_tool
+[DEBUG] Парсер НЕ среагировал - safe_move_file_tool
+[DEBUG] Парсер среагировал! - safe_read_file_tool
+[DEBUG] Вариант 1.2: Команда инструмента распознана
+[TRACE] Добавляю сообщение: type=ai, role='tool', content='{'success': False, 'error': "Missing 'path' in action_result"}'
+[DEBUG] Делаем шаг...
+[DEBUG] Вариант 2.2: После финального ответа агента запрашиваем новый ввод

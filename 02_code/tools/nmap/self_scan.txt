@@ -1,0 +1,3 @@
+# Nmap 7.80 scan initiated Wed May 13 16:07:42 2026 as: "C:\\Program Files (x86)\\Nmap\\nmap.exe" -sV -O -T4 -oN E:\\Jericho\\tools\\nmap\\self_scan.txt 109.187.19.91
+WARNING: Service 109.187.19.91:49152 had already soft-matched upnp, but now soft-matched rtsp; ignoring second value
+WARNING: Service 109.187.19.91:49152 had already soft-matched upnp, but now soft-matched sip; ignoring second value

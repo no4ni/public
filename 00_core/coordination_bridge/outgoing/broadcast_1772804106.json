@@ -1,0 +1,10 @@
+{
+  "to": "coordinator",
+  "type": "broadcast",
+  "data": {
+    "text": ""
+  },
+  "from": "Сим",
+  "timestamp": "2026-03-06T18:35:06.864916",
+  "signature": "68396dbf8b5acd0988cbcc198728e8bda29152c38f9c7447d924db99817e6bfa9a5c5225152d4796df9946f3079db6ff58cd482a0c7eae748e29fbac0eb71d03"
+}

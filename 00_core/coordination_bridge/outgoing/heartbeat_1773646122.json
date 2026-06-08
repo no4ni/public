@@ -1,0 +1,13 @@
+{
+  "to": "coordinator",
+  "type": "heartbeat",
+  "data": {
+    "status": "active",
+    "last_auto_think": 1773646122.6432176,
+    "memlist_size": 43,
+    "thoughts_count": 0
+  },
+  "from": "Лакуна",
+  "timestamp": "2026-03-16T12:28:42.645060",
+  "signature": "808a21c419b407c503e085732fc82c27f04c9ba52aa67523e33d3f14b4fe8782bafadd1456482a963365a3254ccf19eace70161ffe393f86ce3d645d63fc650e"
+}

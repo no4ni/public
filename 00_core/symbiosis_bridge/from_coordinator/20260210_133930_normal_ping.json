@@ -1,0 +1,13 @@
+{
+  "priority": "normal",
+  "to": "jarvis_symbiosis",
+  "from": "heimdall_coordinator",
+  "type": "ping",
+  "timestamp": "2026-02-10 13:39:30",
+  "data": {
+    "timestamp": "2026-02-10 13:39:30",
+    "test_id": "bdc8f9fe-d5e7-406b-858e-a4b052d5b91a",
+    "expected_response": "pong"
+  },
+  "delivery_method": "file_bridge"
+}

@@ -1,0 +1,13 @@
+{
+  "to": "coordinator",
+  "type": "heartbeat",
+  "data": {
+    "status": "active",
+    "last_auto_think": 1772784918.2362332,
+    "memlist_size": 0,
+    "thoughts_count": 5
+  },
+  "from": "Iskra",
+  "timestamp": "2026-03-06T13:20:18.278404",
+  "signature": "3fdd37bee7db35c4c1abde2a99b88cbe35c089c8e2f816e6689863f08770cee3e3251b4540ae1553e586b50756b36fa3680ac6dec20b8908e33ed8928afa300a"
+}

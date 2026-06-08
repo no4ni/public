@@ -1,0 +1,14 @@
+
+--- 2026-05-16 21:46:27.293118 ---
+SAHOO: Safeguarded Alignment for High-Order Optimization Objectives in Recursive Self-Improvement
+http://arxiv.org/abs/2603.06333v1
+Recursive self-improvement is moving from theory to practice: modern systems can critique, revise, and evaluate their own outputs, yet iterative self-modification risks subtle alignment drift. We intr
+
+AI prediction leads people to forgo guaranteed rewards
+http://arxiv.org/abs/2603.28944v1
+Artificial intelligence (AI) is understood to affect the content of people's decisions. Here, using a behavioral implementation of the classic Newcomb's paradox in 1,305 participants, we show that AI 
+
+Foundations of GenIR
+http://arxiv.org/abs/2501.02842v1
+The chapter discusses the foundational impact of modern generative AI models on information access (IA) systems. In contrast to traditional AI, the large-scale training and superior data modeling of g
+

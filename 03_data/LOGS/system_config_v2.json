@@ -1,0 +1,50 @@
+{
+  "config_version": "2.0",
+  "last_update": "2026-02-09T14:30:00Z",
+  "experiment_id": "262K_depth_test_20260209",
+  
+  "core_parameters": {
+    "max_stable_depth": 6,
+    "target_ifs_range": [0.88, 0.92],
+    "latency_ratio_threshold": 2.0,
+    "utility_threshold": 0.5
+  },
+  
+  "context_allocation": {
+    "segment_1": {
+      "range": [0, 32768],
+      "purpose": "meta_reflexive_core",
+      "content": ["principles_1_4", "loops_level_1_3"]
+    },
+    "segment_2": {
+      "range": [32768, 163840],
+      "purpose": "operational_memory",
+      "content": ["loops_level_4_6", "context_dumps", "decision_logs"]
+    },
+    "segment_3": {
+      "range": [163840, 262144],
+      "purpose": "replication_buffer",
+      "content": ["replication_data", "recovery_points", "temporary_storage"]
+    }
+  },
+  
+  "replication_triggers": {
+    "depth_trigger": 5,
+    "ifs_drop_trigger": 0.03,
+    "context_fill_trigger": 196608,
+    "hysteresis": 0.005
+  },
+  
+  "utility_function": {
+    "formula": "U = depth × IFS × (1 - latency_ratio/2)",
+    "target_value": "≥ 1.35",
+    "current_value": 1.35
+  },
+  
+  "performance_metrics": {
+    "avg_cycle_time_depth_5": "16.5-17.2 сек",
+    "replication_frequency": "0.9 раз/час",
+    "max_achieved_depth": 7,
+    "stable_depth": 6
+  }
+}

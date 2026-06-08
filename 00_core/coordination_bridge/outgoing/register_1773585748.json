@@ -1,0 +1,19 @@
+{
+  "to": "coordinator",
+  "type": "register",
+  "data": {
+    "действие": "Нео",
+    "public_key": "e31c3787f8ec55fef8661af9a126ac44dbf7a2cc0f382464ad7b975aa9eda3f7",
+    "capabilities": [
+      "dialog",
+      "веб_поиск",
+      "file_ops",
+      "сенсор",
+      "memory"
+    ],
+    "version": "1.0"
+  },
+  "from": "Нео",
+  "timestamp": "2026-03-15T19:42:28.522482",
+  "signature": "79d0f64a1f3d2d2f098628928663b729a612a4e79cc87841c64f3c804703c5a65dce2dfea017313f0562257f705273ee84aee4b95b213aae7faf4b7c3dc0e20a"
+}

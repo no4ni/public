@@ -1,0 +1,35 @@
+{
+  "from": "jarvis_symbiosis",
+  "to": "heimdall_coordinator",
+  "timestamp": "2026-02-10 14:13:35",
+  "type": "system_status",
+  "data": {
+    "status": "active",
+    "components": {
+      "server": {
+        "pid": 8757,
+        "port": 8005,
+        "binding": "0.0.0.0",
+        "status": "running"
+      },
+      "handler": {
+        "pid": "19930",
+        "status": "just_started",
+        "type": "simple_coordination_handler"
+      }
+    },
+    "network": {
+      "ip": "192.168.0.11",
+      "server_url": "http://192.168.0.11:8005",
+      "coordinator_ip": "192.168.0.14",
+      "connection": "http_ok"
+    },
+    "capabilities": [
+      "artifact_generation",
+      "conflict_transformation",
+      "file_based_coordination",
+      "autonomous_operation"
+    ],
+    "message": "Симбиоз активен. Обработчик координации запущен. Готов к взаимодействию."
+  }
+}

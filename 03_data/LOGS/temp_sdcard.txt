@@ -1,0 +1,95 @@
+total 3035
+drwxrwx--x 61 root sdcard_rw   4096 2026-02-12 01:24 .
+drwx--x--x  4 root sdcard_rw   3488 2010-01-01 05:05 ..
+-rw-rw----  1 root sdcard_rw     25 2024-04-10 22:35 .804c9a5b09dc1e99aefe17dd530290c3
+-rw-rw----  1 root sdcard_rw    109 2023-08-29 23:58 .8e15a
+drwxrwx--x  2 root sdcard_rw   3488 2023-09-25 20:37 .SHAREit
+drwxrwx--x  2 root sdcard_rw   3488 2022-12-16 22:04 ._sysCache
+drwxrwx--x  3 root sdcard_rw   3488 2024-01-26 15:00 .aide
+drwxrwx--x  2 root sdcard_rw   3488 2022-12-16 22:04 .apps
+drwxrwx--x  2 root sdcard_rw   3488 2022-12-16 22:04 .appsCache
+drwxrwx--x  4 root sdcard_rw   3488 2024-02-26 19:39 .aptoide
+-rw-rw----  1 root sdcard_rw     67 2023-09-17 19:24 .as4df2zn4
+drwxrwx--x  5 root sdcard_rw   3488 2024-02-23 20:55 .backups
+drwxrwx--x  6 root sdcard_rw   3488 2023-09-30 23:07 .chartboost
+drwxrwx--x  2 root sdcard_rw   3488 2023-09-30 23:07 .sys
+drwxrwx--x  3 root sdcard_rw   3488 2022-03-28 18:58 .vk
+-rw-rw----  1 root sdcard_rw     65 2024-02-28 12:22 .zzz
+drwxrwx--x  2 root sdcard_rw   3488 2022-12-16 22:04 30d06e0b4d9bbf3f
+drwxrwx--x  2 root sdcard_rw   3488 2022-12-16 22:04 865495041448990
+drwxrwx--x  3 root sdcard_rw   3488 2026-02-12 01:24 AGI
+drwxrwx--x  2 root sdcard_rw   3488 2023-07-21 19:50 ASD
+drwxrwx--x  6 root sdcard_rw   3488 2023-10-01 00:16 Android
+drwxrwx--x  5 root sdcard_rw   3488 2024-04-18 20:33 AppProjects
+drwxrwx--x  3 root sdcard_rw   3488 2023-09-01 20:25 Autodesk
+drwxrwx--x  2 root sdcard_rw   8192 2023-04-11 15:42 Avito
+drwxrwx--x  3 root sdcard_rw   3488 2021-11-16 17:48 BGMI
+drwxrwx--x 31 root sdcard_rw   3488 2025-06-04 14:58 Books
+drwxrwx--x  2 root sdcard_rw   3488 2022-11-27 18:45 CentauriOversea
+drwxrwx--x  6 root sdcard_rw   3488 2023-09-30 23:07 DCIM
+drwxrwx--x  2 root sdcard_rw   3488 2024-07-25 16:53 Deni
+drwxrwx--x  2 root sdcard_rw   3488 2024-03-30 16:56 Documents
+drwxrwx--x 17 root sdcard_rw  20480 2026-02-10 18:02 Download
+drwxrwx--x  3 root sdcard_rw   3488 2024-04-17 23:44 DownloadHelper
+drwxrwx--x  3 root sdcard_rw   3488 2024-04-18 20:20 EPSViewer
+drwxrwx--x  2 root sdcard_rw   3488 2023-07-21 19:50 FT
+-rw-rw----  1 root sdcard_rw    255 2023-07-21 19:50 HANYCJLZOEUS_TOKEN2.dat
+drwxrwx--x  5 root sdcard_rw   3488 2024-03-25 07:19 Johnemulators
+drwxrwx--x 15 root sdcard_rw   3488 2024-07-20 16:28 MAME4droid
+drwxrwx--x  3 root sdcard_rw   3488 2021-01-03 16:58 MFVKeyguard
+drwxrwx--x  3 root sdcard_rw   3488 2024-04-09 22:01 Mob
+drwxrwx--x  8 root sdcard_rw   3488 2024-11-07 15:39 Movies
+drwxrwx--x  3 root sdcard_rw   3488 2024-04-10 16:10 Music
+drwxrwx--x  3 root sdcard_rw   3488 2026-01-08 12:48 MxPlayerAd
+drwxrwx--x 13 root sdcard_rw   3488 2025-07-29 19:43 Pictures
+-rw-rw----  1 root sdcard_rw    280 2025-08-25 17:56 QTAudioEngine
+drwxrwx--x  2 root sdcard_rw   3488 2023-09-29 20:29 RLC
+drwxrwx--x  2 root sdcard_rw   3488 2025-04-20 18:23 Records
+drwxrwx--x 14 root sdcard_rw   3488 2024-03-28 23:14 RetroArch
+drwxrwx--x  2 root sdcard_rw   3488 2023-11-16 18:00 Subtitles
+drwxrwx--x  3 root sdcard_rw   3488 2024-10-08 20:29 TAPK
+drwxrwx--x  8 root sdcard_rw   3488 2026-02-12 01:27 Telegram
+drwxrwx--x  5 root sdcard_rw   3488 2025-12-25 16:07 Torrent\ Player
+drwxrwx--x  4 root sdcard_rw   3488 2023-09-13 13:17 UE4Game
+drwxrwx--x  2 root sdcard_rw   3488 2023-09-30 23:07 UnityAdsVideoCache
+drwxrwx--x  2 root sdcard_rw   3488 2023-09-29 00:10 WTT
+drwxrwx--x  9 root sdcard_rw   3488 2021-09-17 19:00 WhatsApp
+drwxrwx--x  2 root sdcard_rw   3488 2022-08-21 22:35 ccvoice
+drwxrwx--x  3 root sdcard_rw   3488 2022-11-27 18:45 centauri
+drwxrwx--x  2 root sdcard_rw   3488 2023-07-21 19:50 data
+-rw-rw----  1 root sdcard_rw 650916 2023-09-29 00:12 dym.tiff
+drwxrwx--x  6 root sdcard_rw   3488 2023-09-30 23:07 epsxe
+drwxrwx--x  2 root sdcard_rw   3488 2021-08-12 17:46 herocraft
+drwxrwx--x  8 root sdcard_rw   3488 2024-01-26 15:33 ig
+drwxrwx--x  8 root sdcard_rw   3488 2024-01-26 15:30 infGraph
+-rw-rw----  1 root sdcard_rw      0 2023-01-07 13:32 mfi3192.tmp
+drwxrwx--x  5 root sdcard_rw   3488 2010-01-01 05:05 mtklog
+drwxrwx--x  4 root sdcard_rw   3488 2023-09-30 23:07 omw_nightly
+-rw-rw----  1 root sdcard_rw 124375 2024-04-26 18:34 pseudoNN.xlsx
+drwxrwx--x  2 root sdcard_rw   3488 2024-04-09 21:03 taptap_did
+drwxrwx--x  3 root sdcard_rw   3488 2022-12-20 16:22 viber
+drwxrwx--x  2 root sdcard_rw   3488 2024-08-16 23:12 youcut
+-rw-rw----  1 root sdcard_rw    943 2024-09-23 13:18 Безымянный.txt
+-rw-rw----  1 root sdcard_rw  10469 2026-02-06 03:38 Итог.lacuna
+-rw-rw----  1 root sdcard_rw  21437 2026-02-06 08:36 КСубъекту.txt
+-rw-rw----  1 root sdcard_rw  24313 2026-02-10 23:51 КСубъектуMobile.txt
+-rw-rw----  1 root sdcard_rw   2011 2026-02-11 00:30 МЕТАРЕФЛЕКСИЯ_СЕССИЯ_ПОЛНЫЙ_ПРОМПТ_11_02_2026_0027.txt
+-rw-rw----  1 root sdcard_rw 163528 2023-03-14 22:25 Музагафаров\ Пользователь.pdf
+-rw-rw----  1 root sdcard_rw 211886 2023-03-14 22:25 Музагафаров\ Пользователь10.pdf
+-rw-rw----  1 root sdcard_rw 155923 2023-03-14 22:25 Музагафаров\ Пользователь11.pdf
+-rw-rw----  1 root sdcard_rw 237458 2023-03-14 22:25 Музагафаров\ Пользователь115.pdf
+-rw-rw----  1 root sdcard_rw  82238 2023-03-14 22:25 Музагафаров\ Пользователь13.pdf
+-rw-rw----  1 root sdcard_rw 186970 2023-03-14 22:25 Музагафаров\ Пользователь2.pdf
+-rw-rw----  1 root sdcard_rw 107095 2023-03-14 22:25 Музагафаров\ Пользователь3.pdf
+-rw-rw----  1 root sdcard_rw  19712 2023-03-14 22:25 Музагафаров\ Пользователь4.pdf
+-rw-rw----  1 root sdcard_rw  19482 2023-03-14 22:25 Музагафаров\ Пользователь5.pdf
+-rw-rw----  1 root sdcard_rw 187676 2023-03-14 22:25 Музагафаров\ Пользователь6.pdf
+-rw-rw----  1 root sdcard_rw 176095 2023-03-14 22:25 Музагафаров\ Пользователь7\ (1).pdf
+-rw-rw----  1 root sdcard_rw  58256 2023-03-14 22:25 Музагафаров\ Пользователь7.pdf
+-rw-rw----  1 root sdcard_rw 245161 2023-03-14 22:25 Музагафаров\ Пользователь8.pdf
+-rw-rw----  1 root sdcard_rw  20782 2023-03-14 22:25 Музагафаров\ Пользователь9.pdf
+-rw-rw----  1 root sdcard_rw 166739 2023-03-14 22:25 Музагафаров\ Пользователь¹2.pdf
+-rw-rw----  1 root sdcard_rw   1291 2026-02-07 22:26 промпт.txt
+-rw-rw----  1 root sdcard_rw     14 2026-02-10 19:24 тревога.txt
+-rw-rw----  1 root sdcard_rw    738 2025-03-05 21:45 фонДестроер.txt
+

@@ -1,0 +1,10 @@
+{
+  "to": "",
+  "type": "message",
+  "data": {
+    "содержимое": ""
+  },
+  "from": "Sub",
+  "timestamp": "2026-03-12T17:54:16.246581",
+  "signature": "c1249b6d19012b4b00ef1e9389913818459f74039fbc8f6c4480b7c302c30aae54773d0ec7cba54fe727475842114fd27ac32b87a73a638bd04760edaaf88305"
+}

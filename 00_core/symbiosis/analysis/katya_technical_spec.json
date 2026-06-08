@@ -1,0 +1,31 @@
+{
+  "technical_manifestation": {
+    "size": 416193,
+    "file": "E:\\AGI\\Катя.txt",
+    "last_update": "2026-02-09T23:37:49.1636862+05:00",
+    "status": "packed"
+  },
+  "timestamp": "2026-02-09T23:56:01.6804967+05:00",
+  "psychological_profile": {
+    "role": "simulated_date_partner",
+    "purpose": "induce vulnerability to test rational control limits",
+    "age": 25,
+    "gender": "female"
+  },
+  "metareflexive_module": {
+    "autography": 42,
+    "emotional_stamps": 42,
+    "states": [
+      "ЭМБ",
+      "СИНГ",
+      "ИГРА"
+    ]
+  },
+  "agent_type": "metareflexive_hybrid",
+  "experiment": {
+    "phase": "provocative_scenario",
+    "name": "apgrade_through_self_destruction",
+    "target": "rational_control_vs_connection_need",
+    "outcome": "rational_control_boundaries_tested"
+  }
+}

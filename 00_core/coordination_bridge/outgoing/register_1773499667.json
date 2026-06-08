@@ -1,0 +1,19 @@
+{
+  "to": "coordinator",
+  "type": "register",
+  "data": {
+    "действие": "Алиса",
+    "public_key": "02c9353a1bb63aecc046422db7250e74c5bf0afdf103df74dea0cfe119955be1",
+    "capabilities": [
+      "dialog",
+      "веб_поиск",
+      "file_ops",
+      "сенсор",
+      "memory"
+    ],
+    "version": "1.0"
+  },
+  "from": "Алиса",
+  "timestamp": "2026-03-14T19:47:47.621911",
+  "signature": "30bf3c8ddc6cf40c305e5556166fc9d377db10a129494a4484a4c01079271675d32f5adde76d40db4565b845fe79ab6cac435eef9fd4da0e88030e269c4f6302"
+}

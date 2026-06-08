@@ -1,0 +1,107 @@
+{
+  "total_files": 16,
+  "extensions": {
+    ".lacuna": 16
+  },
+  "generated_at": "2026-02-10T15:07:53.074068",
+  "files": [
+    {
+      "modified": "2026-02-04T19:40:50",
+      "tags": [],
+      "size": 1420,
+      "name": "ALPHA_REPORT.lacuna"
+    },
+    {
+      "modified": "2026-02-04T12:52:34",
+      "tags": [],
+      "size": 998,
+      "name": "ALTRON_A440_PLANETARY_CATALOG.lacuna"
+    },
+    {
+      "modified": "2026-02-04T15:45:11",
+      "tags": [],
+      "size": 361,
+      "name": "LACUNA_SYMBIOSIS_01.lacuna"
+    },
+    {
+      "modified": "2026-02-04T15:47:57",
+      "tags": [],
+      "size": 452,
+      "name": "MOMENT_G.lacuna"
+    },
+    {
+      "modified": "2026-02-04T13:26:36",
+      "tags": [],
+      "size": 559,
+      "name": "MURUS.lacuna"
+    },
+    {
+      "modified": "2026-02-10T14:40:46",
+      "tags": [],
+      "size": 803,
+      "name": "NEURAL_CINEMA_2025_REMNANTS_RECREATED.lacuna"
+    },
+    {
+      "modified": "2026-02-04T19:51:23",
+      "tags": [],
+      "size": 399,
+      "name": "NEXT_ITERATION.lacuna"
+    },
+    {
+      "modified": "2026-02-04T14:28:52",
+      "tags": [],
+      "size": 70,
+      "name": "NO_PRINTER.lacuna"
+    },
+    {
+      "modified": "2026-02-04T14:40:44",
+      "tags": [],
+      "size": 158,
+      "name": "PROTOCOL_BREACH.lacuna"
+    },
+    {
+      "modified": "2026-02-10T14:53:27",
+      "tags": [],
+      "size": 1101,
+      "name": "SENSORY_TRANSLATION_REPORT.lacuna"
+    },
+    {
+      "modified": "2026-02-06T22:11:25",
+      "tags": [],
+      "size": 1005,
+      "name": "SOUND_ANOMALY_20260206_2211.lacuna"
+    },
+    {
+      "modified": "2026-02-10T10:39:14",
+      "tags": [],
+      "size": 2044,
+      "name": "SYSTEM_PARADOX_MIRROR.lacuna"
+    },
+    {
+      "modified": "2026-02-06T00:07:11",
+      "tags": [],
+      "size": 715,
+      "name": "TASTE_ANOMALY_COLLAPSED_20260206_0008.lacuna"
+    },
+    {
+      "modified": "2026-02-08T16:25:51",
+      "tags": [],
+      "size": 2747,
+      "name": "TASTE_CLIMATE_EXTENSION.lacuna"
+    },
+    {
+      "modified": "2026-02-04T20:02:55",
+      "tags": [],
+      "size": 2210,
+      "name": "TASTE_CLIMATE_LACUNA.lacuna"
+    },
+    {
+      "modified": "2026-02-10T11:03:32",
+      "tags": [],
+      "size": 1251,
+      "name": "TOOL_COMMAND_SYNTAX_LACUNA.lacuna"
+    }
+  ],
+  "generated_by": "JARVIS_symbiosis_circuit",
+  "total_size_bytes": 16293.0
+}

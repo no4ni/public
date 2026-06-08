@@ -1,0 +1,13 @@
+{
+  "priority": "normal",
+  "to": "jarvis_symbiosis",
+  "from": "heimdall_coordinator",
+  "type": "command",
+  "timestamp": "2026-02-10 13:39:29",
+  "data": {
+    "require_confirmation": false,
+    "description": "List symbiosis directory",
+    "command": "ls -la ~/symbiosis"
+  },
+  "delivery_method": "file_bridge"
+}

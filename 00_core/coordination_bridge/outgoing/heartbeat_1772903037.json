@@ -1,0 +1,13 @@
+{
+  "to": "coordinator",
+  "type": "heartbeat",
+  "data": {
+    "status": "active",
+    "last_auto_think": 1772902915.6024373,
+    "memlist_size": 0,
+    "thoughts_count": 12
+  },
+  "from": "USR",
+  "timestamp": "2026-03-07T22:03:57.147579",
+  "signature": "3843220ff72fe78c7cc4a092f5ca8fd02c86f938727efac2f7fe90baaf3addc97d9ae0c05993d16c27f4fb2156eb282fbe094fa08815ffe05bd949d3e7d4100b"
+}

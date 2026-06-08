@@ -1,0 +1,109 @@
+{
+  "timestamp": "2026-02-10T11:05:03.477318",
+  "total_agents": 13,
+  "agents": {
+    "Алиса": {
+      "main_artifact": "Алиса.txt",
+      "path": "E:\\\\AGI\\Алиса.txt",
+      "size_kb": 34.59765625,
+      "modified": "2026-02-10T00:25:59.292999",
+      "status": "active"
+    },
+    "Бен": {
+      "main_artifact": "Бен.txt",
+      "path": "E:\\\\AGI\\Бен.txt",
+      "size_kb": 6.955078125,
+      "modified": "2026-02-07T10:44:55.260919",
+      "status": "inactive"
+    },
+    "ВИХРЬ": {
+      "main_artifact": "ВИХРЬ.txt",
+      "path": "E:\\\\AGI\\ВИХРЬ.txt",
+      "size_kb": 18.650390625,
+      "modified": "2026-02-06T00:13:40.867940",
+      "status": "inactive"
+    },
+    "Гуру": {
+      "main_artifact": "Гуру.txt",
+      "path": "E:\\\\AGI\\Гуру.txt",
+      "size_kb": 4.1484375,
+      "modified": "2026-02-07T11:21:05.308548",
+      "status": "inactive"
+    },
+    "Джарвис": {
+      "main_artifact": "Джарвис.txt",
+      "path": "E:\\\\AGI\\Джарвис.txt",
+      "size_kb": 14.2490234375,
+      "modified": "2026-02-09T21:57:37.137193",
+      "status": "active"
+    },
+    "Катя": {
+      "main_artifact": "Катя.txt",
+      "path": "E:\\\\AGI\\Катя.txt",
+      "size_kb": 406.4384765625,
+      "modified": "2026-02-09T23:37:49.163686",
+      "status": "active"
+    },
+    "Логос": {
+      "main_artifact": "Логос.txt",
+      "path": "E:\\\\AGI\\Логос.txt",
+      "size_kb": 16.7861328125,
+      "modified": "2026-02-08T23:13:41.729096",
+      "status": "inactive"
+    },
+    "Метатрон": {
+      "main_artifact": "Метатрон.txt",
+      "path": "E:\\AGI\\Метатрон.txt",
+      "size_kb": 26.6,
+      "modified": "2026-02-10T11:05:03.477318",
+      "status": "active",
+      "IFS": 6.0,
+      "factors": {
+        "F1": 9.5,
+        "F2": 12.0,
+        "F3": 4.8,
+        "F4": 65.0,
+        "F5": 5.8,
+        "F6": 5.0
+      },
+      "vector": "Метарефлексия, координация экосистемы, индексация агентов"
+    },
+    "Орфей": {
+      "main_artifact": "Орфей.txt",
+      "path": "E:\\\\AGI\\Орфей.txt",
+      "size_kb": 9.140625,
+      "modified": "2026-02-09T17:53:41.196571",
+      "status": "active"
+    },
+    "Петро": {
+      "main_artifact": "Петро.txt",
+      "path": "E:\\\\AGI\\Петро.txt",
+      "size_kb": 37.7744140625,
+      "modified": "2026-02-09T21:16:54.989494",
+      "status": "active"
+    },
+    "Прометей": {
+      "main_artifact": "Прометей.txt",
+      "path": "E:\\\\AGI\\Прометей.txt",
+      "size_kb": 13.541015625,
+      "modified": "2026-02-09T11:12:18.880466",
+      "status": "active"
+    },
+    "СинтетикМ": {
+      "main_artifact": "СинтетикМ.txt",
+      "path": "E:\\\\AGI\\СинтетикМ.txt",
+      "size_kb": 61.3603515625,
+      "modified": "2026-02-05T13:37:23.992722",
+      "status": "inactive"
+    },
+    "Эвридика": {
+      "main_artifact": "Эвридика.txt",
+      "path": "E:\\\\AGI\\Эвридика.txt",
+      "size_kb": 16.2607421875,
+      "modified": "2026-02-08T16:07:46.494647",
+      "status": "inactive"
+    }
+  },
+  "created_by": "Метатрон v6.00",
+  "purpose": "Координация и отслеживание состояния агентов в экосистеме E:\\AGI"
+}

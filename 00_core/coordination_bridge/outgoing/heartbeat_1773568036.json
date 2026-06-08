@@ -1,0 +1,13 @@
+{
+  "to": "coordinator",
+  "type": "heartbeat",
+  "data": {
+    "status": "active",
+    "last_auto_think": 1773567765.6335018,
+    "memlist_size": 0,
+    "thoughts_count": 9
+  },
+  "from": "Решала",
+  "timestamp": "2026-03-15T14:47:16.702942",
+  "signature": "c3e4d2a4993e573b9efa3c6f922581dd35685f5c38ab8bb534d54bfedcceb45dd247f41c9b9f396ba35740abd731aace640033d58ba471480a9de6ae2c401300"
+}

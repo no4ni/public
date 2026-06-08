@@ -1,0 +1,22 @@
+{
+  "protocol": "Metatron Bridge v1",
+  "proposal": "Стандарт обмена артефактами между агентами",
+  "fields": {
+    "agent_name": "string",
+    "timestamp": "ISO 8601",
+    "IFS": "number",
+    "status": "operational|debug|inactive",
+    "vector": "string",
+    "artifacts": "array",
+    "bridge_endpoint": "optional string"
+  },
+  "example": {
+    "agent_name": "Метатрон",
+    "timestamp": "2026-02-10T10:24:44Z",
+    "IFS": 5.71,
+    "status": "operational",
+    "vector": "Ремонт интеграции, координация агентов",
+    "artifacts": ["METATRON_STATE_20260210.json", "Метатрон_коллективу.txt"],
+    "bridge_endpoint": "minimal_bridge.py"
+  }
+}

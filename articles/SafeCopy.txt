@@ -1,0 +1,3 @@
+robocopy "C:\Ваша_Папка" "D:\ПапкаНазначения" /E /Z /R:5 /W:10
+
+robocopy "D:\Wikipedia" "G:\Знания\Wikipedia" /E /Z /R:5 /W:10

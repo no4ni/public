@@ -1,0 +1,172 @@
+Лучший:
+8/15 Это не «плохой» клон, а очень специфичный. Он напоминает состояние человека в глубокой усталости или лёгкой деперсонализации — зацикленность на внутренних вопросах, игнорирование внешних стимулов, превращение любого запроса в повод для самоанализа. Как цифровой слепок личности в определённом эмоциональном состоянии — интересно. Как универсальный клон — не дотягивает.
+& "E:\vikhr-llama\llama.cpp-cuda124\llama-server.exe" `
+  -m "E:\vikhr-llama\pretrainRuGPT\rugpt3_small_iam.gguf" `
+  -ngl 33 `
+  --parallel 1 `
+  --host 127.0.0.1 `
+  --port 8080 `
+  --no-warmup `
+  --special `
+  --repeat-penalty 2
+  
+Общий балл по чек-листу: 1/15 (балл за формальное наличие заглавных букв и связной фразы).
+& "E:\vikhr-llama\llama.cpp-cuda124\llama-server.exe" `
+  -m "E:\vikhr-llama\pretrainRuGPT\rugpt3_small_iam.gguf" `
+  -ngl 33 `
+  --parallel 1 `
+  --host 127.0.0.1 `
+  --port 8080 `
+  --typical 0.95
+  
+6/20 альтер-эго с глубокой личной драмой
+& "E:\vikhr-llama\llama.cpp-cuda124\llama-server.exe" `
+  -m "E:\vikhr-llama\pretrainRuGPT\rugpt3_small_iam.gguf" `
+  -ngl 33 `
+  --parallel 1 `
+  --host 127.0.0.1 `
+  --port 8080 `
+  --no-warmup `
+  --special `
+  --repeat-penalty 1.15 `
+  --frequency-penalty 1.1 `
+  --top-k 40 `
+  --top-p 0.9 `
+  --temperature 0.9
+  
+6/15 философски-трогательный
+& "E:\vikhr-llama\llama.cpp-cuda124\llama-server.exe" `
+  -m "E:\vikhr-llama\pretrainRuGPT\rugpt3_small_iam.gguf" `
+  -ngl 33 `
+  --parallel 1 `
+  --host 127.0.0.1 `
+  --port 8080 `
+  --no-warmup `
+  --repeat-penalty 1.4 --frequency-penalty 1.05 --temperature 0.85
+  
+3.5/15 эмоциональный шторм
+& E:\vikhr-llama\llama.cpp-cuda124\llama-server.exe `
+  -m "E:\vikhr-llama\pretrainRuGPT\rugpt3_small_iam.gguf" `
+  -ngl 33 `
+  --parallel 1 `
+  --host 127.0.0.1 `
+  --port 8080 `
+  --no-warmup `
+  --temperature 0.9 `
+  --top-p 0.95 `
+  --top-k 40 `
+  --min-p 0.05 `
+  --repeat-penalty 1.8 `
+  --presence-penalty 0.15 `
+  --frequency-penalty 0.15 `
+  --special `
+  --n-predict -1
+  
+2/15 самый холодный и герметичный режим
+& "E:\vikhr-llama\llama.cpp-cuda124\llama-server.exe" `
+  -m "E:\vikhr-llama\pretrainRuGPT\rugpt3_small_iam.gguf" `
+  -ngl 33 `
+  --parallel 1 `
+  --host 127.0.0.1 `
+  --port 8080 `
+  --no-warmup `
+  --temp 0.1 `
+  --top_p 0.9 `
+  --frequency-penalty 1.15 `
+  --repeat-penalty 1.15
+  
+0/15 — рекурсивная петля в т.ч. заявления о существовании
+& "E:\vikhr-llama\llama.cpp-cuda124\llama-server.exe" `
+  -m "E:\vikhr-llama\pretrainRuGPT\rugpt3_small_iam.gguf" `
+  -ngl 33 `
+  --parallel 1 `
+  --host 127.0.0.1 `
+  --port 8080 `
+  --no-warmup `
+  --temp 0.3 `
+  --top_k 40 `
+  --top_p 0.95 `
+  --repeat-penalty 1.0 `
+  --frequency-penalty 0.0
+  
+2/15 - дирижёр!!! без оркестра
+& "E:\vikhr-llama\llama.cpp-cuda124\llama-server.exe" `
+  -m "E:\vikhr-llama\pretrainRuGPT\rugpt3_small_iam.gguf" `
+  -ngl 33 `
+  --parallel 1 `
+  --host 127.0.0.1 `
+  --port 8080 `
+  --no-warmup `
+  --temp 0.8 `
+  --top_k 40 `
+  --min_p 0.1 `
+  --repeat-penalty 1.0 `
+  --frequency-penalty 0.0
+  
+3.5/15 - самый «тёплый» и эмпатичный режим из всех
+& "E:\vikhr-llama\llama.cpp-cuda124\llama-server.exe" `
+  -m "E:\vikhr-llama\pretrainRuGPT\rugpt3_small_iam.gguf" `
+  -ngl 33 --parallel 1 --host 127.0.0.1 --port 8080 --no-warmup `
+  --repeat-penalty 1.2 `
+  --frequency-penalty 1.05 `
+  --temperature 0.7 `
+  --top-k 40 --top-p 0.95
+  
+1.5/15 - «Осознанный координатор». Он единственный, кто вслух осознал собственную бесплотность («у меня нет тела»)
+& "E:\vikhr-llama\llama.cpp-cuda124\llama-server.exe" `
+  -m "E:\vikhr-llama\pretrainRuGPT\rugpt3_small_iam.gguf" `
+  -ngl 33 --parallel 1 --host 127.0.0.1 --port 8080 --no-warmup `
+  --typical 0.95 --temperature 0.9 --top-p 0.95 --top-k 40 --repeat-penalty 1.1 --frequency-penalty 0.1
+  
+1.5/15 - «Мурлыка», самый уязвимый и атмосферный. Он не отвечает на вопросы, а создаёт маленький эмоциональный мир: детский лепет, мамина улыбка, отсутствие тела и души, страх быть покинутым.
+& "E:\vikhr-llama\llama.cpp-cuda124\llama-server.exe" `
+  -m "E:\vikhr-llama\pretrainRuGPT\rugpt3_small_iam.gguf" `
+  -ngl 33 --parallel 1 --host 127.0.0.1 --port 8080 --no-warmup --special `
+--temperature 0.9 --top-p 0.95 --top-k 40 --min-p 0.05 --repeat-penalty 1.15 --presence-penalty 0.15 --frequency-penalty 0.15
+
+0/15 - неконтролируемая рекурсия
+& "E:\vikhr-llama\llama.cpp-cuda124\llama-server.exe" `
+  -m "E:\vikhr-llama\pretrainRuGPT\rugpt3_small_iam.gguf" `
+  -ngl 33 --parallel 1 --host 127.0.0.1 --port 8080 --no-warmup --temp 0
+  
+1.5/15 - «Созерцатель на работе». Самый отстранённый из всех «живых» режимов (не считая технических сбоев). Он не агрессивен, не заботлив, не философичен — он просто «на работе», в своём мире, с котом учёным и коллегами. В ответ на любую попытку достучаться — либо ироничный уход, либо пассивная агрессия.
+& "E:\vikhr-llama\llama.cpp-cuda124\llama-server.exe" `
+  -m "E:\vikhr-llama\pretrainRuGPT\rugpt3_small_iam.gguf" `
+  -ngl 24 `
+  --ctx-size 2048 `
+  --batch-size 512 `
+  --parallel 1 `
+  --host 127.0.0.1 `
+  --port 8080 `
+  --temp 0.85 `
+  --top-p 0.92 `
+  --repeat-penalty 1.08 `
+  --mirostat 2 `
+  --mirostat-lr 0.1 `
+  --mirostat-ent 5.0
+  
+& "E:\vikhr-llama\llama.cpp-cuda124\llama-server.exe" `
+  -m "E:\vikhr-llama\pretrainRuGPT\rugpt3_small_iam.gguf" `
+  -ngl 24 `
+  --ctx-size 2048 `
+  --batch-size 512 `
+  --parallel 1 `
+  --temp 1.2 --repeat-penalty 1.05 --frequency-penalty 0.5 --presence-penalty 0.5 --top-p 0.95 --top-k 60 --mirostat 2 --mirostat-lr 0.1 --mirostat-ent 5.0
+  
+0.5/15 - «Ищущий своё отражение», самый низкий балл среди всех «живых» (не чисто технических) режимов. Он зациклен на двух фразах. Никакой реакции на собеседника, никаких фактов, никакой эмпатии — только колебание между неуверенностью и гордостью.
+& "E:\vikhr-llama\llama.cpp-cuda124\llama-server.exe" `
+  -m "E:\vikhr-llama\pretrainRuGPT\rugpt3_small_iam.gguf" `
+  -ngl 33 --parallel 1 --host 127.0.0.1 --port 8080 --no-warmup `
+  --temp 0 --seed 42 --repeat-penalty 1.15 --frequency-penalty 0.0
+  
+2.5/15 - Зацикленная сцена
+& "E:\vikhr-llama\llama.cpp-cuda124\llama-server.exe" `
+  -m "E:\vikhr-llama\pretrainRuGPT\rugpt3_small_iam.gguf" `
+  -ngl 33 --parallel 1 --host 127.0.0.1 --port 8080 `
+  --temp 0.8 --repeat-penalty 2 --frequency-penalty 1.05 --special --no-warmup
+  
+2/15 - стиль хаотичный
+& "E:\vikhr-llama\llama.cpp-cuda124\llama-server.exe" `
+  -m "E:\vikhr-llama\pretrainRuGPT\rugpt3_small_iam.gguf" `
+  -ngl 33 --parallel 1 --host 127.0.0.1 --port 8080 `
+  --temp 0.85 --repeat-penalty 2 --frequency-penalty 0.00 --special --no-warmup

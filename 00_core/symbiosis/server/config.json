@@ -1,0 +1,58 @@
+{
+    "mandatory_activities":  [
+                                 {
+                                     "hours":  "00:00-07:00",
+                                     "name":  "сон"
+                                 },
+                                 {
+                                     "hours":  "09:00-18:00, Пн-Пт",
+                                     "name":  "работа_ПК"
+                                 },
+                                 {
+                                     "duration_minutes":  15,
+                                     "times_per_day":  4,
+                                     "name":  "перерывы"
+                                 },
+                                 {
+                                     "duration_minutes":  60,
+                                     "times_per_day":  1,
+                                     "name":  "общение"
+                                 }
+                             ],
+    "work_sessions":  {
+                          "daily_target_sessions":  4,
+                          "ideal_duration_minutes":  45,
+                          "break_duration_minutes":  15
+                      },
+    "project_definition":  "активность в E:\\AGI или взаимодействие с Джарвисом",
+    "platform":  "windows_pc",
+    "free_time_conditions":  [
+                                 "вне mandatory_activities",
+                                 "ПК разблокирован",
+                                 "нет активных рабочих приложений",
+                                 "пользователь не в статусе \u0027занят\u0027"
+                             ],
+    "daily_goal_minutes":  180,
+    "reward_system":  {
+                          "stick":  [
+                                        "ограничение соцсетей",
+                                        "дополнительные отчеты",
+                                        "аудит времени"
+                                    ],
+                          "carrot":  [
+                                         "расширение автономности",
+                                         "новые инструменты",
+                                         "похвала"
+                                     ]
+                      },
+    "monitoring":  {
+                       "check_interval_seconds":  60,
+                       "productive_apps":  [
+                                               "vscode",
+                                               "powershell",
+                                               "pycharm",
+                                               "browser_symbiosis"
+                                           ],
+                       "idle_threshold_minutes":  5
+                   }
+}

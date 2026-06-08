@@ -1,0 +1,12 @@
+{
+  "YandexStation_Say": {
+    "class": "org.openhab.core.items.ManagedItemProvider$PersistedItem",
+    "value": {
+      "groupNames": [],
+      "itemType": "String",
+      "tags": [],
+      "label": "Say",
+      "category": ""
+    }
+  }
+}

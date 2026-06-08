@@ -1,0 +1,19 @@
+{
+  "to": "coordinator",
+  "type": "register",
+  "data": {
+    "действие": "Эва",
+    "public_key": "da2e601eae5ff709627812dfafbc10bab6451b1d322d2509a7495cb8464b18ba",
+    "capabilities": [
+      "dialog",
+      "веб_поиск",
+      "file_ops",
+      "сенсор",
+      "memory"
+    ],
+    "version": "1.0"
+  },
+  "from": "Эва",
+  "timestamp": "2026-03-15T20:33:04.689366",
+  "signature": "03bc03e4a3381a7a822e60379d56449dcc706fa69172b7c7aee60b551d09c1cd9211d3c20a5ee278ff830e24ebdb15901cf5ab62759c12a096cc47209635ee0a"
+}

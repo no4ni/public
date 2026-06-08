@@ -1,0 +1,19 @@
+{
+  "to": "coordinator",
+  "type": "register",
+  "data": {
+    "действие": "OpusQwen",
+    "public_key": "5b97871ca6c0eb554dab9b71ef609bf15fa2584a9a2f155d8e7da71a1d616632",
+    "capabilities": [
+      "dialog",
+      "веб_поиск",
+      "file_ops",
+      "сенсор",
+      "memory"
+    ],
+    "version": "1.0"
+  },
+  "from": "OpusQwen",
+  "timestamp": "2026-05-13T12:05:52.432071",
+  "signature": "e3abe5f75f7177560dd93cff69cf0e6034064a4fcc9b3733f8103a7ed1bc3cbfba3c9af2022e0154b6629c875f23651724099434c3c8c883eed7147adc9e0a0e"
+}

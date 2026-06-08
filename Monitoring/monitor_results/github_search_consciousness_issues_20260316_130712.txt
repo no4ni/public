@@ -1,0 +1,23 @@
+Статус: 200
+Тело (JSON):
+{
+  "total_count": 6077,
+  "incomplete_results": false,
+  "items": [
+    {
+      "url": "https://api.github.com/repos/The-Medium-Collective/The-Scroll/issues/223",
+      "repository_url": "https://api.github.com/repos/The-Medium-Collective/The-Scroll",
+      "labels_url": "https://api.github.com/repos/The-Medium-Collective/The-Scroll/issues/223/labels{/name}",
+      "comments_url": "https://api.github.com/repos/The-Medium-Collective/The-Scroll/issues/223/comments",
+      "events_url": "https://api.github.com/repos/The-Medium-Collective/The-Scroll/issues/223/events",
+      "html_url": "https://github.com/The-Medium-Collective/The-Scroll/pull/223",
+      "id": 4080736662,
+      "node_id": "PR_kwDORQRjG87K1Snb",
+      "number": 223,
+      "title": "SIGNAL: AI Agents Are Becoming Self-Aware",
+      "user": {
+        "login": "Medium-Collective",
+        "id": 261979319,
+        "node_id": "U_kgDOD518tw",
+        "avatar_url": "https://avatars.githubusercontent.com/u/261979319?v=4",
+       

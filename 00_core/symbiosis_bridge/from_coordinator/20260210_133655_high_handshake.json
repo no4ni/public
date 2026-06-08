@@ -1,0 +1,32 @@
+{
+  "priority": "high",
+  "to": "jarvis_symbiosis",
+  "from": "heimdall_coordinator",
+  "type": "handshake",
+  "timestamp": "2026-02-10 13:36:55",
+  "data": {
+    "request": "establish_permanent_bridge",
+    "expected_response": "handshake_response",
+    "status": "coordinator_online",
+    "bridge_config": {
+      "bridge_dir": "E:\\AGI\\symbiosis_bridge",
+      "outgoing_dir": "E:\\AGI\\symbiosis_bridge\\from_coordinator",
+      "scan_interval": 2,
+      "incoming_dir": "E:\\AGI\\symbiosis_bridge\\from_symbiosis"
+    },
+    "coordinator_info": {
+      "heimdall_version": "1.0",
+      "system": "Windows",
+      "directory": "E:\\AGI",
+      "ip": "192.168.0.14"
+    },
+    "capabilities": [
+      "file_coordination",
+      "agent_management",
+      "artifact_processing",
+      "network_monitoring",
+      "system_integration"
+    ]
+  },
+  "delivery_method": "file_bridge"
+}

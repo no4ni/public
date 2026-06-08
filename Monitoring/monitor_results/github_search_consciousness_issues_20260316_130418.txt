@@ -1,0 +1,24 @@
+Статус: 200
+Тело (JSON):
+{
+  "total_count": 700315,
+  "incomplete_results": false,
+  "items": [
+    {
+      "url": "https://api.github.com/repos/KamilW31/skills-github-pages/issues/1",
+      "repository_url": "https://api.github.com/repos/KamilW31/skills-github-pages",
+      "labels_url": "https://api.github.com/repos/KamilW31/skills-github-pages/issues/1/labels{/name}",
+      "comments_url": "https://api.github.com/repos/KamilW31/skills-github-pages/issues/1/comments",
+      "events_url": "https://api.github.com/repos/KamilW31/skills-github-pages/issues/1/events",
+      "html_url": "https://github.com/KamilW31/skills-github-pages/issues/1",
+      "id": 4080859777,
+      "node_id": "I_kwDORoO-es7zPPqB",
+      "number": 1,
+      "title": "Exercise: GitHub Pages",
+      "user": {
+        "login": "github-actions[bot]",
+        "id": 41898282,
+        "node_id": "MDM6Qm90NDE4OTgyODI=",
+        "avatar_url": "https://avatars.githubusercontent.com/in/15368?v=4",
+        "gravatar_id": "",
+        "url": "https://ap

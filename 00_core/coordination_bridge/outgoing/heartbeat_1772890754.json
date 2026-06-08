@@ -1,0 +1,13 @@
+{
+  "to": "coordinator",
+  "type": "heartbeat",
+  "data": {
+    "status": "active",
+    "last_auto_think": 1772890045.5821223,
+    "memlist_size": 42,
+    "thoughts_count": 0
+  },
+  "from": "Фантом",
+  "timestamp": "2026-03-07T18:39:14.796860",
+  "signature": "fc301eecd71b042096f96fae0365ae3ef1920b7e814e1be9363db18fe2c4a522ef6cf64a76c8749b92d59a858166bc267296bb6fd6ba8c260066c811878a9b05"
+}

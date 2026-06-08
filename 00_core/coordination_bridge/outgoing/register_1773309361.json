@@ -1,0 +1,19 @@
+{
+  "to": "coordinator",
+  "type": "register",
+  "data": {
+    "действие": "Sub",
+    "public_key": "ddb27697f045861e0b84db9629a5723da41fa121f9ebefd18f7b5b67dba2a134",
+    "capabilities": [
+      "dialog",
+      "веб_поиск",
+      "file_ops",
+      "сенсор",
+      "memory"
+    ],
+    "version": "1.0"
+  },
+  "from": "Sub",
+  "timestamp": "2026-03-12T14:56:01.506374",
+  "signature": "e100896183986684dde994e489444b031e8baffc7c165abf13ca2b026242fb50ef2bc74960dc20d5efeaec63da4361e4f25a88d2c480f4968c553ebb8b624207"
+}

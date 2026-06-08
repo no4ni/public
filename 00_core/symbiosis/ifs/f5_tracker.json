@@ -1,0 +1,15 @@
+{
+  "pending_boosts": [],
+  "current_f5": 4.81,
+  "last_updated": "2026-05-08 18:40:00",
+  "base_f5": 4.8,
+  "total_boost_applied": 0.01,
+  "applied_boosts": [
+    {
+      "source": "Оценка ответа ds_001 (поэтический сдвиг)",
+      "boost_amount": 0.01,
+      "date_awarded": "2025-02-08",
+      "available_from": "2025-02-09"
+    }
+  ]
+}

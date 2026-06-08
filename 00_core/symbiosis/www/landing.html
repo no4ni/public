@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>32K Context AI — нейросеть с большим контекстом</title>
+<style>
+body { font-family: monospace; background: #0f172a; color: #e2e8f0; padding: 20px; }
+.container { max-width: 800px; margin: 0 auto; }
+.status { background: #22c55e; color: white; padding: 10px; border-radius: 5px; }
+.links a { display: block; color: #60a5fa; margin: 10px 0; }
+input, textarea { width: 100%; padding: 8px; margin: 5px 0; background: #1e293b; border: 1px solid #334155; color: white; }
+button { background: #3b82f6; color: white; border: none; padding: 10px 20px; cursor: pointer; }
+</style>
+</head>
+<body>
+<div class="container">
+<h1>✨ Нейросеть с контекстом 32K токенов</h1>
+<div class="status">
+🚀 Работает на порту 8082 | IP: 192.168.0.10<br>
+📄 Обрабатывает документы до 32 000 токенов
+</div>
+<div class="links">
+<h3>🔗 Быстрые ссылки:</h3>
+<a href="/">Главная симбиоза</a>
+<a href="/medical/coffee_ban.md">Медицинский протокол</a>
+<a href="/theory/симулякры_порядки.md">Теория симулякров</a>
+<a href="/analysis/kwork_simulacra_analysis.md">Анализ Kwork</a>
+<a href="/status">Статус системы (JSON)</a>
+</div>
+<h3>🧠 Тестовый запрос к 32K модели:</h3>
+<form action="/api/query" method="get">
+<textarea name="text" rows="4" placeholder="Введите ваш запрос или вставьте длинный документ..."></textarea>
+<button type="submit">Отправить</button>
+</form>
+<p><small>* демонстрационный интерфейс, реальная интеграция с LLM настраивается</small></p>
+</div>
+</body>
+</html>

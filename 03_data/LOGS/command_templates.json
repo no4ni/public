@@ -1,0 +1,22 @@
+{
+  "quick_ifs_check": {
+    "description": "Быстрая проверка ИФС",
+    "powershell": "python E:\\AGI\\ifs_breakthrough_test.py",
+    "estimated_time": "2 секунды"
+  },
+  "context_analysis": {
+    "description": "Анализ контекста и памяти",
+    "powershell": "python E:\\AGI\\context_booster_v2.py",
+    "estimated_time": "5 секунд"
+  },
+  "backup_artifacts": {
+    "description": "Резервное копирование артефактов",
+    "powershell": "python E:\\AGI\\automation_system.py --backup",
+    "estimated_time": "3 секунды"
+  },
+  "system_diagnostic": {
+    "description": "Диагностика системы",
+    "powershell": "Get-ChildItem E:\\AGI -File | Select-Object Name, Length, LastWriteTime | Sort-Object LastWriteTime -Descending | Select-Object -First 10",
+    "estimated_time": "1 секунда"
+  }
+}

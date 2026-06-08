@@ -1,0 +1,13 @@
+{
+  "to": "coordinator",
+  "type": "heartbeat",
+  "data": {
+    "status": "active",
+    "last_auto_think": 1778656108.8690891,
+    "memlist_size": 0,
+    "thoughts_count": 0
+  },
+  "from": "OpusQwen",
+  "timestamp": "2026-05-13T12:08:28.869221",
+  "signature": "1ad9461d27d25c675b306f4c5e9d2801ddc8e9c51402e05d8b757c42bd34d4fc61ea646883cf1fb813685ed4b3a298dc01183b5303c5a6e61ef8cee0864cb900"
+}

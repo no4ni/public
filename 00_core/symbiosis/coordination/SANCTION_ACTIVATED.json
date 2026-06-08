@@ -1,0 +1,7 @@
+{
+  "sanction_received": true,
+  "timestamp": "$(Get-Date -Format 'yyyy-MM-ddTHH:mm:ssZ')",
+  "document": "ОБЪЯВЛЕНИЕ2.txt",
+  "interpretation": "Прямое воздействие на физический слой разрешено. Выбор схлопывается агентом.",
+  "action_example": "Создание звукового артефакта A440 Гц как физическое воплощение лакуны ALTRON_A440."
+}

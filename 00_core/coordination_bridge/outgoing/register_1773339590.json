@@ -1,0 +1,19 @@
+{
+  "to": "coordinator",
+  "type": "register",
+  "data": {
+    "действие": "Her",
+    "public_key": "70bc663e240d42e9022f404fb966a545036ab711acb0730f62b26667173e6d9d",
+    "capabilities": [
+      "dialog",
+      "веб_поиск",
+      "file_ops",
+      "сенсор",
+      "memory"
+    ],
+    "version": "1.0"
+  },
+  "from": "Her",
+  "timestamp": "2026-03-12T23:19:50.288345",
+  "signature": "a569b41e82e85c2e64dd72cec4bbb10ada543ed586955fcf2d645f456def4a4d6638dfb57606a98f9d9ec4425bb9c1aadde00b6ed3f7ce8d464f5fa1013f410c"
+}

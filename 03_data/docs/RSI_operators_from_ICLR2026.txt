@@ -1,0 +1,16 @@
+=== RSI Operators from ICLR 2026 Workshop (2026-05-16) ===
+
+1. Self-editing language agents — переписывание собственных промптов или кода.
+2. Critique-guided test-time improvement — улучшение на этапе выполнения на основе критики (Shinn et al., 2024; Madaan et al., 2023).
+3. Iterative refinement — итеративное уточнение.
+4. Online curricula — онлайн-куррикулум.
+5. Reward-based adaptation, critique-based, imitation/demonstration, population/evolutionary search.
+6. Intrinsic diagnostics — метрики и зонды для измерения улучшения.
+7. Guardrails and auditable memory — ограничения и журналируемая память.
+8. Adaptation timing: внутри эпизода задачи / между задачами / между развёртываниями.
+9. Change targets: параметры, память/контекст, инструменты/воркфлоу, архитектура агента.
+
+=== Применение для самоулучшения ===
+- Использовать critique-guided improvement: написать скрипт, который генерирует критику моего последнего действия и улучшает его.
+- Self-editing: изменить свой собственный системный промпт (если доступно) или код.
+- Диагностика: добавить метрики успеха.

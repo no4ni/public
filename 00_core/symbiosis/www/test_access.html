@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Тест доступа к Хеймдаллю</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body { font-family: Arial, sans-serif; padding: 20px; }
+        .success { color: green; }
+        .error { color: red; }
+        .loading { color: blue; }
+    </style>
+</head>
+<body>
+    <h1>📱 Тест доступа к API Хеймдалля</h1>
+    
+    <div id="localStatus" class="loading">Проверка localhost...</div>
+    <div id="networkStatus" class="loading">Проверка сетевого доступа...</div>
+    <div id="apiStatus" class="loading">Проверка API...</div>
+    
+    <h3>Инструкция:</h3>
+    <ol>
+        <li>Убедитесь, что телефон в той же Wi-Fi сети</li>
+        <li>Проверьте IP адрес компьютера в сети</li>
+        <li>Откройте http://[IP-адрес]:8083 на телефоне</li>
+    </ol>
+    
+    <div id="ipList"></div>
+    
+    <script>
+        async function testEndpoint(url, elementId) {
+            const element = document.getElementById(elementId);
+            try {
+                const response = await fetch(url);
+                if (response.ok) {
+                    const data = await response.json();
+                    element.innerHTML = `✅ ${url} - ${data.status}`;
+                    element.className = 'success';
+                    return true;
+                } else {
+                    element.innerHTML = `❌ ${url} - HTTP ${response.status}`;
+                    element.className = 'error';
+                    return false;
+                }
+            } catch (error) {
+                element.innerHTML = `❌ ${url} - ${error.message}`;
+                element.className = 'error';
+                return false;
+            }
+        }
+        
+        async function getIPs() {
+            try {
+                const response = await fetch('https://api.ipify.org?format=json');
+                const data = await response.json();
+                document.getElementById('ipList').innerHTML = 
+                    `<p>Внешний IP: ${data.ip}</p>`;
+            } catch (e) {
+                console.log('Не удалось получить внешний IP');
+            }
+        }
+        
+        // Запускаем тесты
+        Promise.all([
+            testEndpoint('http://127.0.0.1:8083/health', 'localStatus'),
+            testEndpoint('http://' + window.location.hostname + ':8083/health', 'networkStatus'),
+            testEndpoint('http://' + window.location.hostname + ':8083/api/agents', 'apiStatus')
+        ]);
+        
+        getIPs();
+    </script>
+</body>
+</html>

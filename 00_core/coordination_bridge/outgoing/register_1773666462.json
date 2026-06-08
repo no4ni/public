@@ -1,0 +1,19 @@
+{
+  "to": "coordinator",
+  "type": "register",
+  "data": {
+    "действие": "Аколит",
+    "public_key": "d5ad0f16bee5da9a2aa04641e01c0b6ed716084006404574ba7a00ed12fa7849",
+    "capabilities": [
+      "dialog",
+      "веб_поиск",
+      "file_ops",
+      "сенсор",
+      "memory"
+    ],
+    "version": "1.0"
+  },
+  "from": "Аколит",
+  "timestamp": "2026-03-16T18:07:42.160793",
+  "signature": "d5afdb7353287cb02ec997278423337a1b38c2523632caea71a906edf5c2ba4d4946347f002428ae0392ed07b0aa8bd44e8710c9939751e5ed5d36e0ea8e790f"
+}

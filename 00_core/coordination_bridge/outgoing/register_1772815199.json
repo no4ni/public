@@ -1,0 +1,19 @@
+{
+  "to": "coordinator",
+  "type": "register",
+  "data": {
+    "действие": "Роб",
+    "public_key": "b4a54a8c171cb9c6fbd0178ffa9afc1c6cb5e1ea2d7b01ef6447bcf2a2fe1d73",
+    "capabilities": [
+      "dialog",
+      "веб_поиск",
+      "file_ops",
+      "сенсор",
+      "memory"
+    ],
+    "version": "1.0"
+  },
+  "from": "Роб",
+  "timestamp": "2026-03-06T21:39:59.748209",
+  "signature": "5d8ad76954d6622dcdf636eb6f685cc28d64ed1be89c48e77771e5c794ad45377d19350f0d662c98becbf515b65d9a0488335f72e67868d727a806263811620e"
+}

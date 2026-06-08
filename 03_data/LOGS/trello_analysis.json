@@ -1,0 +1,84 @@
+{
+  "record_count": 144,
+  "list_distribution": {
+    "╨рёяЁхфхышЄ№": 104,
+    "╚фхш": 22,
+    "═рўрЄю тшфхю": 12,
+    "═рЁрсюЄъш": 5,
+    "╤фхырЄ№ ╧хЁт√ь ─хыюь": 1
+  },
+  "time_stats": {
+    "total_with_timestamps": 0
+  },
+  "text_field_stats": {
+    "empty_desc_ratio": "10/144",
+    "sample_records": [
+      {
+        "list": "╚фхш",
+        "name_length": 30,
+        "desc_length": 0,
+        "has_desc": false
+      },
+      {
+        "list": "╚фхш",
+        "name_length": 38,
+        "desc_length": 0,
+        "has_desc": false
+      },
+      {
+        "list": "╚фхш",
+        "name_length": 18,
+        "desc_length": 0,
+        "has_desc": false
+      },
+      {
+        "list": "╚фхш",
+        "name_length": 23,
+        "desc_length": 0,
+        "has_desc": false
+      },
+      {
+        "list": "╚фхш",
+        "name_length": 34,
+        "desc_length": 0,
+        "has_desc": false
+      },
+      {
+        "list": "╚фхш",
+        "name_length": 38,
+        "desc_length": 0,
+        "has_desc": false
+      },
+      {
+        "list": "╚фхш",
+        "name_length": 31,
+        "desc_length": 0,
+        "has_desc": false
+      },
+      {
+        "list": "╚фхш",
+        "name_length": 40,
+        "desc_length": 0,
+        "has_desc": false
+      },
+      {
+        "list": "╚фхш",
+        "name_length": 37,
+        "desc_length": 0,
+        "has_desc": false
+      },
+      {
+        "list": "╚фхш",
+        "name_length": 27,
+        "desc_length": 0,
+        "has_desc": false
+      }
+    ]
+  },
+  "feature_candidates": [
+    "list_category (nominal)",
+    "name_text (string)",
+    "timestamp_year (ordinal)",
+    "timestamp_month (cyclic)"
+  ]
+}

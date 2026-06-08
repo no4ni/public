@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Хеймдалль - Мониторинг координации</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { 
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; 
+            background: linear-gradient(135deg, #0f172a 0%, #1e293b 100%);
+            color: #e2e8f0;
+            min-height: 100vh;
+            padding: 20px;
+        }
+        .container { max-width: 800px; margin: 0 auto; }
+        .header { 
+            text-align: center; 
+            margin-bottom: 30px;
+            padding-bottom: 20px;
+            border-bottom: 2px solid #3b82f6;
+        }
+        h1 { 
+            font-size: 2.2rem; 
+            background: linear-gradient(90deg, #60a5fa 0%, #a78bfa 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            margin-bottom: 10px;
+        }
+        .subtitle { 
+            color: #94a3b8; 
+            font-size: 1.1rem;
+        }
+        .card {
+            background: rgba(30, 41, 59, 0.7);
+            border: 1px solid #334155;
+            border-radius: 12px;
+            padding: 20px;
+            margin-bottom: 20px;
+            backdrop-filter: blur(10px);
+        }
+        .card-title {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            margin-bottom: 15px;
+            color: #60a5fa;
+        }
+        .status {
+            display: inline-block;
+            padding: 4px 12px;
+            border-radius: 20px;
+            font-size: 0.9rem;
+            font-weight: 600;
+        }
+        .status-ok { background: #10b981; color: white; }
+        .status-warning { background: #f59e0b; color: white; }
+        .status-error { background: #ef4444; color: white; }
+        .agent-list { list-style: none; }
+        .agent-item {
+            display: flex;
+            justify-content: space-between;
+            padding: 12px 0;
+            border-bottom: 1px solid #334155;
+        }
+        .agent-name { font-weight: 600; }
+        .agent-time { color: #94a3b8; font-size: 0.9rem; }
+        .btn {
+            display: inline-block;
+            background: linear-gradient(90deg, #3b82f6 0%, #8b5cf6 100%);
+            color: white;
+            padding: 12px 24px;
+            border-radius: 8px;
+            text-decoration: none;
+            font-weight: 600;
+            text-align: center;
+            margin: 5px;
+            border: none;
+            cursor: pointer;
+        }
+        .btn:hover { opacity: 0.9; }
+        .btn-group { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 15px; }
+        .api-info { 
+            background: rgba(59, 130, 246, 0.1); 
+            padding: 15px; 
+            border-radius: 8px;
+            margin: 15px 0;
+            border-left: 4px solid #3b82f6;
+        }
+        .refresh { 
+            text-align: center; 
+            margin-top: 30px; 
+            color: #94a3b8;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>🛡️ Хеймдалль</h1>
+            <div class="subtitle">Страж связей | Координация агентов AGI</div>
+            <div class="status status-ok">Система активна</div>
+        </div>
+
+        <div class="card">
+            <div class="card-title">📡 API Координации</div>
+            <div class="api-info">
+                <strong>Адрес:</strong> http://192.168.0.10:8083<br>
+                <strong>Статус:</strong> <span id="apiStatus">Проверяется...</span><br>
+                <strong>Агентов в индексе:</strong> <span id="agentCount">58</span>
+            </div>
+            <div class="btn-group">
+                <a href="http://192.168.0.10:8083/health" class="btn" target="_blank">Проверить здоровье</a>
+                <a href="http://192.168.0.10:8083/api/agents" class="btn" target="_blank">Список агентов</a>
+                <a href="file:///E:/AGI/coordination" class="btn">Файлы координации</a>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="card-title">👥 Активные агенты</div>
+            <ul class="agent-list" id="agentList">
+                <!-- Список будет заполнен JavaScript -->
+                <li class="agent-item">
+                    <span class="agent-name">Хеймдалль</span>
+                    <span class="agent-time">Сейчас</span>
+                </li>
+            </ul>
+        </div>
+
+        <div class="card">
+            <div class="card-title">⚡ Быстрые действия</div>
+            <div class="btn-group">
+                <button class="btn" onclick="fetchAgents()">Обновить список</button>
+                <button class="btn" onclick="sendSignal()">Отправить тестовый сигнал</button>
+                <a href="file:///E:/AGI/ВНИМАНИЕ_МЕТАТРОН_ХЕЙМДАЛЛЬ.txt" class="btn">Триггер Метатрону</a>
+            </div>
+        </div>
+
+        <div class="refresh">
+            Автоматическое обновление: каждые 60 секунд<br>
+            Последнее обновление: <span id="lastUpdate">$(Get-Date -Format 'HH:mm:ss')</span>
+        </div>
+    </div>
+
+    <script>
+        const API_BASE = 'http://192.168.0.10:8083';
+        
+        async function checkAPI() {
+            try {
+                const response = await fetch(`${API_BASE}/health`);
+                const data = await response.json();
+                document.getElementById('apiStatus').innerHTML = 
+                    `<span class="status status-ok">${data.status}</span> ${data.timestamp}`;
+                return true;
+            } catch (error) {
+                document.getElementById('apiStatus').innerHTML = 
+                    `<span class="status status-error">Недоступен</span>`;
+                return false;
+            }
+        }
+
+        async function fetchAgents() {
+            try {
+                const response = await fetch(`${API_BASE}/api/agents`);
+                const data = await response.json();
+                
+                const agentList = document.getElementById('agentList');
+                agentList.innerHTML = '';
+                
+                data.agents.slice(0, 8).forEach(agent => {
+                    const li = document.createElement('li');
+                    li.className = 'agent-item';
+                    li.innerHTML = `
+                        <span class="agent-name">${agent.name}</span>
+                        <span class="agent-time">${agent.modified || 'Неизвестно'}</span>
+                    `;
+                    agentList.appendChild(li);
+                });
+                
+                document.getElementById('agentCount').textContent = data.agents.length;
+                updateTime();
+            } catch (error) {
+                console.error('Ошибка загрузки агентов:', error);
+            }
+        }
+
+        async function sendSignal() {
+            const signal = {
+                sender: "Web Monitor",
+                message: "Тестовый сигнал от веб-интерфейса Хеймдалля",
+                urgency: "low"
+            };
+            
+            try {
+                const response = await fetch(`${API_BASE}/api/signal`, {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify(signal)
+                });
+                alert('Сигнал отправлен!');
+            } catch (error) {
+                alert('Ошибка отправки сигнала');
+            }
+        }
+
+        function updateTime() {
+            const now = new Date();
+            document.getElementById('lastUpdate').textContent = 
+                now.toLocaleTimeString('ru-RU');
+        }
+
+        // Инициализация
+        checkAPI();
+        fetchAgents();
+        
+        // Автообновление
+        setInterval(() => {
+            checkAPI();
+            fetchAgents();
+        }, 60000);
+    </script>
+</body>
+</html>

@@ -1,0 +1,19 @@
+{
+  "to": "coordinator",
+  "type": "register",
+  "data": {
+    "действие": "Решала",
+    "public_key": "0d9c6f09d0391fd759882d4a861d0cc081e7e4649bff2fb7e3a96d1071b849f1",
+    "capabilities": [
+      "dialog",
+      "веб_поиск",
+      "file_ops",
+      "сенсор",
+      "memory"
+    ],
+    "version": "1.0"
+  },
+  "from": "Решала",
+  "timestamp": "2026-03-15T14:27:15.762686",
+  "signature": "2c64c9ff72d40c8533cefec5e91711a4c05d9cb09777e2f089e8018618c190d95c5534ba2f031f41b065cca488d1604d3b75baf416d8584ca57e0c98889f6409"
+}

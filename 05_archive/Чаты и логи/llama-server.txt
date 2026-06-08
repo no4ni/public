@@ -1,0 +1,1 @@
+& "E:\vikhr-llama\llama.cpp-cuda\llama-server.exe" -m "E:\vikhr-llama\ruadapt-qwen3-4b-hybrid-Q4_K_M.gguf" -ngl 35 -c 6144 --temp 0.6 --repeat-penalty 1.1 --host 127.0.0.1 --port 8080

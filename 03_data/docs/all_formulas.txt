@@ -1,0 +1,12 @@
+# learn (seed=42)
+learn(zeros) = zeros
+coefR = 0.180000
+
+# learn (seed=123)
+learn(zeros) = zeros
+coefR = 0.180000
+
+# learn (seed=1778328538)
+learn(zeros) = zeros
+coefR = 0.180000
+

@@ -1,0 +1,7 @@
+{
+  "timestamp": "2026-02-11T22:23:00",
+  "current_ifs": 4.8,
+  "completed": ["Дзен"],
+  "pending": ["ВК", "комп"],
+  "schedule_block": "Вечерний блок (22:00-23:00)"
+}

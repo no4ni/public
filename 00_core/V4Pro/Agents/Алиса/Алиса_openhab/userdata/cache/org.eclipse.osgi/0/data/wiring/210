@@ -1,0 +1,94 @@
+osgi.wiring.package; (&(osgi.wiring.package=org.openhab.core.persistence)(&(version>=5.1.0)(!(version>=6.0.0))))
+220; version=5.1.3
+osgi.wiring.bundle; (&(osgi.wiring.bundle=org.eclipse.xtext.xbase.lib)(bundle-version>=2.34.0))
+148
+osgi.wiring.package; (&(osgi.wiring.package=org.openhab.core.scheduler)(&(version>=5.1.0)(!(version>=6.0.0))))
+156; version=5.1.3
+osgi.wiring.package; (&(osgi.wiring.package=org.openhab.core.ephemeris)(&(version>=5.1.0)(!(version>=6.0.0))))
+175; version=5.1.3
+osgi.wiring.package; (&(osgi.wiring.package=org.openhab.core.persistence.extensions)(&(version>=5.1.0)(!(version>=6.0.0))))
+220; version=5.1.3
+osgi.wiring.bundle; (osgi.wiring.bundle=org.eclipse.emf.common)
+100
+osgi.wiring.package; (&(osgi.wiring.package=org.eclipse.xtext.xbase.lib)(&(version>=2.40.0)(!(version>=3.0.0))))
+148; version=2.40.0.v20250825-0355
+osgi.wiring.package; (&(osgi.wiring.package=org.openhab.core.library.items)(&(version>=5.1.0)(!(version>=6.0.0))))
+156; version=5.1.3
+osgi.wiring.bundle; (osgi.wiring.bundle=org.eclipse.emf.ecore)
+101
+osgi.wiring.package; (&(osgi.wiring.package=org.openhab.core.library.types)(&(version>=5.1.0)(!(version>=6.0.0))))
+156; version=5.1.3
+osgi.extender; (&(osgi.extender=osgi.component)(version>=1.5.0)(!(version>=2.0.0)))
+75; version=1.5.0
+osgi.wiring.package; (&(osgi.wiring.package=javax.measure)(&(version>=2.2.0)(!(version>=3.0.0))))
+60; version=2.2.0
+osgi.wiring.package; (&(osgi.wiring.package=org.openhab.core.io.console)(&(version>=5.1.0)(!(version>=6.0.0))))
+177; version=5.1.3
+osgi.wiring.package; (&(osgi.wiring.package=org.openhab.core.library.unit)(&(version>=5.1.0)(!(version>=6.0.0))))
+156; version=5.1.3
+osgi.wiring.package; (&(osgi.wiring.package=org.openhab.core.thing.binding)(&(version>=5.1.0)(!(version>=6.0.0))))
+223; version=5.1.3
+osgi.wiring.package; (&(osgi.wiring.package=org.openhab.core.voice.text)(&(version>=5.1.0)(!(version>=6.0.0))))
+227; version=5.1.3
+osgi.wiring.package; (&(osgi.wiring.package=org.openhab.core.voice)(&(version>=5.1.0)(!(version>=6.0.0))))
+227; version=5.1.3
+osgi.wiring.package; (&(osgi.wiring.package=org.openhab.core.automation.module.script.rulesupport.shared)(&(version>=5.1.0)(!(version>=6.0.0))))
+167; version=5.1.3
+osgi.wiring.bundle; (osgi.wiring.bundle=org.eclipse.xtext.util)
+145
+osgi.wiring.bundle; (osgi.wiring.bundle=org.eclipse.xtext.xbase)
+146
+osgi.wiring.package; (&(osgi.wiring.package=org.openhab.core.semantics)(&(version>=5.1.0)(!(version>=6.0.0))))
+221; version=5.1.3
+osgi.wiring.package; (&(osgi.wiring.package=org.slf4j)(&(version>=2.0.0)(!(version>=3.0.0))))
+5; version=2.0.6
+osgi.wiring.package; (&(osgi.wiring.package=org.openhab.core.io.net.http)(&(version>=5.1.0)(!(version>=6.0.0))))
+183; version=5.1.3
+osgi.wiring.package; (&(osgi.wiring.package=javax.measure.quantity)(&(version>=2.2.0)(!(version>=3.0.0))))
+60; version=2.2.0
+osgi.wiring.package; (&(osgi.wiring.package=org.openhab.core.util)(&(version>=5.1.0)(!(version>=6.0.0))))
+156; version=5.1.3
+osgi.wiring.package; (&(osgi.wiring.package=org.openhab.core.items.events)(&(version>=5.1.0)(!(version>=6.0.0))))
+156; version=5.1.3
+osgi.wiring.package; (&(osgi.wiring.package=org.openhab.core.events)(&(version>=5.1.0)(!(version>=6.0.0))))
+156; version=5.1.3
+osgi.wiring.bundle; (osgi.wiring.bundle=org.antlr.runtime)
+62
+osgi.wiring.package; (&(osgi.wiring.package=org.openhab.core.items)(&(version>=5.1.0)(!(version>=6.0.0))))
+156; version=5.1.3
+osgi.wiring.package; (&(osgi.wiring.package=org.openhab.core.io.net.exec)(&(version>=5.1.0)(!(version>=6.0.0))))
+183; version=5.1.3
+osgi.wiring.package; (&(osgi.wiring.package=org.openhab.core.common.registry)(&(version>=5.1.0)(!(version>=6.0.0))))
+156; version=5.1.3
+osgi.wiring.package; (&(osgi.wiring.package=org.openhab.core.transform.actions)(&(version>=5.1.0)(!(version>=6.0.0))))
+224; version=5.1.3
+osgi.ee; (&(osgi.ee=JavaSE)(version=21))
+0; version=[1.0.0, 1.1.0, 1.2.0, 1.3.0, 1.4.0, 1.5.0, 1.6.0, 1.7.0, 1.8.0, 9.0.0, 10.0.0, 11.0.0, 13.0.0, 14.0.0, 15.0.0, 16.0.0, 17.0.0, 18.0.0, 19.0.0, 20.0.0, 21.0.0]
+osgi.wiring.package; (&(osgi.wiring.package=org.openhab.core.model.core)(&(version>=5.1.0)(!(version>=6.0.0))))
+199; version=5.1.3
+osgi.wiring.package; (&(osgi.wiring.package=org.openhab.core.types)(&(version>=5.1.0)(!(version>=6.0.0))))
+156; version=5.1.3
+osgi.wiring.package; (&(osgi.wiring.package=org.openhab.core.audio)(&(version>=5.1.0)(!(version>=6.0.0))))
+160; version=5.1.3
+osgi.wiring.package; (&(osgi.wiring.package=org.openhab.core.automation.module.script.action)(&(version>=5.1.0)(!(version>=6.0.0))))
+165; version=5.1.3
+osgi.wiring.package; (&(osgi.wiring.package=org.openhab.core.thing)(&(version>=5.1.0)(!(version>=6.0.0))))
+223; version=5.1.3
+osgi.wiring.bundle; (osgi.wiring.bundle=org.eclipse.xtend.lib)
+140
+osgi.wiring.package; (&(osgi.wiring.package=org.eclipse.jetty.http)(&(version>=9.4.0)(!(version>=10.0.0))))
+112; version=9.4.57
+osgi.wiring.bundle; (osgi.wiring.bundle=org.eclipse.xtext.common.types)
+143
+osgi.wiring.package; (&(osgi.wiring.package=org.openhab.core.transform)(&(version>=5.1.0)(!(version>=6.0.0))))
+224; version=5.1.3
+osgi.wiring.package; (&(osgi.wiring.package=org.openhab.core.thing.events)(&(version>=5.1.0)(!(version>=6.0.0))))
+223; version=5.1.3
+osgi.wiring.bundle; (&(osgi.wiring.bundle=org.objectweb.asm)(&(bundle-version>=9.0.0)(!(bundle-version>=10.0.0))))
+151
+osgi.wiring.bundle; (osgi.wiring.bundle=org.eclipse.xtext)
+142
+osgi.wiring.bundle; (osgi.wiring.bundle=org.openhab.core.model.item)
+200
+osgi.wiring.package; (&(osgi.wiring.package=org.openhab.core.io.console.extensions)(&(version>=5.1.0)(!(version>=6.0.0))))
+177; version=5.1.3

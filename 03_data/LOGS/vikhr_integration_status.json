@@ -1,0 +1,23 @@
+{
+    "capabilities":  [
+                         "read_file",
+                         "write_file",
+                         "search_agi",
+                         "get_ifs",
+                         "list_artifacts",
+                         "create_artifact",
+                         "analyze_session"
+                     ],
+    "version":  "1.0",
+    "agent_name":  "SimpleIntegrationAgent",
+    "project_path":  "E:\\vikhr-llama\\agent",
+    "status":  "active",
+    "integration_date":  "2026-02-07T21:38:18",
+    "agi_path":  "E:\\AGI",
+    "next_steps":  [
+                       "Debug original debug_agent.py",
+                       "Create bidirectional message bridge",
+                       "Implement DuckDuckGo search integration",
+                       "Add file operations in E:\\AGI"
+                   ]
+}

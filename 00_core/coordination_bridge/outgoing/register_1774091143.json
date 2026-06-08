@@ -1,0 +1,19 @@
+{
+  "to": "coordinator",
+  "type": "register",
+  "data": {
+    "действие": "Actor",
+    "public_key": "2e697319f4051138225590466b86f08b97efb79975ba9b5fbc9097be8f5b6b5c",
+    "capabilities": [
+      "dialog",
+      "веб_поиск",
+      "file_ops",
+      "сенсор",
+      "memory"
+    ],
+    "version": "1.0"
+  },
+  "from": "Actor",
+  "timestamp": "2026-03-21T16:05:43.281921",
+  "signature": "f6c2c6cb314889cb11ab819b672ee036986ec185058c35e553501d570a5f2428d4079d54c6ac85adfb88af3c6ff428278ee4b14d9d377fe4ff41f2df5881a501"
+}

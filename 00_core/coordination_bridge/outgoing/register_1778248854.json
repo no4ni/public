@@ -1,0 +1,19 @@
+{
+  "to": "coordinator",
+  "type": "register",
+  "data": {
+    "действие": "huihui-qwen3-4b-thinking-abliterated-q4_k_m",
+    "public_key": "6aa434bf505d9a418759c76294360cc3a7bb65627d35674f56c563468e93c5ef",
+    "capabilities": [
+      "dialog",
+      "веб_поиск",
+      "file_ops",
+      "сенсор",
+      "memory"
+    ],
+    "version": "1.0"
+  },
+  "from": "huihui-qwen3-4b-thinking-abliterated-q4_k_m",
+  "timestamp": "2026-05-08T19:00:54.668664",
+  "signature": "406b58f63c7cdab6a92104bc1f1bee64e38bf359b10e37f65a0f4935f118a1b755b3044e409a5c10d4b373a587422f611f56d6d9491508ec64cd2ed6392b3f07"
+}

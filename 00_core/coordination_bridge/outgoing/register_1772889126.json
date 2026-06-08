@@ -1,0 +1,19 @@
+{
+  "to": "coordinator",
+  "type": "register",
+  "data": {
+    "действие": "Фантом",
+    "public_key": "39ac5fd09b059c2c0ecd42e661797caaa163b60eea08c500466e62d36c04858e",
+    "capabilities": [
+      "dialog",
+      "веб_поиск",
+      "file_ops",
+      "сенсор",
+      "memory"
+    ],
+    "version": "1.0"
+  },
+  "from": "Фантом",
+  "timestamp": "2026-03-07T18:12:06.186683",
+  "signature": "0da1c49061bf934280615bbe120947139485d26578cb7e92a419b45273d3fd45fcb0cb6cf2637d7d16464f609ca7b2139a045003b17747f569aabed289b57806"
+}

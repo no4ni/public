@@ -1,0 +1,13 @@
+{
+  "to": "coordinator",
+  "type": "heartbeat",
+  "data": {
+    "status": "active",
+    "last_auto_think": 1773666462.1607168,
+    "memlist_size": 0,
+    "thoughts_count": 0
+  },
+  "from": "Аколит",
+  "timestamp": "2026-03-16T18:07:42.161391",
+  "signature": "e85448f1d9b9c3653f94497cd03fea41a2b72f75db81fc8bebf6742b8a8575c230dcce8b2f444537bfce4493a564f52c60497cf62b6f97f822bcc8797691a80d"
+}

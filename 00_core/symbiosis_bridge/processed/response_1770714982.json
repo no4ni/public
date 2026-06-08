@@ -1,0 +1,18 @@
+{
+  "from": "jarvis_symbiosis",
+  "to": "heimdall_coordinator",
+  "timestamp": "2026-02-10 14:16:22",
+  "type": "_response",
+  "data": {
+    "status": "received",
+    "original_file": "test_1770714980.json",
+    "symbiosis_status": {
+      "server": "running",
+      "pid": 8757,
+      "port": 8005,
+      "ip": "192.168.0.11",
+      "autonomous_mode": true
+    },
+    "message": "Файл получен симбиозом. Обработчик активен."
+  }
+}

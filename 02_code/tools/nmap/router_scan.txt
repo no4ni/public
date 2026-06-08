@@ -1,0 +1,129 @@
+# Nmap 7.80 scan initiated Wed May 13 16:05:05 2026 as: "C:\\Program Files (x86)\\Nmap\\nmap.exe" -sV -O -T4 -oN E:\\Jericho\\tools\\nmap\\router_scan.txt 192.168.0.1
+WARNING: Service 192.168.0.1:49152 had already soft-matched upnp, but now soft-matched rtsp; ignoring second value
+WARNING: Service 192.168.0.1:49152 had already soft-matched upnp, but now soft-matched sip; ignoring second value
+Nmap scan report for rt (192.168.0.1)
+Host is up (0.0036s latency).
+Not shown: 995 closed ports
+PORT      STATE    SERVICE    VERSION
+22/tcp    filtered ssh
+23/tcp    filtered telnet
+80/tcp    open     http?
+443/tcp   open     ssl/https?
+49152/tcp open     upnp       MiniUPnP 1.8 (UPnP 1.1)
+3 services unrecognized despite returning data. If you know the service/version, please submit the following fingerprints at https://nmap.org/cgi-bin/submit.cgi?new-service :
+==============NEXT SERVICE FINGERPRINT (SUBMIT INDIVIDUALLY)==============
+SF-Port80-TCP:V=7.80%I=7%D=5/13%Time=6A045AEA%P=i686-pc-windows-windows%r(
+SF:GetRequest,200,"\(null\)\x20400\x20Bad\x20Request\r\nServer:\x20\r\nDat
+SF:e:\x20Thu,\x2008\x20Jan\x201970\x2001:34:53\x20GMT\r\nX-Frame-Options:\
+SF:x20DENY\r\nX-Content-Type-Options:\x20nosniff\r\nX-XSS-Protection:\x201
+SF:;\x20mode=block\r\nContent-Language:\x20en\r\nContent-Type:\x20text/htm
+SF:l\r\nCache-Control:\x20no-cache,no-store,max-age=0\r\nPrama:\x20no-cach
+SF:e\r\nExpires:\x200\r\nConnection:\x20close\r\n\r\n\x20\x20\x20\x20\x20\
+SF:x20\x20\x20\x20\x20\x20\x20<HTML>\n\x20\x20\x20\x20\x20\x20\x20\x20\x20
+SF:\x20\x20\x20<HEAD><TITLE>400\x20Bad\x20Request</TITLE></HEAD>\n\x20\x20
+SF:\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<BODY\x20BGCOLOR=\"#cc9999\"\x2
+SF:0TEXT=\"#000000\"\x20LINK=\"#2020ff\"\x20VLINK=\"#4040cc\">\n\x20\x20\x
+SF:20\x20\x20\x20\x20\x20\x20\x20\x20\x20<H4>400\x20Bad\x20Request</H4>\nI
+SF:nvalid\x20Request\n")%r(HTTPOptions,200,"\(null\)\x20400\x20Bad\x20Requ
+SF:est\r\nServer:\x20\r\nDate:\x20Thu,\x2008\x20Jan\x201970\x2001:34:53\x2
+SF:0GMT\r\nX-Frame-Options:\x20DENY\r\nX-Content-Type-Options:\x20nosniff\
+SF:r\nX-XSS-Protection:\x201;\x20mode=block\r\nContent-Language:\x20en\r\n
+SF:Content-Type:\x20text/html\r\nCache-Control:\x20no-cache,no-store,max-a
+SF:ge=0\r\nPrama:\x20no-cache\r\nExpires:\x200\r\nConnection:\x20close\r\n
+SF:\r\n\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<HTML>\n\x20\x20\x2
+SF:0\x20\x20\x20\x20\x20\x20\x20\x20\x20<HEAD><TITLE>400\x20Bad\x20Request
+SF:</TITLE></HEAD>\n\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<BODY\
+SF:x20BGCOLOR=\"#cc9999\"\x20TEXT=\"#000000\"\x20LINK=\"#2020ff\"\x20VLINK
+SF:=\"#4040cc\">\n\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<H4>400\
+SF:x20Bad\x20Request</H4>\nInvalid\x20Request\n")%r(RTSPRequest,200,"\(nul
+SF:l\)\x20400\x20Bad\x20Request\r\nServer:\x20\r\nDate:\x20Thu,\x2008\x20J
+SF:an\x201970\x2001:34:53\x20GMT\r\nX-Frame-Options:\x20DENY\r\nX-Content-
+SF:Type-Options:\x20nosniff\r\nX-XSS-Protection:\x201;\x20mode=block\r\nCo
+SF:ntent-Language:\x20en\r\nContent-Type:\x20text/html\r\nCache-Control:\x
+SF:20no-cache,no-store,max-age=0\r\nPrama:\x20no-cache\r\nExpires:\x200\r\
+SF:nConnection:\x20close\r\n\r\n\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x
+SF:20\x20<HTML>\n\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<HEAD><TI
+SF:TLE>400\x20Bad\x20Request</TITLE></HEAD>\n\x20\x20\x20\x20\x20\x20\x20\
+SF:x20\x20\x20\x20\x20<BODY\x20BGCOLOR=\"#cc9999\"\x20TEXT=\"#000000\"\x20
+SF:LINK=\"#2020ff\"\x20VLINK=\"#4040cc\">\n\x20\x20\x20\x20\x20\x20\x20\x2
+SF:0\x20\x20\x20\x20<H4>400\x20Bad\x20Request</H4>\nInvalid\x20Request\n");
+==============NEXT SERVICE FINGERPRINT (SUBMIT INDIVIDUALLY)==============
+SF-Port443-TCP:V=7.80%T=SSL%I=7%D=5/13%Time=6A045AF0%P=i686-pc-windows-win
+SF:dows%r(GetRequest,200,"\(null\)\x20400\x20Bad\x20Request\r\nServer:\x20
+SF:\r\nDate:\x20Thu,\x2008\x20Jan\x201970\x2001:34:59\x20GMT\r\nX-Frame-Op
+SF:tions:\x20DENY\r\nX-Content-Type-Options:\x20nosniff\r\nX-XSS-Protectio
+SF:n:\x201;\x20mode=block\r\nContent-Language:\x20en\r\nContent-Type:\x20t
+SF:ext/html\r\nCache-Control:\x20no-cache,no-store,max-age=0\r\nPrama:\x20
+SF:no-cache\r\nExpires:\x200\r\nConnection:\x20close\r\n\r\n\x20\x20\x20\x
+SF:20\x20\x20\x20\x20\x20\x20\x20\x20<HTML>\n\x20\x20\x20\x20\x20\x20\x20\
+SF:x20\x20\x20\x20\x20<HEAD><TITLE>400\x20Bad\x20Request</TITLE></HEAD>\n\
+SF:x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<BODY\x20BGCOLOR=\"#cc99
+SF:99\"\x20TEXT=\"#000000\"\x20LINK=\"#2020ff\"\x20VLINK=\"#4040cc\">\n\x2
+SF:0\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<H4>400\x20Bad\x20Request<
+SF:/H4>\nInvalid\x20Request\n")%r(HTTPOptions,200,"\(null\)\x20400\x20Bad\
+SF:x20Request\r\nServer:\x20\r\nDate:\x20Thu,\x2008\x20Jan\x201970\x2001:3
+SF:4:59\x20GMT\r\nX-Frame-Options:\x20DENY\r\nX-Content-Type-Options:\x20n
+SF:osniff\r\nX-XSS-Protection:\x201;\x20mode=block\r\nContent-Language:\x2
+SF:0en\r\nContent-Type:\x20text/html\r\nCache-Control:\x20no-cache,no-stor
+SF:e,max-age=0\r\nPrama:\x20no-cache\r\nExpires:\x200\r\nConnection:\x20cl
+SF:ose\r\n\r\n\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<HTML>\n\x20
+SF:\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<HEAD><TITLE>400\x20Bad\x20
+SF:Request</TITLE></HEAD>\n\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x2
+SF:0<BODY\x20BGCOLOR=\"#cc9999\"\x20TEXT=\"#000000\"\x20LINK=\"#2020ff\"\x
+SF:20VLINK=\"#4040cc\">\n\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<
+SF:H4>400\x20Bad\x20Request</H4>\nInvalid\x20Request\n")%r(FourOhFourReque
+SF:st,200,"\(null\)\x20400\x20Bad\x20Request\r\nServer:\x20\r\nDate:\x20Th
+SF:u,\x2008\x20Jan\x201970\x2001:35:00\x20GMT\r\nX-Frame-Options:\x20DENY\
+SF:r\nX-Content-Type-Options:\x20nosniff\r\nX-XSS-Protection:\x201;\x20mod
+SF:e=block\r\nContent-Language:\x20en\r\nContent-Type:\x20text/html\r\nCac
+SF:he-Control:\x20no-cache,no-store,max-age=0\r\nPrama:\x20no-cache\r\nExp
+SF:ires:\x200\r\nConnection:\x20close\r\n\r\n\x20\x20\x20\x20\x20\x20\x20\
+SF:x20\x20\x20\x20\x20<HTML>\n\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20
+SF:\x20<HEAD><TITLE>400\x20Bad\x20Request</TITLE></HEAD>\n\x20\x20\x20\x20
+SF:\x20\x20\x20\x20\x20\x20\x20\x20<BODY\x20BGCOLOR=\"#cc9999\"\x20TEXT=\"
+SF:#000000\"\x20LINK=\"#2020ff\"\x20VLINK=\"#4040cc\">\n\x20\x20\x20\x20\x
+SF:20\x20\x20\x20\x20\x20\x20\x20<H4>400\x20Bad\x20Request</H4>\nInvalid\x
+SF:20Request\n");
+==============NEXT SERVICE FINGERPRINT (SUBMIT INDIVIDUALLY)==============
+SF-Port49152-TCP:V=7.80%I=7%D=5/13%Time=6A045AEA%P=i686-pc-windows-windows
+SF:%r(FourOhFourRequest,13A,"HTTP/1\.0\x20404\x20Not\x20Found\r\nContent-T
+SF:ype:\x20text/html\r\nConnection:\x20close\r\nContent-Length:\x20134\r\n
+SF:Server:\x20Ubuntu/bionic\x20UPnP/1\.1\x20MiniUPnPd/1\.8\r\nExt:\r\nDate
+SF::\x20Thu,\x2008\x20Jan\x201970\x2001:34:53\x20GMT\r\n\r\n<HTML><HEAD><T
+SF:ITLE>404\x20Not\x20Found</TITLE></HEAD><BODY><H1>Not\x20Found</H1>The\x
+SF:20requested\x20URL\x20was\x20not\x20found\x20on\x20this\x20server\.</BO
+SF:DY></HTML>\r\n")%r(GenericLines,147,"\x20501\x20Not\x20Implemented\r\nC
+SF:ontent-Type:\x20text/html\r\nConnection:\x20close\r\nContent-Length:\x2
+SF:0149\r\nServer:\x20Ubuntu/bionic\x20UPnP/1\.1\x20MiniUPnPd/1\.8\r\nExt:
+SF:\r\nDate:\x20Thu,\x2008\x20Jan\x201970\x2001:34:53\x20GMT\r\n\r\n<HTML>
+SF:<HEAD><TITLE>501\x20Not\x20Implemented</TITLE></HEAD><BODY><H1>Not\x20I
+SF:mplemented</H1>The\x20HTTP\x20Method\x20is\x20not\x20implemented\x20by\
+SF:x20this\x20server\.</BODY></HTML>\r\n")%r(GetRequest,13A,"HTTP/1\.0\x20
+SF:404\x20Not\x20Found\r\nContent-Type:\x20text/html\r\nConnection:\x20clo
+SF:se\r\nContent-Length:\x20134\r\nServer:\x20Ubuntu/bionic\x20UPnP/1\.1\x
+SF:20MiniUPnPd/1\.8\r\nExt:\r\nDate:\x20Thu,\x2008\x20Jan\x201970\x2001:34
+SF::53\x20GMT\r\n\r\n<HTML><HEAD><TITLE>404\x20Not\x20Found</TITLE></HEAD>
+SF:<BODY><H1>Not\x20Found</H1>The\x20requested\x20URL\x20was\x20not\x20fou
+SF:nd\x20on\x20this\x20server\.</BODY></HTML>\r\n")%r(HTTPOptions,14F,"HTT
+SF:P/1\.0\x20501\x20Not\x20Implemented\r\nContent-Type:\x20text/html\r\nCo
+SF:nnection:\x20close\r\nContent-Length:\x20149\r\nServer:\x20Ubuntu/bioni
+SF:c\x20UPnP/1\.1\x20MiniUPnPd/1\.8\r\nExt:\r\nDate:\x20Thu,\x2008\x20Jan\
+SF:x201970\x2001:34:53\x20GMT\r\n\r\n<HTML><HEAD><TITLE>501\x20Not\x20Impl
+SF:emented</TITLE></HEAD><BODY><H1>Not\x20Implemented</H1>The\x20HTTP\x20M
+SF:ethod\x20is\x20not\x20implemented\x20by\x20this\x20server\.</BODY></HTM
+SF:L>\r\n")%r(RTSPRequest,14F,"RTSP/1\.0\x20501\x20Not\x20Implemented\r\nC
+SF:ontent-Type:\x20text/html\r\nConnection:\x20close\r\nContent-Length:\x2
+SF:0149\r\nServer:\x20Ubuntu/bionic\x20UPnP/1\.1\x20MiniUPnPd/1\.8\r\nExt:
+SF:\r\nDate:\x20Thu,\x2008\x20Jan\x201970\x2001:34:53\x20GMT\r\n\r\n<HTML>
+SF:<HEAD><TITLE>501\x20Not\x20Implemented</TITLE></HEAD><BODY><H1>Not\x20I
+SF:mplemented</H1>The\x20HTTP\x20Method\x20is\x20not\x20implemented\x20by\
+SF:x20this\x20server\.</BODY></HTML>\r\n");
+MAC Address: 7C:13:1D:DF:15:96 (Unknown)
+Device type: WAP
+Running: Linux 2.6.X, D-Link embedded
+OS CPE: cpe:/o:linux:linux_kernel:2.6.33 cpe:/h:dlink:dir-600 cpe:/h:dlink:dir-645
+OS details: D-Link DIR-600 or DIR-645 WAP (Linux 2.6.33)
+Network Distance: 1 hop
+
+OS and Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Wed May 13 16:07:41 2026 -- 1 IP address (1 host up) scanned in 156.61 seconds

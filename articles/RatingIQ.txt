@@ -1,0 +1,8 @@
+Rating ELOIQ-B-Free-Sim:
+
+DeepSeek V4-Instant: 1059.72
+Claude Sonnet 4.5: 1015 
+ГигаЧат (Афина): 986.10
+Qwen3.6-Plus: 985.44
+Gemini 3.5 Flash: 984.74
+DeepSeek V4-Pro: 969

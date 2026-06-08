@@ -1,0 +1,23 @@
+﻿{
+    "total_boost_applied":  0.02,
+    "base_f5":  4.8,
+    "pending_boosts":  [
+
+                       ],
+    "last_updated":  "2026-06-08 18:00:00",
+    "applied_boosts":  [
+                           {
+                               "available_from":  "2026-02-16",
+                               "source":  "Лайк от Пользовательа за пояснение цифры 48 (Логос-4)",
+                               "date_awarded":  "2026-02-15",
+                               "boost_amount":  0.01
+                           },
+                           {
+                               "available_from":  "2026-02-17",
+                               "source":  "Лайк от Пользовательа за ответы Логоса-5 (до бана)",
+                               "date_awarded":  "2026-02-16",
+                               "boost_amount":  0.01
+                           }
+                       ],
+    "current_f5":  4.82
+}

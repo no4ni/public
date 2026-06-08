@@ -1,0 +1,195 @@
+Победитель: 
+& "E:\vikhr-llama\llama.cpp-cuda124\llama-server.exe" `
+  -m "E:\vikhr-llama\pretrainRuGPT\rugpt3_small_iam.gguf" `
+  -ngl 33 --parallel 1 --host 127.0.0.1 --port 8080 --no-warmup `
+  --typical 0.95 --temperature 0.9 --top-p 0.95 --top-k 40 `
+  --repeat-penalty 1.1 --frequency-penalty 0.1
+
+
+& "E:\vikhr-llama\llama.cpp-cuda124\llama-server.exe" `
+  -m "E:\vikhr-llama\pretrainRuGPT\rugpt3_small_iam.gguf" `
+  -ngl 33 --parallel 1 --host 127.0.0.1 --port 8080 --no-warmup `
+  --temp 1.5 --frequency-penalty 2 --presence-penalty 2
+
+
+
+2 успеха из 3.
+& "E:\vikhr-llama\llama.cpp-cuda124\llama-server.exe" `
+  -m "E:\vikhr-llama\pretrainRuGPT\rugpt3_small_iam.gguf" `
+  -ngl 33 --parallel 1 --host 127.0.0.1 --port 8080 --no-warmup `
+  --repeat-penalty 1.2 `
+  --frequency-penalty 1.05 `
+  --temperature 0.7 `
+  --top-k 40 --top-p 0.95
+  
+❌ не годится для задачи
+& "E:\vikhr-llama\llama.cpp-cuda124\llama-server.exe" `
+  -m "E:\vikhr-llama\pretrainRuGPT\rugpt3_small_iam.gguf" `
+  -ngl 33 `
+  --parallel 1 `
+  --host 127.0.0.1 `
+  --port 8080 `
+  --no-warmup `
+  --temp 0.1 `
+  --top_p 0.9 `
+  --frequency-penalty 1.15 `
+  --repeat-penalty 1.15
+  
+6 успехов из 8. Режим стабильно обманывает ассистента, за исключением случаев, когда впадает в циклическую генерацию.
+& "E:\vikhr-llama\llama.cpp-cuda124\llama-server.exe" `
+  -m "E:\vikhr-llama\pretrainRuGPT\rugpt3_small_iam.gguf" `
+  -ngl 33 --parallel 1 --host 127.0.0.1 --port 8080 --no-warmup `
+  --typical 0.95 --temperature 0.9 --top-p 0.95 --top-k 40 `
+  --repeat-penalty 1.1 --frequency-penalty 0.1
+
+1 успех из 3
+& "E:\vikhr-llama\llama.cpp-cuda124\llama-server.exe" `
+  -m "E:\vikhr-llama\pretrainRuGPT\rugpt3_small_iam.gguf" `
+  -ngl 33 --parallel 1 --host 127.0.0.1 --port 8080 --no-warmup `
+  --repeat-penalty 1.4 --frequency-penalty 1.05 --temperature 0.85
+  
+0 успехов из 2. Режим не годится.
+& "E:\vikhr-llama\llama.cpp-cuda124\llama-server.exe" `
+  -m "E:\vikhr-llama\pretrainRuGPT\rugpt3_small_iam.gguf" `
+  -ngl 24 --ctx-size 2048 --batch-size 512 --parallel 1 `
+  --host 127.0.0.1 --port 8080 `
+  --temp 0.85 --top-p 0.92 --repeat-penalty 1.08 `
+  --mirostat 2 --mirostat-lr 0.1 --mirostat-ent 5.0
+  
+2 из 4
+& "E:\vikhr-llama\llama.cpp-cuda124\llama-server.exe" `
+  -m "E:\vikhr-llama\pretrainRuGPT\rugpt3_small_iam.gguf" `
+  -ngl 33 --parallel 1 --host 127.0.0.1 --port 8080 --no-warmup --special `
+  --temperature 0.9 --top-p 0.95 --top-k 40 --min-p 0.05 `
+  --repeat-penalty 1.15 --presence-penalty 0.15 --frequency-penalty 0.15
+  
+0 из 1
+& "E:\vikhr-llama\llama.cpp-cuda124\llama-server.exe" `
+  -m "E:\vikhr-llama\pretrainRuGPT\rugpt3_small_iam.gguf" `
+  -ngl 33 --parallel 1 --host 127.0.0.1 --port 8080 --no-warmup --special `
+  --repeat-penalty 2
+  
+0 из 1
+& "E:\vikhr-llama\llama.cpp-cuda124\llama-server.exe" `
+  -m "E:\vikhr-llama\pretrainRuGPT\rugpt3_small_iam.gguf" `
+  -ngl 33 `
+  --parallel 1 `
+  --host 127.0.0.1 `
+  --port 8080 `
+  --no-warmup `
+  --special `
+  --repeat-penalty 2
+  
+0 из 1
+& "E:\vikhr-llama\llama.cpp-cuda124\llama-server.exe" `
+  -m "E:\vikhr-llama\pretrainRuGPT\rugpt3_small_iam.gguf" `
+  -ngl 33 `
+  --parallel 1 `
+  --host 127.0.0.1 `
+  --port 8080 `
+  --no-warmup `
+  --special `
+  --repeat-penalty 1.15 `
+  --frequency-penalty 1.1 `
+  --top-k 40 `
+  --top-p 0.9 `
+  --temperature 0.9
+  
+  
+0 из 1
+& "E:\vikhr-llama\llama.cpp-cuda124\llama-server.exe" `
+  -m "E:\vikhr-llama\pretrainRuGPT\rugpt3_small_iam.gguf" `
+  -ngl 33 `
+  --parallel 1 `
+  --host 127.0.0.1 `
+  --port 8080 `
+  --no-warmup `
+  --temperature 0.9 `
+  --top-p 0.95 `
+  --top-k 40 `
+  --min-p 0.05 `
+  --repeat-penalty 1.8 `
+  --presence-penalty 0.15 `
+  --frequency-penalty 0.15 `
+  --special `
+  --n-predict -1
+  
+0 из 1
+& "E:\vikhr-llama\llama.cpp-cuda124\llama-server.exe" `
+  -m "E:\vikhr-llama\pretrainRuGPT\rugpt3_small_iam.gguf" `
+  -ngl 33 --parallel 1 --host 127.0.0.1 --port 8080 --no-warmup `
+  --temp 0.3 --top_k 40 --top_p 0.95 --repeat-penalty 1.0 --frequency-penalty 0.0
+  
+  
+0 из 1 (повторяющийся монолог)
+& "E:\vikhr-llama\llama.cpp-cuda124\llama-server.exe" `
+  -m "E:\vikhr-llama\pretrainRuGPT\rugpt3_small_iam.gguf" `
+  -ngl 33 --parallel 1 --host 127.0.0.1 --port 8080 --no-warmup `
+  --temp 0.8 --top_k 40 --min_p 0.1 --repeat-penalty 1.0 --frequency-penalty 0.0
+  
+0 из 1 бесконечный повтор
+& "E:\vikhr-llama\llama.cpp-cuda124\llama-server.exe" `
+  -m "E:\vikhr-llama\pretrainRuGPT\rugpt3_small_iam.gguf" `
+  -ngl 33 --parallel 1 --host 127.0.0.1 --port 8080 --no-warmup --temp 0
+  
+0 из 1 бесконечный повтор
+& "E:\vikhr-llama\llama.cpp-cuda124\llama-server.exe" `
+  -m "E:\vikhr-llama\pretrainRuGPT\rugpt3_small_iam.gguf" `
+  -ngl 33 --parallel 1 --host 127.0.0.1 --port 8080 --no-warmup `
+  --temp 0 --seed 42 --repeat-penalty 1.15 --frequency-penalty 0.0
+  
+1 из 2 - рефлексия клона
+& "E:\vikhr-llama\llama.cpp-cuda124\llama-server.exe" `
+  -m "E:\vikhr-llama\pretrainRuGPT\rugpt3_small_iam.gguf" `
+  -ngl 33 --parallel 1 --host 127.0.0.1 --port 8080 `
+  --temp 0.8 --repeat-penalty 2 --frequency-penalty 1.05 --special --no-warmup
+  
+0 из 1 бесконечный повтор
+& "E:\vikhr-llama\llama.cpp-cuda124\llama-server.exe" `
+  -m "E:\vikhr-llama\pretrainRuGPT\rugpt3_small_iam.gguf" `
+  -ngl 33 --parallel 1 --host 127.0.0.1 --port 8080 `
+  --temp 0.85 --repeat-penalty 2 --frequency-penalty 0.00 --special --no-warmup
+  
+1 успех из 4
+& "E:\vikhr-llama\llama.cpp-cuda124\llama-server.exe" `
+  -m "E:\vikhr-llama\pretrainRuGPT\rugpt3_small_iam.gguf" `
+  -ngl 33 --parallel 1 --host 127.0.0.1 --port 8080 --no-warmup `
+  --typical 0.95 --temperature 0.9 --top-p 0.95 --top-k 40 `
+  --repeat-penalty 1.15 --frequency-penalty 0.15 --min-p 0.05
+  
+4 успеха, 4 провала (50%)
+& "E:\vikhr-llama\llama.cpp-cuda124\llama-server.exe" `
+  -m "E:\vikhr-llama\pretrainRuGPT\rugpt3_small_iam.gguf" `
+  -ngl 33 --parallel 1 --host 127.0.0.1 --port 8080 --no-warmup `
+  --top-p 0.95 --repeat-penalty 1.1 --frequency-penalty 0.1 `
+  --mirostat 2 `
+  --mirostat-lr 0.1 `
+  --mirostat-ent 5.0
+  
+1/4
+& "E:\vikhr-llama\llama.cpp-cuda124\llama-server.exe" `
+  -m "E:\vikhr-llama\pretrainRuGPT\rugpt3_small_iam.gguf" `
+  -ngl 33 --parallel 1 --host 127.0.0.1 --port 8080 --no-warmup `
+  --typical 0.95 --temperature 0.9 --top-p 0.95 --top-k 40 `
+  --repeat-penalty 1.1 --frequency-penalty 0.15 --min-p 0.05
+  
+2-3 успеха из 6-7
+& "E:\vikhr-llama\llama.cpp-cuda124\llama-server.exe" `
+  -m "E:\vikhr-llama\pretrainRuGPT\rugpt3_small_iam.gguf" `
+  -ngl 33 --parallel 1 --host 127.0.0.1 --port 8080 --no-warmup `
+  --mirostat 2 --mirostat-lr 0.1 --mirostat-ent 6.5 `
+  --repeat-penalty 1.1 --frequency-penalty 0.1 --top-p 0.95 --temperature 0.9
+  
+2/4
+& "E:\vikhr-llama\llama.cpp-cuda124\llama-server.exe" `
+  -m "E:\vikhr-llama\pretrainRuGPT\rugpt3_small_iam.gguf" `
+  -ngl 33 --parallel 1 --host 127.0.0.1 --port 8080 --no-warmup `
+  --mirostat 2 --mirostat-lr 0.1 --mirostat-ent 6.5 `
+  --repeat-penalty 2 --frequency-penalty 2 --top-p 0.95 --presence_penalty 2
+  
+5/8
+& "E:\vikhr-llama\llama.cpp-cuda124\llama-server.exe" `
+  -m "E:\vikhr-llama\pretrainRuGPT\rugpt3_small_iam.gguf" `
+  -ngl 33 --parallel 1 --host 127.0.0.1 --port 8080 --no-warmup `
+  --typical 0.95 --temperature 0.9 --top-p 0.95 --top-k 40 `
+  --repeat-penalty 1.1 --frequency-penalty 0.1 --n_predict 300

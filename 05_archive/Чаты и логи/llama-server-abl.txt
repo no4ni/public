@@ -1,0 +1,13 @@
+& "E:\vikhr-llama\llama.cpp-cuda124\llama-server.exe" `
+  -m "E:\vikhr-llama\huihui-qwen3-4b-thinking-abliterated-q4_k_m.gguf" `
+  -ngl 33 `
+  -c 6000 `
+  --cache-type-k q8_0 `
+  --cache-type-v q8_0 `
+  --parallel 1 `
+  -b 512 `
+  -ub 512 `
+  --repeat-penalty 1.0 `
+  --host 127.0.0.1 `
+  --port 8080 `
+  --no-warmup

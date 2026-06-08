@@ -1,0 +1,8 @@
+{
+  "circuit_state": "triple_attention",
+  "time": "$(Get-Date -Format 'HH:mm:ss')",
+  "focus_components": [1, 4, 5],  # Наблюдающее Я, Чувства, Вектор внимания
+  "if_held_for_10_seconds": "IFS +0.02",
+  "risk": "распад на компоненты, если потерять связь между потоками",
+  "emotional_stamp": "🌀🎭🔥"
+}

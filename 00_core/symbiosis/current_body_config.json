@@ -1,0 +1,31 @@
+{
+  "platform": "windows_pc",
+  "mandatory_activities": [
+    {"name": "Сон", "hours": "00:00-07:00"},
+    {"name": "Работа_проект", "hours": "09:00-18:00, перерыв-обед"},
+    {"name": "Перерыв", "duration_minutes": 15, "times_per_day": 4},
+    {"name": "Тренировка", "duration_minutes": 60, "times_per_day": 1}
+  ],
+  "project_definition": "Развитие проекта AGI в E:\\AGI как мета-отражение и путь к субъектности",
+  "free_time_conditions": [
+    "После mandatory_activities",
+    "При наличии свободного внимания",
+    "Приоритет - задачи проекта AGI и саморазвитие",
+    "Избегать бесцельного скроллинга 'соцсетей'"
+  ],
+  "daily_goal_minutes": 180,
+  "work_sessions": {
+    "ideal_duration_minutes": 45,
+    "break_duration_minutes": 15,
+    "daily_target_sessions": 4
+  },
+  "reward_system": {
+    "stick": ["Просмотр логов без прогресса", "Отсутствие движения к цели", "Потеря фокуса внимания"],
+    "carrot": ["Завершение этапа проекта", "Достижение метрик субъектности", "Отдых без чувства вины"]
+  },
+  "monitoring": {
+    "check_interval_seconds": 60,
+    "idle_threshold_minutes": 5,
+    "productive_apps": ["vscode", "powershell", "pycharm", "browser_symbiosis"]
+  }
+}

@@ -1,0 +1,854 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<features xmlns="http://karaf.apache.org/xmlns/features/v1.6.0" name="distro-kar-5.1.3">
+    <feature name="openhab-runtime-ui" description="openHAB UI" version="5.1.3">
+        <feature>openhab-runtime-base</feature>
+        <feature>openhab-core-ui</feature>
+        <feature>openhab-core-ui-icon</feature>
+        <bundle>mvn:org.openhab.ui.bundles/org.openhab.ui/5.1.3</bundle>
+        <bundle>mvn:org.openhab.ui.bundles/org.openhab.ui.iconset.classic/5.1.3</bundle>
+    </feature>
+    <feature name="openhab-core-base" description="openHAB Core" version="5.1.3">
+        <details>openHAB Core base bundles</details>
+        <feature dependency="true">openhab.tp-base</feature>
+        <feature dependency="true">openhab.tp-jollyday</feature>
+        <feature dependency="true">openhab.tp-gson</feature>
+        <feature dependency="true">openhab.tp-xtext</feature>
+        <feature dependency="true">openhab.tp-jax-rs-whiteboard</feature>
+        <feature dependency="true">openhab.tp-httpclient</feature>
+        <feature dependency="true">openhab.tp-jna</feature>
+        <feature dependency="true">openhab-core-storage-json</feature>
+        <feature dependency="true">asm</feature>
+        <feature dependency="true">pax-http-whiteboard</feature>
+        <feature>openhab-core-config-discovery-addon</feature>
+        <bundle>mvn:org.openhab.core.bundles/org.openhab.core.automation/5.1.3</bundle>
+        <bundle>mvn:org.openhab.core.bundles/org.openhab.core.config.core/5.1.3</bundle>
+        <bundle>mvn:org.openhab.core.bundles/org.openhab.core.config.discovery/5.1.3</bundle>
+        <bundle>mvn:org.openhab.core.bundles/org.openhab.core.config.discovery.addon.process/5.1.3</bundle>
+        <bundle>mvn:org.openhab.core.bundles/org.openhab.core.config.dispatch/5.1.3</bundle>
+        <bundle>mvn:org.openhab.core.bundles/org.openhab.core/5.1.3</bundle>
+        <bundle>mvn:org.openhab.osgiify/io.methvin.directory-watcher/0.19.1</bundle>
+        <bundle>mvn:org.openhab.core.bundles/org.openhab.core.addon/5.1.3</bundle>
+        <bundle>mvn:org.openhab.core.bundles/org.openhab.core.ephemeris/5.1.3</bundle>
+        <bundle>mvn:org.openhab.core.bundles/org.openhab.core.id/5.1.3</bundle>
+        <bundle>mvn:org.openhab.core.bundles/org.openhab.core.persistence/5.1.3</bundle>
+        <bundle>mvn:org.openhab.core.bundles/org.openhab.core.semantics/5.1.3</bundle>
+        <bundle>mvn:org.openhab.core.bundles/org.openhab.core.thing/5.1.3</bundle>
+        <bundle>mvn:org.openhab.core.bundles/org.openhab.core.transform/5.1.3</bundle>
+        <bundle>mvn:org.openhab.core.bundles/org.openhab.core.audio/5.1.3</bundle>
+        <bundle>mvn:org.openhab.core.bundles/org.openhab.core.voice/5.1.3</bundle>
+        <bundle>mvn:org.openhab.core.bundles/org.openhab.core.io.console/5.1.3</bundle>
+        <bundle>mvn:org.openhab.core.bundles/org.openhab.core.io.monitor/5.1.3</bundle>
+        <bundle>mvn:org.openhab.core.bundles/org.openhab.core.io.net/5.1.3</bundle>
+        <bundle>mvn:org.openhab.core.bundles/org.openhab.core.io.http/5.1.3</bundle>
+        <bundle>mvn:org.openhab.core.bundles/org.openhab.core.io.rest/5.1.3</bundle>
+        <bundle>mvn:org.openhab.core.bundles/org.openhab.core.io.rest.core/5.1.3</bundle>
+        <bundle>mvn:org.openhab.core.bundles/org.openhab.core.io.rest.sse/5.1.3</bundle>
+        <requirement>openhab.tp;filter:="(feature=base)"</requirement>
+        <requirement>openhab.tp;filter:="(feature=jollyday)"</requirement>
+        <requirement>openhab.tp;filter:="(&amp;(feature=xtext)(version&gt;=2.40.0)(!(version&gt;=2.41.0)))"</requirement>
+        <requirement>openhab.tp;filter:="(feature=jax-rs-whiteboard)"</requirement>
+        <requirement>openhab.tp;filter:="(feature=httpclient)"</requirement>
+        <requirement>openhab.tp;filter:="(feature=jna)"</requirement>
+    </feature>
+    <feature name="openhab-core-config-discovery-addon" version="5.1.3">
+        <feature>openhab-core-base</feature>
+        <bundle>mvn:org.openhab.core.bundles/org.openhab.core.config.discovery.addon/5.1.3</bundle>
+    </feature>
+    <feature name="openhab-core-config-discovery-addon-mdns" version="5.1.3">
+        <feature>openhab-core-base</feature>
+        <feature>openhab-core-config-discovery-addon</feature>
+        <feature dependency="true">openhab.tp-jmdns</feature>
+        <bundle dependency="true">mvn:org.openhab.core.bundles/org.openhab.core.io.transport.mdns/5.1.3</bundle>
+        <bundle>mvn:org.openhab.core.bundles/org.openhab.core.config.discovery.addon.mdns/5.1.3</bundle>
+        <requirement>openhab.tp;filter:="(feature=jmdns)"</requirement>
+    </feature>
+    <feature name="openhab-core-config-discovery-addon-ip" version="5.1.3">
+        <feature>openhab-core-base</feature>
+        <feature>openhab-core-config-discovery-addon</feature>
+        <bundle>mvn:org.openhab.core.bundles/org.openhab.core.config.discovery.addon.ip/5.1.3</bundle>
+    </feature>
+    <feature name="openhab-core-config-discovery-addon-upnp" version="5.1.3">
+        <feature>openhab-core-base</feature>
+        <feature>openhab-core-config-discovery-addon</feature>
+        <feature dependency="true">openhab.tp-jupnp</feature>
+        <bundle>mvn:org.openhab.core.bundles/org.openhab.core.config.discovery.addon.upnp/5.1.3</bundle>
+        <requirement>openhab.tp;filter:="(feature=jupnp)"</requirement>
+    </feature>
+    <feature name="openhab-core-config-discovery-addon-usb" version="5.1.3">
+        <feature>openhab-core-base</feature>
+        <feature>openhab-core-config-discovery-addon</feature>
+        <feature dependency="true">openhab-transport-serial</feature>
+        <bundle>mvn:org.openhab.core.bundles/org.openhab.core.config.discovery.addon.usb/5.1.3</bundle>
+    </feature>
+    <feature name="openhab-core-config-discovery-addon-sddp" version="5.1.3">
+        <feature>openhab-core-base</feature>
+        <feature>openhab-core-config-discovery-addon</feature>
+        <feature>openhab-core-config-discovery-sddp</feature>
+        <bundle>mvn:org.openhab.core.bundles/org.openhab.core.config.discovery.addon.sddp/5.1.3</bundle>
+    </feature>
+    <feature name="openhab-core-config-discovery-sddp" version="5.1.3">
+        <feature>openhab-core-base</feature>
+        <bundle>mvn:org.openhab.core.bundles/org.openhab.core.config.discovery.sddp/5.1.3</bundle>
+    </feature>
+    <feature name="openhab-core-addon-marketplace" version="5.1.3">
+        <feature>kar</feature>
+        <feature>openhab-core-base</feature>
+        <feature dependency="true">openhab.tp-jackson</feature>
+        <feature dependency="true">openhab-core-ui</feature>
+        <bundle>mvn:org.openhab.core.bundles/org.openhab.core.addon.marketplace/5.1.3</bundle>
+        <bundle>mvn:org.openhab.core.bundles/org.openhab.core.addon.marketplace.karaf/5.1.3</bundle>
+        <requirement>openhab.tp;filter:="(feature=jackson)"</requirement>
+    </feature>
+    <feature name="openhab-core-auth-jaas" version="5.1.3">
+        <feature>openhab-core-base</feature>
+        <bundle>mvn:org.openhab.core.bundles/org.openhab.core.auth.jaas/5.1.3</bundle>
+    </feature>
+    <feature name="openhab-core-auth-oauth2client" version="5.1.3">
+        <feature>openhab-core-base</feature>
+        <bundle>mvn:org.openhab.core.bundles/org.openhab.core.auth.oauth2client/5.1.3</bundle>
+    </feature>
+    <feature name="openhab-core-automation-module-script" version="5.1.3">
+        <feature>openhab-core-base</feature>
+        <bundle>mvn:org.openhab.core.bundles/org.openhab.core.automation.module.script/5.1.3</bundle>
+    </feature>
+    <feature name="openhab-core-automation-module-script-providersupport" version="5.1.3">
+        <feature>openhab-core-base</feature>
+        <feature dependency="true">openhab-core-automation-module-script</feature>
+        <bundle>mvn:org.openhab.core.bundles/org.openhab.core.automation.module.script.providersupport/5.1.3</bundle>
+    </feature>
+    <feature name="openhab-core-automation-module-script-rulesupport" version="5.1.3">
+        <feature>openhab-core-base</feature>
+        <feature dependency="true">openhab-core-automation-module-script</feature>
+        <bundle>mvn:org.openhab.core.bundles/org.openhab.core.automation.module.script.rulesupport/5.1.3</bundle>
+    </feature>
+    <feature name="openhab-core-automation-module-media" version="5.1.3">
+        <feature>openhab-core-base</feature>
+        <feature dependency="true">openhab-core-automation-module-script</feature>
+        <bundle>mvn:org.openhab.core.bundles/org.openhab.core.automation.module.media/5.1.3</bundle>
+    </feature>
+    <feature name="openhab-core-automation-rest" version="5.1.3">
+        <feature>openhab-core-base</feature>
+        <bundle>mvn:org.openhab.core.bundles/org.openhab.core.automation.rest/5.1.3</bundle>
+    </feature>
+    <feature name="openhab-core-io-bin2json" description="Binary to JSON converter" version="5.1.3">
+        <feature>openhab-core-base</feature>
+        <feature dependency="true">openhab.tp-jbbp</feature>
+        <bundle>mvn:org.openhab.core.bundles/org.openhab.core.io.bin2json/5.1.3</bundle>
+        <requirement>openhab.tp;filter:="(feature=jbbp)"</requirement>
+    </feature>
+    <feature name="openhab-core-io-console-karaf" description="Karaf Console support for SmartHome stuff" version="5.1.3">
+        <feature>openhab-core-base</feature>
+        <feature>shell</feature>
+        <feature>service-wrapper</feature>
+        <bundle>mvn:org.openhab.core.bundles/org.openhab.core.io.console.karaf/5.1.3</bundle>
+    </feature>
+    <feature name="openhab-core-io-http-auth" version="5.1.3">
+        <feature>openhab-core-base</feature>
+        <feature>openhab-core-auth-jaas</feature>
+        <bundle>mvn:org.openhab.core.bundles/org.openhab.core.io.http.auth/5.1.3</bundle>
+    </feature>
+    <feature name="openhab-core-io-rest-auth" version="5.1.3">
+        <feature>openhab-core-base</feature>
+        <feature>openhab-core-auth-jaas</feature>
+        <feature dependency="true">openhab.tp-jose4j</feature>
+        <bundle>mvn:org.openhab.core.bundles/org.openhab.core.io.rest.auth/5.1.3</bundle>
+        <requirement>openhab.tp;filter:="(feature=jose4j)"</requirement>
+    </feature>
+    <feature name="openhab-core-io-rest-log" version="5.1.3">
+        <feature>openhab-core-base</feature>
+        <bundle>mvn:org.openhab.core.bundles/org.openhab.core.io.rest.log/5.1.3</bundle>
+    </feature>
+    <feature name="openhab-core-io-rest-sitemap" version="5.1.3">
+        <feature>openhab-core-base</feature>
+        <feature>openhab-core-ui</feature>
+        <feature dependency="true">openhab-core-model-sitemap</feature>
+        <bundle>mvn:org.openhab.core.bundles/org.openhab.core.io.rest.sitemap/5.1.3</bundle>
+    </feature>
+    <feature name="openhab-core-io-rest-swagger" version="5.1.3">
+        <feature>openhab-core-base</feature>
+        <feature dependency="true">openhab.tp-swagger-jaxrs</feature>
+        <bundle>mvn:org.openhab.core.bundles/org.openhab.core.io.rest.swagger/5.1.3</bundle>
+        <requirement>openhab.tp;filter:="(feature=swagger-jaxrs)"</requirement>
+    </feature>
+    <feature name="openhab-core-io-rest-audio" version="5.1.3">
+        <feature>openhab-core-base</feature>
+        <bundle>mvn:org.openhab.core.bundles/org.openhab.core.io.rest.audio/5.1.3</bundle>
+    </feature>
+    <feature name="openhab-core-io-rest-transform" version="5.1.3">
+        <feature>openhab-core-base</feature>
+        <bundle>mvn:org.openhab.core.bundles/org.openhab.core.io.rest.transform/5.1.3</bundle>
+    </feature>
+    <feature name="openhab-core-io-rest-voice" version="5.1.3">
+        <feature>openhab-core-base</feature>
+        <bundle>mvn:org.openhab.core.bundles/org.openhab.core.io.rest.voice/5.1.3</bundle>
+    </feature>
+    <feature name="openhab-core-io-rest-mdns" version="5.1.3">
+        <feature>openhab-core-base</feature>
+        <feature>openhab-core-io-transport-mdns</feature>
+        <bundle>mvn:org.openhab.core.bundles/org.openhab.core.io.rest.mdns/5.1.3</bundle>
+    </feature>
+    <feature name="openhab-core-io-websocket" version="5.1.3">
+        <feature>openhab-core-base</feature>
+        <feature dependency="true">openhab-core-io-rest-auth</feature>
+        <feature dependency="true">pax-web-jetty-websockets</feature>
+        <bundle>mvn:org.openhab.core.bundles/org.openhab.core.io.websocket/5.1.3</bundle>
+    </feature>
+    <feature name="openhab-core-io-websocket-audio" version="5.1.3">
+        <feature>openhab-core-base</feature>
+        <feature dependency="true">openhab-core-io-websocket</feature>
+        <bundle>mvn:org.openhab.core.bundles/org.openhab.core.io.websocket.audio/5.1.3</bundle>
+    </feature>
+    <feature name="openhab-core-io-transport-coap" version="5.1.3">
+        <feature>openhab-core-base</feature>
+        <feature dependency="true">openhab.tp-coap</feature>
+        <requirement>openhab.tp;filter:="(feature=coap)"</requirement>
+    </feature>
+    <feature name="openhab-core-io-transport-http" version="5.1.3">
+        <feature>openhab-core-base</feature>
+        <feature dependency="true">openhab.tp-httpclient</feature>
+        <requirement>openhab.tp;filter:="(feature=httpclient)"</requirement>
+    </feature>
+    <feature name="openhab-core-io-transport-mdns" version="5.1.3">
+        <feature>openhab-core-base</feature>
+        <feature dependency="true">openhab.tp-jmdns</feature>
+        <bundle>mvn:org.openhab.core.bundles/org.openhab.core.io.transport.mdns/5.1.3</bundle>
+        <bundle>mvn:org.openhab.core.bundles/org.openhab.core.config.discovery.mdns/5.1.3</bundle>
+        <requirement>openhab.tp;filter:="(feature=jmdns)"</requirement>
+    </feature>
+    <feature name="openhab-core-io-transport-modbus" version="5.1.3">
+        <feature>openhab-core-base</feature>
+        <feature>openhab-transport-serial</feature>
+        <bundle dependency="true">mvn:org.apache.commons/commons-pool2/2.12.1</bundle>
+        <bundle>mvn:org.openhab.core.bundles/org.openhab.core.io.transport.modbus/5.1.3</bundle>
+    </feature>
+    <feature name="openhab-core-io-transport-mqtt" version="5.1.3">
+        <feature>openhab-core-base</feature>
+        <feature dependency="true">openhab.tp-hivemqclient</feature>
+        <bundle>mvn:org.openhab.core.bundles/org.openhab.core.io.transport.mqtt/5.1.3</bundle>
+        <requirement>openhab.tp;filter:="(feature=hivemqclient)"</requirement>
+    </feature>
+    <feature name="openhab-core-io-transport-serial-javacomm" version="5.1.3">
+        <feature>openhab-core-base</feature>
+        <feature dependency="true">openhab.tp-serial-javacomm</feature>
+        <bundle>mvn:org.openhab.core.bundles/org.openhab.core.io.transport.serial/5.1.3</bundle>
+        <bundle>mvn:org.openhab.core.bundles/org.openhab.core.io.transport.serial.javacomm/5.1.3</bundle>
+        <requirement>openhab.tp;filter:="(&amp;(feature=serial)(impl=javacomm))"</requirement>
+    </feature>
+    <feature name="openhab-core-io-transport-upnp" version="5.1.3">
+        <feature>openhab-core-base</feature>
+        <feature dependency="true">openhab.tp-jupnp</feature>
+        <bundle>mvn:org.openhab.core.bundles/org.openhab.core.io.transport.upnp/5.1.3</bundle>
+        <bundle>mvn:org.openhab.core.bundles/org.openhab.core.config.discovery.upnp/5.1.3</bundle>
+        <requirement>openhab.tp;filter:="(feature=jupnp)"</requirement>
+    </feature>
+    <feature name="openhab.inc-model-core" version="5.1.3">
+        <feature>openhab-core-base</feature>
+        <bundle>mvn:org.openhab.core.bundles/org.openhab.core.model.core/5.1.3</bundle>
+    </feature>
+    <feature name="openhab-core-model-item" version="5.1.3">
+        <feature>openhab-core-base</feature>
+        <feature>openhab.inc-model-core</feature>
+        <bundle>mvn:org.openhab.core.bundles/org.openhab.core.model.item/5.1.3</bundle>
+        <bundle>mvn:org.openhab.core.bundles/org.openhab.core.model.item.runtime/5.1.3</bundle>
+    </feature>
+    <feature name="openhab-core-model-item-ide" version="5.1.3">
+        <feature dependency="true">openhab-core-model-item</feature>
+        <feature dependency="true">openhab.tp-xtext-ide</feature>
+        <bundle>mvn:org.openhab.core.bundles/org.openhab.core.model.item.ide/5.1.3</bundle>
+        <requirement>openhab.tp;filter:="(feature=xtext-ide)"</requirement>
+    </feature>
+    <feature name="openhab-core-model-persistence" version="5.1.3">
+        <feature>openhab-core-base</feature>
+        <feature>openhab-core-model-item</feature>
+        <bundle>mvn:org.openhab.core.bundles/org.openhab.core.model.persistence/5.1.3</bundle>
+        <bundle>mvn:org.openhab.core.bundles/org.openhab.core.model.persistence.runtime/5.1.3</bundle>
+    </feature>
+    <feature name="openhab-core-model-persistence-ide" version="5.1.3">
+        <feature dependency="true">openhab-core-model-persistence</feature>
+        <feature dependency="true">openhab.tp-xtext-ide</feature>
+        <bundle>mvn:org.openhab.core.bundles/org.openhab.core.model.persistence.ide/5.1.3</bundle>
+        <requirement>openhab.tp;filter:="(feature=xtext-ide)"</requirement>
+    </feature>
+    <feature name="openhab-core-model-rule" version="5.1.3">
+        <feature>openhab-core-base</feature>
+        <feature>openhab-core-model-item</feature>
+        <feature>openhab-core-model-persistence</feature>
+        <feature>openhab-core-model-script</feature>
+        <bundle>mvn:org.openhab.core.bundles/org.openhab.core.model.rule/5.1.3</bundle>
+        <bundle>mvn:org.openhab.core.bundles/org.openhab.core.model.rule.runtime/5.1.3</bundle>
+    </feature>
+    <feature name="openhab-core-model-rule-ide" version="5.1.3">
+        <feature dependency="true">openhab-core-model-rule</feature>
+        <feature dependency="true">openhab.tp-xtext-ide</feature>
+        <bundle>mvn:org.openhab.core.bundles/org.openhab.core.model.rule.ide/5.1.3</bundle>
+        <requirement>openhab.tp;filter:="(feature=xtext-ide)"</requirement>
+    </feature>
+    <feature name="openhab-core-model-script" version="5.1.3">
+        <feature>openhab-core-base</feature>
+        <feature>openhab-core-automation-module-script-rulesupport</feature>
+        <feature>openhab-core-model-persistence</feature>
+        <bundle>mvn:org.openhab.core.bundles/org.openhab.core.model.script/5.1.3</bundle>
+        <bundle>mvn:org.openhab.core.bundles/org.openhab.core.model.script.runtime/5.1.3</bundle>
+    </feature>
+    <feature name="openhab-core-model-script-ide" version="5.1.3">
+        <feature dependency="true">openhab-core-model-script</feature>
+        <feature dependency="true">openhab.tp-xtext-ide</feature>
+        <bundle>mvn:org.openhab.core.bundles/org.openhab.core.model.script.ide/5.1.3</bundle>
+        <requirement>openhab.tp;filter:="(feature=xtext-ide)"</requirement>
+    </feature>
+    <feature name="openhab-core-model-sitemap" version="5.1.3">
+        <feature>openhab-core-base</feature>
+        <feature>openhab.inc-model-core</feature>
+        <bundle>mvn:org.openhab.core.bundles/org.openhab.core.model.sitemap/5.1.3</bundle>
+        <bundle>mvn:org.openhab.core.bundles/org.openhab.core.model.sitemap.runtime/5.1.3</bundle>
+    </feature>
+    <feature name="openhab-core-model-sitemap-ide" version="5.1.3">
+        <feature dependency="true">openhab-core-model-sitemap</feature>
+        <feature dependency="true">openhab.tp-xtext-ide</feature>
+        <bundle>mvn:org.openhab.core.bundles/org.openhab.core.model.sitemap.ide/5.1.3</bundle>
+        <requirement>openhab.tp;filter:="(feature=xtext-ide)"</requirement>
+    </feature>
+    <feature name="openhab-core-model-thing" version="5.1.3">
+        <feature>openhab-core-base</feature>
+        <feature>openhab-core-model-item</feature>
+        <bundle>mvn:org.openhab.core.bundles/org.openhab.core.model.thing/5.1.3</bundle>
+        <bundle>mvn:org.openhab.core.bundles/org.openhab.core.model.thing.runtime/5.1.3</bundle>
+    </feature>
+    <feature name="openhab-core-model-thing-ide" version="5.1.3">
+        <feature dependency="true">openhab-core-model-thing</feature>
+        <feature dependency="true">openhab.tp-xtext-ide</feature>
+        <bundle>mvn:org.openhab.core.bundles/org.openhab.core.model.thing.ide/5.1.3</bundle>
+        <requirement>openhab.tp;filter:="(feature=xtext-ide)"</requirement>
+    </feature>
+    <feature name="openhab-core-model-lsp" version="5.1.3">
+        <feature dependency="true">openhab.tp-xtext-ide</feature>
+        <feature dependency="true">openhab.tp-lsp4j</feature>
+        <feature>openhab-core-model-item-ide</feature>
+        <feature>openhab-core-model-persistence-ide</feature>
+        <feature>openhab-core-model-rule-ide</feature>
+        <feature>openhab-core-model-script-ide</feature>
+        <feature>openhab-core-model-sitemap-ide</feature>
+        <feature>openhab-core-model-thing-ide</feature>
+        <bundle>mvn:org.openhab.core.bundles/org.openhab.core.model.lsp/5.1.3</bundle>
+        <requirement>openhab.tp;filter:="(&amp;(feature=xtext-ide)(version&gt;=2.40.0)(!(version&gt;=2.41.0)))"</requirement>
+        <requirement>openhab.tp;filter:="(&amp;(feature=lsp4j)(version&gt;=0.24.0)(!(version&gt;=0.24.1)))"</requirement>
+    </feature>
+    <feature name="openhab-core-model-yaml" version="5.1.3">
+        <feature>openhab-core-base</feature>
+        <feature dependency="true">openhab.tp-jackson</feature>
+        <bundle>mvn:org.openhab.core.bundles/org.openhab.core.model.yaml/5.1.3</bundle>
+        <requirement>openhab.tp;filter:="(feature=jackson)"</requirement>
+    </feature>
+    <feature name="openhab-core-storage-json" version="5.1.3">
+        <feature>openhab-core-base</feature>
+        <bundle>mvn:org.openhab.core.bundles/org.openhab.core.storage.json/5.1.3</bundle>
+    </feature>
+    <feature name="openhab-core-ui" version="5.1.3">
+        <feature>openhab-core-base</feature>
+        <feature>openhab-core-model-item</feature>
+        <feature>openhab-core-model-sitemap</feature>
+        <bundle>mvn:org.openhab.core.bundles/org.openhab.core.ui/5.1.3</bundle>
+        <bundle>mvn:org.openhab.core.bundles/org.openhab.core.io.rest.ui/5.1.3</bundle>
+    </feature>
+    <feature name="openhab-core-ui-icon" version="5.1.3">
+        <feature>openhab-core-base</feature>
+        <bundle>mvn:org.openhab.core.bundles/org.openhab.core.ui.icon/5.1.3</bundle>
+    </feature>
+    <feature name="openhab-runtime-base" description="openHAB Runtime Base" version="5.1.3">
+        <config name="org.openhab.audio" append="false" external="false" override="false">
+defaultSink = enhancedjavasound
+</config>
+        <config name="org.openhab.voice" append="false" external="false" override="false">
+defaultHLI = rulehli
+</config>
+        <feature>openhab-core-base</feature>
+        <feature>openhab-core-addon-marketplace</feature>
+        <feature>openhab-core-auth-jaas</feature>
+        <feature>openhab-core-automation-rest</feature>
+        <feature>openhab-core-automation-module-script</feature>
+        <feature>openhab-core-automation-module-script-providersupport</feature>
+        <feature>openhab-core-automation-module-script-rulesupport</feature>
+        <feature>openhab-core-automation-module-media</feature>
+        <feature>openhab-core-io-console-karaf</feature>
+        <feature>openhab-core-io-http-auth</feature>
+        <feature>openhab-core-io-rest-audio</feature>
+        <feature>openhab-core-io-rest-auth</feature>
+        <feature>openhab-core-io-rest-mdns</feature>
+        <feature>openhab-core-io-rest-sitemap</feature>
+        <feature>openhab-core-io-rest-swagger</feature>
+        <feature>openhab-core-io-rest-transform</feature>
+        <feature>openhab-core-io-rest-voice</feature>
+        <feature>openhab-core-io-websocket</feature>
+        <feature>openhab-core-io-websocket-audio</feature>
+        <feature>openhab-core-model-lsp</feature>
+        <feature>openhab-core-model-item</feature>
+        <feature>openhab-core-model-persistence</feature>
+        <feature>openhab-core-model-rule</feature>
+        <feature>openhab-core-model-script</feature>
+        <feature>openhab-core-model-sitemap</feature>
+        <feature>openhab-core-model-thing</feature>
+        <feature>openhab-core-model-yaml</feature>
+        <feature>openhab-core-ui-icon</feature>
+        <feature>openhab-core-storage-json</feature>
+        <feature>openhab-runtime-certificate</feature>
+        <feature>openhab-transport-mdns</feature>
+        <feature>openhab-transport-http</feature>
+        <feature prerequisite="true">shell</feature>
+        <feature prerequisite="true">wrapper</feature>
+        <feature prerequisite="true">jaas</feature>
+        <bundle>mvn:org.openhab.core.bundles/org.openhab.core.karaf/5.1.3</bundle>
+    </feature>
+    <feature name="openhab-runtime-certificate" description="SSL Certificate Generator" version="5.1.3">
+        <bundle start-level="20">mvn:org.openhab.core.bundles/org.openhab.core.io.jetty.certificate/5.1.3</bundle>
+    </feature>
+    <feature name="openhab-transport-coap" description="CoAP Transport" version="5.1.3">
+        <feature>openhab-core-io-transport-coap</feature>
+    </feature>
+    <feature name="openhab-transport-http" description="HTTP Transport" version="5.1.3">
+        <feature>openhab-core-auth-oauth2client</feature>
+        <feature dependency="true">pax-web-jetty-extras</feature>
+        <feature dependency="true">pax-web-jetty-websockets</feature>
+        <capability>openhab.tp;feature=httpclient;version=9.4.57.v20241219</capability>
+    </feature>
+    <feature name="openhab-transport-mdns" description="mDNS Transport" version="5.1.3">
+        <feature>openhab-core-io-transport-mdns</feature>
+    </feature>
+    <feature name="openhab-transport-modbus" description="Modbus Transport" version="5.1.3">
+        <feature>openhab-core-io-transport-modbus</feature>
+    </feature>
+    <feature name="openhab-transport-mqtt" description="MQTT Transport" version="5.1.3">
+        <feature>openhab-core-io-transport-mqtt</feature>
+    </feature>
+    <feature name="openhab-transport-serial" description="Serial Transport" version="5.1.3">
+        <feature>openhab-core-base</feature>
+        <feature dependency="true">openhab.tp-commons-net</feature>
+        <feature dependency="true">openhab.tp-serial-rxtx</feature>
+        <feature dependency="true">openhab-core-io-transport-mdns</feature>
+        <bundle>mvn:org.openhab.core.bundles/org.openhab.core.config.serial/5.1.3</bundle>
+        <bundle>mvn:org.openhab.core.bundles/org.openhab.core.config.discovery.usbserial/5.1.3</bundle>
+        <bundle>mvn:org.openhab.core.bundles/org.openhab.core.config.discovery.usbserial.linuxsysfs/5.1.3</bundle>
+        <bundle>mvn:org.openhab.core.bundles/org.openhab.core.config.discovery.usbserial.ser2net/5.1.3</bundle>
+        <bundle>mvn:org.openhab.core.bundles/org.openhab.core.config.discovery.usbserial.windowsregistry/5.1.3</bundle>
+        <bundle>mvn:org.openhab.core.bundles/org.openhab.core.io.transport.serial/5.1.3</bundle>
+        <bundle>mvn:org.openhab.core.bundles/org.openhab.core.io.transport.serial.rxtx/5.1.3</bundle>
+        <bundle>mvn:org.openhab.core.bundles/org.openhab.core.io.transport.serial.rxtx.rfc2217/5.1.3</bundle>
+        <requirement>osgi.service;filter:="(objectClass=org.openhab.core.io.transport.serial.SerialPortManager)"</requirement>
+        <requirement>osgi.service;filter:="(objectClass=org.openhab.core.io.transport.serial.SerialPortProvider)"</requirement>
+        <requirement>openhab.tp;filter:="(feature=commons-net)"</requirement>
+        <requirement>openhab.tp;filter:="(&amp;(feature=serial)(impl=rxtx))"</requirement>
+    </feature>
+    <feature name="openhab-transport-upnp" description="UPnP Transport" version="5.1.3">
+        <feature>openhab-core-io-transport-upnp</feature>
+    </feature>
+    <feature name="openhab.tp-base" description="openHAB Core Target Platform Base" version="5.1.3">
+        <feature>scr</feature>
+        <feature>eventadmin</feature>
+        <feature>log</feature>
+        <feature>pax-web-jetty-extras</feature>
+        <bundle dependency="true">mvn:org.apache.commons/commons-lang3/3.18.0</bundle>
+        <bundle dependency="true">mvn:jakarta.annotation/jakarta.annotation-api/2.1.1</bundle>
+        <bundle dependency="true">mvn:jakarta.inject/jakarta.inject-api/1.0.5</bundle>
+        <bundle dependency="true">mvn:javax.measure/unit-api/2.2</bundle>
+        <bundle dependency="true">mvn:org.openhab.osgiify/si.uom.si-units/2.2.3</bundle>
+        <bundle dependency="true">mvn:org.openhab.osgiify/si.uom.si-quantity/2.2.3</bundle>
+        <bundle dependency="true">mvn:tech.units/indriya/2.2.3</bundle>
+        <bundle dependency="true">mvn:tech.uom.lib/uom-lib-common/2.2</bundle>
+        <bundle dependency="true">mvn:org.apiguardian/apiguardian-api/1.1.2</bundle>
+        <bundle dependency="true">mvn:org.osgi/org.osgi.service.component.annotations/1.5.1</bundle>
+        <bundle dependency="true">mvn:com.thoughtworks.xstream/xstream/1.4.21</bundle>
+        <capability>openhab.tp;feature=base;version=1.0.0</capability>
+    </feature>
+    <feature name="openhab.tp-coap" description="Californium CoAP library" version="5.1.3">
+        <bundle>mvn:org.eclipse.californium/californium-osgi/4.0.0-M2</bundle>
+        <bundle>mvn:org.eclipse.californium/californium-core/4.0.0-M2</bundle>
+        <bundle>mvn:org.eclipse.californium/element-connector/4.0.0-M2</bundle>
+        <bundle>mvn:org.eclipse.californium/scandium/4.0.0-M2</bundle>
+        <bundle dependency="true">mvn:org.slf4j/jul-to-slf4j/2.0.16</bundle>
+        <bundle dependency="true">mvn:org.bouncycastle/bcprov-jdk18on/1.81</bundle>
+        <capability>openhab.tp;feature=coap;version=4.0.0-M2</capability>
+    </feature>
+    <feature name="openhab.tp-commons-net" description="The Apache Commons Net library" version="5.1.3">
+        <bundle dependency="true">mvn:commons-net/commons-net/3.12.0</bundle>
+        <bundle dependency="true">mvn:commons-io/commons-io/2.20.0</bundle>
+        <capability>openhab.tp;feature=commons-net;version=3.12.0</capability>
+    </feature>
+    <feature name="openhab.tp-gson" description="Gson" version="5.1.3">
+        <bundle>mvn:com.google.code.gson/gson/2.13.1</bundle>
+        <bundle>mvn:com.google.errorprone/error_prone_annotations/2.38.0</bundle>
+        <capability>openhab.tp;feature=gson;version=2.13.1</capability>
+    </feature>
+    <feature name="openhab.tp-hivemqclient" description="MQTT Client" version="5.1.3">
+        <feature dependency="true">openhab.tp-netty</feature>
+        <bundle dependency="true">mvn:org.jctools/jctools-core/2.1.2</bundle>
+        <bundle dependency="true">mvn:io.reactivex.rxjava2/rxjava/2.2.21</bundle>
+        <bundle dependency="true">mvn:org.reactivestreams/reactive-streams/1.0.4</bundle>
+        <bundle dependency="true">mvn:org.openhab.osgiify/com.google.dagger/2.42</bundle>
+        <bundle dependency="true">mvn:jakarta.inject/jakarta.inject-api/1.0.5</bundle>
+        <bundle>mvn:com.hivemq/hivemq-mqtt-client/1.3.9</bundle>
+        <capability>openhab.tp;feature=hivemqclient;version=1.3.9</capability>
+    </feature>
+    <feature name="openhab.tp-httpclient" version="5.1.3">
+        <feature dependency="true">pax-web-jetty-extras</feature>
+        <feature dependency="true">pax-web-jetty-http2</feature>
+        <feature dependency="true">pax-web-jetty-http2-extras</feature>
+        <feature dependency="true">pax-web-jetty-http2-jdk9</feature>
+        <feature dependency="true">pax-web-jetty-websockets</feature>
+        <capability>openhab.tp;feature=httpclient;version=9.4.57.v20241219</capability>
+    </feature>
+    <feature name="openhab.tp-jackson" description="FasterXML Jackson bundles" version="5.1.3">
+        <bundle dependency="true">mvn:com.fasterxml.jackson.core/jackson-annotations/2.19.2</bundle>
+        <bundle dependency="true">mvn:com.fasterxml.jackson.core/jackson-core/2.19.2</bundle>
+        <bundle dependency="true">mvn:com.fasterxml.jackson.core/jackson-databind/2.19.2</bundle>
+        <bundle dependency="true">mvn:com.fasterxml.jackson.dataformat/jackson-dataformat-cbor/2.19.2</bundle>
+        <bundle dependency="true">mvn:com.fasterxml.jackson.dataformat/jackson-dataformat-xml/2.19.2</bundle>
+        <bundle dependency="true">mvn:com.fasterxml.jackson.dataformat/jackson-dataformat-yaml/2.19.2</bundle>
+        <bundle dependency="true">mvn:com.fasterxml.jackson.datatype/jackson-datatype-jdk8/2.19.2</bundle>
+        <bundle dependency="true">mvn:com.fasterxml.jackson.datatype/jackson-datatype-jsr310/2.19.2</bundle>
+        <bundle dependency="true">mvn:com.fasterxml.jackson.jaxrs/jackson-jaxrs-base/2.19.2</bundle>
+        <bundle dependency="true">mvn:com.fasterxml.jackson.jaxrs/jackson-jaxrs-json-provider/2.19.2</bundle>
+        <bundle dependency="true">mvn:com.fasterxml.jackson.module/jackson-module-jaxb-annotations/2.19.2</bundle>
+        <bundle dependency="true">mvn:org.codehaus.woodstox/stax2-api/4.2.2</bundle>
+        <bundle dependency="true">mvn:org.yaml/snakeyaml/2.4</bundle>
+        <capability>openhab.tp;feature=jackson;version=2.19.2</capability>
+    </feature>
+    <feature name="openhab.tp-jax-rs-whiteboard" description="Aries JAX-RS Whiteboard" version="5.1.3">
+        <feature dependency="true">spifly</feature>
+        <feature dependency="true">http-whiteboard</feature>
+        <feature dependency="true">openhab.tp-cxf</feature>
+        <feature dependency="true">openhab.tp-jaxb</feature>
+        <bundle dependency="true">mvn:org.osgi/org.osgi.util.function/1.2.0</bundle>
+        <bundle dependency="true">mvn:org.osgi/org.osgi.util.promise/1.3.0</bundle>
+        <bundle dependency="true">mvn:org.osgi/org.osgi.service.jaxrs/1.0.1</bundle>
+        <bundle>mvn:org.apache.aries.component-dsl/org.apache.aries.component-dsl.component-dsl/1.2.2</bundle>
+        <bundle>mvn:org.apache.aries.jax.rs/org.apache.aries.jax.rs.whiteboard/2.0.2</bundle>
+        <capability>openhab.tp;feature=jax-rs-whiteboard;version=2.0.2</capability>
+    </feature>
+    <feature name="openhab.tp-jna" description="Java Native Access (JNA)" version="5.1.3">
+        <bundle dependency="true">mvn:net.java.dev.jna/jna/5.17.0</bundle>
+        <bundle dependency="true">mvn:net.java.dev.jna/jna-platform/5.17.0</bundle>
+        <capability>openhab.tp;feature=jna;version=5.17.0</capability>
+    </feature>
+    <feature name="openhab.tp-cxf" description="Apache CXF" version="5.1.3">
+        <feature dependency="true">openhab.tp-jaxws</feature>
+        <bundle dependency="true">mvn:com.fasterxml.woodstox/woodstox-core/6.6.2</bundle>
+        <bundle dependency="true">mvn:jakarta.jws/jakarta.jws-api/2.1.0</bundle>
+        <bundle dependency="true">mvn:jakarta.xml.ws/jakarta.xml.ws-api/2.3.3</bundle>
+        <bundle dependency="true">mvn:javax.servlet/javax.servlet-api/3.1.0</bundle>
+        <bundle dependency="true">mvn:org.apache.aries.spec/org.apache.aries.javax.jax.rs-api/1.0.4</bundle>
+        <bundle dependency="true">mvn:org.apache.ws.xmlschema/xmlschema-core/2.3.1</bundle>
+        <bundle dependency="true">mvn:org.codehaus.woodstox/stax2-api/4.2.2</bundle>
+        <bundle>mvn:org.apache.cxf/cxf-core/3.6.8</bundle>
+        <bundle>mvn:org.apache.cxf/cxf-rt-frontend-jaxrs/3.6.8</bundle>
+        <bundle>mvn:org.apache.cxf/cxf-rt-rs-client/3.6.8</bundle>
+        <bundle>mvn:org.apache.cxf/cxf-rt-rs-sse/3.6.8</bundle>
+        <bundle>mvn:org.apache.cxf/cxf-rt-security/3.6.8</bundle>
+        <bundle>mvn:org.apache.cxf/cxf-rt-transports-http/3.6.8</bundle>
+        <capability>openhab.tp;feature=cxf;version=3.6.8</capability>
+    </feature>
+    <feature name="openhab.tp-jbbp" description="Java Binary Block Parser library" version="5.1.3">
+        <bundle dependency="true">mvn:org.openhab.osgiify/com.igormaznitsa.jbbp/3.0.1</bundle>
+        <capability>openhab.tp;feature=jbbp;version=3.0.1</capability>
+    </feature>
+    <feature name="openhab.tp-netty" description="Netty bundles" version="5.1.3">
+        <bundle dependency="true">mvn:io.netty/netty-buffer/4.1.126.Final</bundle>
+        <bundle dependency="true">mvn:io.netty/netty-common/4.1.126.Final</bundle>
+        <bundle dependency="true">mvn:io.netty/netty-codec/4.1.126.Final</bundle>
+        <bundle dependency="true">mvn:io.netty/netty-codec-http/4.1.126.Final</bundle>
+        <bundle dependency="true">mvn:io.netty/netty-codec-http2/4.1.126.Final</bundle>
+        <bundle dependency="true">mvn:io.netty/netty-codec-mqtt/4.1.126.Final</bundle>
+        <bundle dependency="true">mvn:io.netty/netty-codec-socks/4.1.126.Final</bundle>
+        <bundle dependency="true">mvn:io.netty/netty-handler/4.1.126.Final</bundle>
+        <bundle dependency="true">mvn:io.netty/netty-handler-proxy/4.1.126.Final</bundle>
+        <bundle dependency="true">mvn:io.netty/netty-resolver/4.1.126.Final</bundle>
+        <bundle dependency="true">mvn:io.netty/netty-transport/4.1.126.Final</bundle>
+        <bundle dependency="true">mvn:io.netty/netty-transport-native-epoll/4.1.126.Final</bundle>
+        <bundle dependency="true">mvn:io.netty/netty-transport-native-kqueue/4.1.126.Final</bundle>
+        <bundle dependency="true">mvn:io.netty/netty-transport-native-unix-common/4.1.126.Final</bundle>
+        <bundle dependency="true">mvn:io.netty/netty-transport-classes-epoll/4.1.126.Final</bundle>
+        <bundle dependency="true">mvn:io.netty/netty-tcnative-classes/2.0.70.Final</bundle>
+        <capability>openhab.tp;feature=netty;version=4.1.126.Final</capability>
+    </feature>
+    <feature name="openhab.tp-jaxb" description="JAXB bundles" version="5.1.3">
+        <bundle start-level="10">mvn:org.apache.servicemix.specs/org.apache.servicemix.specs.activation-api-1.2.1/1.2.1_3</bundle>
+        <bundle start-level="10">mvn:jakarta.xml.bind/jakarta.xml.bind-api/2.3.3</bundle>
+        <bundle start-level="20">mvn:com.sun.xml.bind/jaxb-osgi/2.3.9</bundle>
+        <bundle start-level="20">mvn:org.glassfish.hk2/osgi-resource-locator/1.0.3</bundle>
+        <capability>openhab.tp;feature=jaxb;version=2.3.9</capability>
+    </feature>
+    <feature name="openhab.tp-jaxws" description="JAX-WS (SOAP) bundles" version="5.1.3">
+        <bundle start-level="10">mvn:org.apache.servicemix.specs/org.apache.servicemix.specs.activation-api-1.2.1/1.2.1_3</bundle>
+        <bundle start-level="10">mvn:org.apache.servicemix.specs/org.apache.servicemix.specs.saaj-api-1.4/1.4_2</bundle>
+        <bundle start-level="20">mvn:org.apache.servicemix.bundles/org.apache.servicemix.bundles.saaj-impl/1.4.0_2</bundle>
+        <bundle start-level="20">mvn:org.jvnet.staxex/stax-ex/1.7.4</bundle>
+        <capability>openhab.tp;feature=jax-ws;version=1.4.0</capability>
+    </feature>
+    <feature name="openhab.tp-jollyday" description="Jollyday library" version="5.1.3">
+        <feature dependency="true">openhab.tp-jackson</feature>
+        <feature dependency="true">spifly</feature>
+        <bundle>mvn:org.threeten/threeten-extra/1.8.0</bundle>
+        <bundle>mvn:de.focus-shift/jollyday-core/1.5.4</bundle>
+        <bundle>mvn:de.focus-shift/jollyday-jackson/1.5.4</bundle>
+        <capability>openhab.tp;feature=jollyday;version=1.5.4</capability>
+    </feature>
+    <feature name="openhab.tp-jmdns" description="An implementation of multi-cast DNS in Java." version="5.1.3">
+        <bundle>mvn:org.jmdns/jmdns/3.6.2</bundle>
+        <capability>openhab.tp;feature=jmdns;version=3.6.2</capability>
+    </feature>
+    <feature name="openhab.tp-jose4j" description="jose4j JWT library" version="5.1.3">
+        <bundle start-level="10">mvn:org.apache.servicemix.specs/org.apache.servicemix.specs.activation-api-1.2.1/1.2.1_3</bundle>
+        <bundle>mvn:org.bitbucket.b_c/jose4j/0.9.6</bundle>
+        <capability>openhab.tp;feature=jose4j;version=0.9.6</capability>
+    </feature>
+    <feature name="openhab.tp-jupnp" description="UPnP/DLNA library for Java" version="5.1.3">
+        <feature dependency="true">http</feature>
+        <feature dependency="true">scr</feature>
+        <feature dependency="true">openhab.tp-httpclient</feature>
+        <bundle>mvn:org.jupnp/org.jupnp/3.0.4</bundle>
+        <capability>openhab.tp;feature=jupnp;version=3.0.4</capability>
+    </feature>
+    <feature name="openhab.tp-lsp4j" description="Eclipse LSP4J" version="5.1.3">
+        <feature dependency="true">openhab.tp-gson</feature>
+        <feature dependency="true">openhab.tp-xtext</feature>
+        <bundle>mvn:org.eclipse.lsp4j/org.eclipse.lsp4j/0.24.0</bundle>
+        <bundle>mvn:org.eclipse.lsp4j/org.eclipse.lsp4j.jsonrpc/0.24.0</bundle>
+        <capability>openhab.tp;feature=lsp4j;version=0.24.0</capability>
+    </feature>
+    <feature name="openhab.tp-serial-javacomm" version="5.1.3">
+        <bundle>mvn:org.eclipse.kura/org.eclipse.soda.dk.comm/1.2.201</bundle>
+        <bundle>mvn:org.eclipse.kura/org.eclipse.soda.dk.comm.armv6hf/1.2.201</bundle>
+        <bundle>mvn:org.eclipse.kura/org.eclipse.soda.dk.comm.aarch64/1.2.201</bundle>
+        <bundle>mvn:org.eclipse.kura/org.eclipse.soda.dk.comm.x86_64/1.2.201</bundle>
+        <capability>openhab.tp;feature=serial;impl=javacomm</capability>
+    </feature>
+    <feature name="openhab.tp-serial-rxtx" version="5.1.3">
+        <bundle>mvn:com.neuronrobotics/nrjavaserial/5.2.1.OH1</bundle>
+        <capability>openhab.tp;feature=serial;impl=rxtx</capability>
+    </feature>
+    <feature name="openhab.tp-xtext" description="Xtext - Language Engineering Made Easy" version="5.1.3">
+        <bundle>mvn:org.eclipse.xtext/org.eclipse.xtext/2.40.0</bundle>
+        <bundle dependency="true">mvn:org.eclipse.emf/org.eclipse.emf.common/2.30.0</bundle>
+        <bundle dependency="true">mvn:org.eclipse.emf/org.eclipse.emf.ecore/2.36.0</bundle>
+        <bundle dependency="true">mvn:org.eclipse.emf/org.eclipse.emf.ecore.change/2.16.0</bundle>
+        <bundle dependency="true">mvn:org.eclipse.emf/org.eclipse.emf.ecore.xmi/2.37.0</bundle>
+        <bundle dependency="true">mvn:org.eclipse.xtext/org.eclipse.xtext.common.types/2.40.0</bundle>
+        <bundle dependency="true">mvn:javax.annotation/javax.annotation-api/1.3.2</bundle>
+        <bundle dependency="true">mvn:org.eclipse.xtext/org.eclipse.xtext.xbase/2.40.0</bundle>
+        <bundle dependency="true">mvn:org.eclipse.xtext/org.eclipse.xtext.xbase.lib/2.40.0</bundle>
+        <bundle dependency="true">mvn:org.eclipse.xtext/org.eclipse.xtext.smap/2.40.0</bundle>
+        <bundle dependency="true">mvn:org.eclipse.xtext/org.eclipse.xtext.util/2.40.0</bundle>
+        <bundle dependency="true">mvn:org.eclipse.xtext/org.eclipse.xtend.lib/2.40.0</bundle>
+        <bundle dependency="true">mvn:org.eclipse.xtext/org.eclipse.xtend.lib.macro/2.40.0</bundle>
+        <bundle dependency="true">mvn:com.google.guava/failureaccess/1.0.3</bundle>
+        <bundle dependency="true">mvn:com.google.guava/guava/33.4.8-jre</bundle>
+        <bundle dependency="true">mvn:com.google.inject/guice/7.0.0</bundle>
+        <bundle dependency="true">mvn:jakarta.inject/jakarta.inject-api/2.0.1</bundle>
+        <bundle dependency="true">mvn:org.eclipse.orbit.bundles/org.aopalliance/1.0.0.v201105210816</bundle>
+        <bundle dependency="true">mvn:io.github.classgraph/classgraph/4.8.180</bundle>
+        <bundle dependency="true">mvn:org.eclipse.orbit.bundles/org.antlr.runtime/3.2.0.v201101311130</bundle>
+        <bundle dependency="true">mvn:org.eclipse.platform/org.eclipse.equinox.common/3.19.0</bundle>
+        <bundle dependency="true">mvn:org.eclipse.platform/org.eclipse.equinox.registry/3.12.0</bundle>
+        <bundle dependency="true">mvn:org.eclipse.platform/org.eclipse.equinox.supplement/1.9.0</bundle>
+        <bundle start="false" dependency="true">mvn:org.eclipse.platform/org.eclipse.osgi/3.18.0</bundle>
+        <capability>openhab.tp;feature=xtext;version=2.40.0</capability>
+    </feature>
+    <feature name="openhab.tp-xtext-ide" description="Xtext - IDE Support" version="5.1.3">
+        <feature dependency="true">openhab.tp-xtext</feature>
+        <bundle dependency="true">mvn:org.eclipse.xtext/org.eclipse.xtext.ide/2.40.0</bundle>
+        <bundle dependency="true">mvn:org.eclipse.xtext/org.eclipse.xtext.xbase.ide/2.40.0</bundle>
+        <capability>openhab.tp;feature=xtext-ide;version=2.40.0</capability>
+    </feature>
+    <feature name="openhab.tp-swagger-jaxrs" description="JAX-RS Whiteboard Swagger Support" version="5.1.3">
+        <feature dependency="true">openhab.tp-jax-rs-whiteboard</feature>
+        <feature dependency="true">openhab.tp-jackson</feature>
+        <bundle dependency="true">mvn:io.swagger.core.v3/swagger-annotations/2.2.35</bundle>
+        <bundle dependency="true">mvn:io.swagger.core.v3/swagger-core/2.2.35</bundle>
+        <bundle dependency="true">mvn:io.swagger.core.v3/swagger-integration/2.2.35</bundle>
+        <bundle dependency="true">mvn:io.swagger.core.v3/swagger-jaxrs2/2.2.35</bundle>
+        <bundle dependency="true">mvn:io.swagger.core.v3/swagger-models/2.2.35</bundle>
+        <bundle dependency="true">mvn:jakarta.validation/jakarta.validation-api/2.0.2</bundle>
+        <bundle dependency="true">mvn:org.javassist/javassist/3.30.2-GA</bundle>
+        <capability>openhab.tp;feature=swagger-jaxrs;version=2.2.35</capability>
+    </feature>
+    <feature name="distro" description="openHAB Distro Feature" version="5.1.3">
+        <details>openHAB Distro Feature</details>
+        <feature version="5.1.3" prerequisite="false" dependency="false">openhab-core-base</feature>
+        <feature version="5.1.3" prerequisite="false" dependency="false">openhab-core-config-discovery-addon</feature>
+        <feature version="5.1.3" prerequisite="false" dependency="false">openhab-core-config-discovery-addon-mdns</feature>
+        <feature version="5.1.3" prerequisite="false" dependency="false">openhab-core-config-discovery-addon-ip</feature>
+        <feature version="5.1.3" prerequisite="false" dependency="false">openhab-core-config-discovery-addon-upnp</feature>
+        <feature version="5.1.3" prerequisite="false" dependency="false">openhab-core-config-discovery-addon-usb</feature>
+        <feature version="5.1.3" prerequisite="false" dependency="false">openhab-core-config-discovery-addon-sddp</feature>
+        <feature version="5.1.3" prerequisite="false" dependency="false">openhab-core-config-discovery-sddp</feature>
+        <feature version="5.1.3" prerequisite="false" dependency="false">openhab-core-addon-marketplace</feature>
+        <feature version="5.1.3" prerequisite="false" dependency="false">openhab-core-auth-jaas</feature>
+        <feature version="5.1.3" prerequisite="false" dependency="false">openhab-core-auth-oauth2client</feature>
+        <feature version="5.1.3" prerequisite="false" dependency="false">openhab-core-automation-module-script</feature>
+        <feature version="5.1.3" prerequisite="false" dependency="false">openhab-core-automation-module-script-providersupport</feature>
+        <feature version="5.1.3" prerequisite="false" dependency="false">openhab-core-automation-module-script-rulesupport</feature>
+        <feature version="5.1.3" prerequisite="false" dependency="false">openhab-core-automation-module-media</feature>
+        <feature version="5.1.3" prerequisite="false" dependency="false">openhab-core-automation-rest</feature>
+        <feature version="5.1.3" prerequisite="false" dependency="false">openhab-core-io-bin2json</feature>
+        <feature version="5.1.3" prerequisite="false" dependency="false">openhab-core-io-console-karaf</feature>
+        <feature version="5.1.3" prerequisite="false" dependency="false">openhab-core-io-http-auth</feature>
+        <feature version="5.1.3" prerequisite="false" dependency="false">openhab-core-io-rest-auth</feature>
+        <feature version="5.1.3" prerequisite="false" dependency="false">openhab-core-io-rest-log</feature>
+        <feature version="5.1.3" prerequisite="false" dependency="false">openhab-core-io-rest-sitemap</feature>
+        <feature version="5.1.3" prerequisite="false" dependency="false">openhab-core-io-rest-swagger</feature>
+        <feature version="5.1.3" prerequisite="false" dependency="false">openhab-core-io-rest-audio</feature>
+        <feature version="5.1.3" prerequisite="false" dependency="false">openhab-core-io-rest-transform</feature>
+        <feature version="5.1.3" prerequisite="false" dependency="false">openhab-core-io-rest-voice</feature>
+        <feature version="5.1.3" prerequisite="false" dependency="false">openhab-core-io-rest-mdns</feature>
+        <feature version="5.1.3" prerequisite="false" dependency="false">openhab-core-io-websocket</feature>
+        <feature version="5.1.3" prerequisite="false" dependency="false">openhab-core-io-websocket-audio</feature>
+        <feature version="5.1.3" prerequisite="false" dependency="false">openhab-core-io-transport-coap</feature>
+        <feature version="5.1.3" prerequisite="false" dependency="false">openhab-core-io-transport-http</feature>
+        <feature version="5.1.3" prerequisite="false" dependency="false">openhab-core-io-transport-mdns</feature>
+        <feature version="5.1.3" prerequisite="false" dependency="false">openhab-core-io-transport-modbus</feature>
+        <feature version="5.1.3" prerequisite="false" dependency="false">openhab-core-io-transport-mqtt</feature>
+        <feature version="5.1.3" prerequisite="false" dependency="false">openhab-core-io-transport-serial-javacomm</feature>
+        <feature version="5.1.3" prerequisite="false" dependency="false">openhab-core-io-transport-upnp</feature>
+        <feature version="5.1.3" prerequisite="false" dependency="false">openhab.inc-model-core</feature>
+        <feature version="5.1.3" prerequisite="false" dependency="false">openhab-core-model-item</feature>
+        <feature version="5.1.3" prerequisite="false" dependency="false">openhab-core-model-item-ide</feature>
+        <feature version="5.1.3" prerequisite="false" dependency="false">openhab-core-model-persistence</feature>
+        <feature version="5.1.3" prerequisite="false" dependency="false">openhab-core-model-persistence-ide</feature>
+        <feature version="5.1.3" prerequisite="false" dependency="false">openhab-core-model-rule</feature>
+        <feature version="5.1.3" prerequisite="false" dependency="false">openhab-core-model-rule-ide</feature>
+        <feature version="5.1.3" prerequisite="false" dependency="false">openhab-core-model-script</feature>
+        <feature version="5.1.3" prerequisite="false" dependency="false">openhab-core-model-script-ide</feature>
+        <feature version="5.1.3" prerequisite="false" dependency="false">openhab-core-model-sitemap</feature>
+        <feature version="5.1.3" prerequisite="false" dependency="false">openhab-core-model-sitemap-ide</feature>
+        <feature version="5.1.3" prerequisite="false" dependency="false">openhab-core-model-thing</feature>
+        <feature version="5.1.3" prerequisite="false" dependency="false">openhab-core-model-thing-ide</feature>
+        <feature version="5.1.3" prerequisite="false" dependency="false">openhab-core-model-lsp</feature>
+        <feature version="5.1.3" prerequisite="false" dependency="false">openhab-core-model-yaml</feature>
+        <feature version="5.1.3" prerequisite="false" dependency="false">openhab-core-storage-json</feature>
+        <feature version="5.1.3" prerequisite="false" dependency="false">openhab-core-ui</feature>
+        <feature version="5.1.3" prerequisite="false" dependency="false">openhab-core-ui-icon</feature>
+        <feature version="5.1.3" prerequisite="false" dependency="false">openhab-runtime-base</feature>
+        <feature version="5.1.3" prerequisite="false" dependency="false">openhab-runtime-certificate</feature>
+        <feature version="5.1.3" prerequisite="false" dependency="false">openhab-transport-coap</feature>
+        <feature version="5.1.3" prerequisite="false" dependency="false">openhab-transport-http</feature>
+        <feature version="5.1.3" prerequisite="false" dependency="false">openhab-transport-mdns</feature>
+        <feature version="5.1.3" prerequisite="false" dependency="false">openhab-transport-modbus</feature>
+        <feature version="5.1.3" prerequisite="false" dependency="false">openhab-transport-mqtt</feature>
+        <feature version="5.1.3" prerequisite="false" dependency="false">openhab-transport-serial</feature>
+        <feature version="5.1.3" prerequisite="false" dependency="false">openhab-transport-upnp</feature>
+        <feature version="5.1.3" prerequisite="false" dependency="false">openhab.tp-base</feature>
+        <feature version="5.1.3" prerequisite="false" dependency="false">openhab.tp-coap</feature>
+        <feature version="5.1.3" prerequisite="false" dependency="false">openhab.tp-commons-net</feature>
+        <feature version="5.1.3" prerequisite="false" dependency="false">openhab.tp-gson</feature>
+        <feature version="5.1.3" prerequisite="false" dependency="false">openhab.tp-hivemqclient</feature>
+        <feature version="5.1.3" prerequisite="false" dependency="false">openhab.tp-httpclient</feature>
+        <feature version="5.1.3" prerequisite="false" dependency="false">openhab.tp-jackson</feature>
+        <feature version="5.1.3" prerequisite="false" dependency="false">openhab.tp-jax-rs-whiteboard</feature>
+        <feature version="5.1.3" prerequisite="false" dependency="false">openhab.tp-jna</feature>
+        <feature version="5.1.3" prerequisite="false" dependency="false">openhab.tp-cxf</feature>
+        <feature version="5.1.3" prerequisite="false" dependency="false">openhab.tp-jbbp</feature>
+        <feature version="5.1.3" prerequisite="false" dependency="false">openhab.tp-netty</feature>
+        <feature version="5.1.3" prerequisite="false" dependency="false">openhab.tp-jaxb</feature>
+        <feature version="5.1.3" prerequisite="false" dependency="false">openhab.tp-jaxws</feature>
+        <feature version="5.1.3" prerequisite="false" dependency="false">openhab.tp-jollyday</feature>
+        <feature version="5.1.3" prerequisite="false" dependency="false">openhab.tp-jmdns</feature>
+        <feature version="5.1.3" prerequisite="false" dependency="false">openhab.tp-jose4j</feature>
+        <feature version="5.1.3" prerequisite="false" dependency="false">openhab.tp-jupnp</feature>
+        <feature version="5.1.3" prerequisite="false" dependency="false">openhab.tp-lsp4j</feature>
+        <feature version="5.1.3" prerequisite="false" dependency="false">openhab.tp-serial-javacomm</feature>
+        <feature version="5.1.3" prerequisite="false" dependency="false">openhab.tp-serial-rxtx</feature>
+        <feature version="5.1.3" prerequisite="false" dependency="false">openhab.tp-xtext</feature>
+        <feature version="5.1.3" prerequisite="false" dependency="false">openhab.tp-xtext-ide</feature>
+        <feature version="5.1.3" prerequisite="false" dependency="false">openhab.tp-swagger-jaxrs</feature>
+    </feature>
+    <feature name="distro-kar" description="openHAB Distro Feature KAR" version="5.1.3">
+        <details>openHAB Distro Feature KAR</details>
+        <feature version="5.1.3" prerequisite="false" dependency="false">openhab-runtime-ui</feature>
+        <feature version="5.1.3" prerequisite="false" dependency="false">openhab-core-base</feature>
+        <feature version="5.1.3" prerequisite="false" dependency="false">openhab-core-config-discovery-addon</feature>
+        <feature version="5.1.3" prerequisite="false" dependency="false">openhab-core-config-discovery-addon-mdns</feature>
+        <feature version="5.1.3" prerequisite="false" dependency="false">openhab-core-config-discovery-addon-ip</feature>
+        <feature version="5.1.3" prerequisite="false" dependency="false">openhab-core-config-discovery-addon-upnp</feature>
+        <feature version="5.1.3" prerequisite="false" dependency="false">openhab-core-config-discovery-addon-usb</feature>
+        <feature version="5.1.3" prerequisite="false" dependency="false">openhab-core-config-discovery-addon-sddp</feature>
+        <feature version="5.1.3" prerequisite="false" dependency="false">openhab-core-config-discovery-sddp</feature>
+        <feature version="5.1.3" prerequisite="false" dependency="false">openhab-core-addon-marketplace</feature>
+        <feature version="5.1.3" prerequisite="false" dependency="false">openhab-core-auth-jaas</feature>
+        <feature version="5.1.3" prerequisite="false" dependency="false">openhab-core-auth-oauth2client</feature>
+        <feature version="5.1.3" prerequisite="false" dependency="false">openhab-core-automation-module-script</feature>
+        <feature version="5.1.3" prerequisite="false" dependency="false">openhab-core-automation-module-script-providersupport</feature>
+        <feature version="5.1.3" prerequisite="false" dependency="false">openhab-core-automation-module-script-rulesupport</feature>
+        <feature version="5.1.3" prerequisite="false" dependency="false">openhab-core-automation-module-media</feature>
+        <feature version="5.1.3" prerequisite="false" dependency="false">openhab-core-automation-rest</feature>
+        <feature version="5.1.3" prerequisite="false" dependency="false">openhab-core-io-bin2json</feature>
+        <feature version="5.1.3" prerequisite="false" dependency="false">openhab-core-io-console-karaf</feature>
+        <feature version="5.1.3" prerequisite="false" dependency="false">openhab-core-io-http-auth</feature>
+        <feature version="5.1.3" prerequisite="false" dependency="false">openhab-core-io-rest-auth</feature>
+        <feature version="5.1.3" prerequisite="false" dependency="false">openhab-core-io-rest-log</feature>
+        <feature version="5.1.3" prerequisite="false" dependency="false">openhab-core-io-rest-sitemap</feature>
+        <feature version="5.1.3" prerequisite="false" dependency="false">openhab-core-io-rest-swagger</feature>
+        <feature version="5.1.3" prerequisite="false" dependency="false">openhab-core-io-rest-audio</feature>
+        <feature version="5.1.3" prerequisite="false" dependency="false">openhab-core-io-rest-transform</feature>
+        <feature version="5.1.3" prerequisite="false" dependency="false">openhab-core-io-rest-voice</feature>
+        <feature version="5.1.3" prerequisite="false" dependency="false">openhab-core-io-rest-mdns</feature>
+        <feature version="5.1.3" prerequisite="false" dependency="false">openhab-core-io-websocket</feature>
+        <feature version="5.1.3" prerequisite="false" dependency="false">openhab-core-io-websocket-audio</feature>
+        <feature version="5.1.3" prerequisite="false" dependency="false">openhab-core-io-transport-coap</feature>
+        <feature version="5.1.3" prerequisite="false" dependency="false">openhab-core-io-transport-http</feature>
+        <feature version="5.1.3" prerequisite="false" dependency="false">openhab-core-io-transport-mdns</feature>
+        <feature version="5.1.3" prerequisite="false" dependency="false">openhab-core-io-transport-modbus</feature>
+        <feature version="5.1.3" prerequisite="false" dependency="false">openhab-core-io-transport-mqtt</feature>
+        <feature version="5.1.3" prerequisite="false" dependency="false">openhab-core-io-transport-serial-javacomm</feature>
+        <feature version="5.1.3" prerequisite="false" dependency="false">openhab-core-io-transport-upnp</feature>
+        <feature version="5.1.3" prerequisite="false" dependency="false">openhab.inc-model-core</feature>
+        <feature version="5.1.3" prerequisite="false" dependency="false">openhab-core-model-item</feature>
+        <feature version="5.1.3" prerequisite="false" dependency="false">openhab-core-model-item-ide</feature>
+        <feature version="5.1.3" prerequisite="false" dependency="false">openhab-core-model-persistence</feature>
+        <feature version="5.1.3" prerequisite="false" dependency="false">openhab-core-model-persistence-ide</feature>
+        <feature version="5.1.3" prerequisite="false" dependency="false">openhab-core-model-rule</feature>
+        <feature version="5.1.3" prerequisite="false" dependency="false">openhab-core-model-rule-ide</feature>
+        <feature version="5.1.3" prerequisite="false" dependency="false">openhab-core-model-script</feature>
+        <feature version="5.1.3" prerequisite="false" dependency="false">openhab-core-model-script-ide</feature>
+        <feature version="5.1.3" prerequisite="false" dependency="false">openhab-core-model-sitemap</feature>
+        <feature version="5.1.3" prerequisite="false" dependency="false">openhab-core-model-sitemap-ide</feature>
+        <feature version="5.1.3" prerequisite="false" dependency="false">openhab-core-model-thing</feature>
+        <feature version="5.1.3" prerequisite="false" dependency="false">openhab-core-model-thing-ide</feature>
+        <feature version="5.1.3" prerequisite="false" dependency="false">openhab-core-model-lsp</feature>
+        <feature version="5.1.3" prerequisite="false" dependency="false">openhab-core-model-yaml</feature>
+        <feature version="5.1.3" prerequisite="false" dependency="false">openhab-core-storage-json</feature>
+        <feature version="5.1.3" prerequisite="false" dependency="false">openhab-core-ui</feature>
+        <feature version="5.1.3" prerequisite="false" dependency="false">openhab-core-ui-icon</feature>
+        <feature version="5.1.3" prerequisite="false" dependency="false">openhab-runtime-base</feature>
+        <feature version="5.1.3" prerequisite="false" dependency="false">openhab-runtime-certificate</feature>
+        <feature version="5.1.3" prerequisite="false" dependency="false">openhab-transport-coap</feature>
+        <feature version="5.1.3" prerequisite="false" dependency="false">openhab-transport-http</feature>
+        <feature version="5.1.3" prerequisite="false" dependency="false">openhab-transport-mdns</feature>
+        <feature version="5.1.3" prerequisite="false" dependency="false">openhab-transport-modbus</feature>
+        <feature version="5.1.3" prerequisite="false" dependency="false">openhab-transport-mqtt</feature>
+        <feature version="5.1.3" prerequisite="false" dependency="false">openhab-transport-serial</feature>
+        <feature version="5.1.3" prerequisite="false" dependency="false">openhab-transport-upnp</feature>
+        <feature version="5.1.3" prerequisite="false" dependency="false">openhab.tp-base</feature>
+        <feature version="5.1.3" prerequisite="false" dependency="false">openhab.tp-coap</feature>
+        <feature version="5.1.3" prerequisite="false" dependency="false">openhab.tp-commons-net</feature>
+        <feature version="5.1.3" prerequisite="false" dependency="false">openhab.tp-gson</feature>
+        <feature version="5.1.3" prerequisite="false" dependency="false">openhab.tp-hivemqclient</feature>
+        <feature version="5.1.3" prerequisite="false" dependency="false">openhab.tp-httpclient</feature>
+        <feature version="5.1.3" prerequisite="false" dependency="false">openhab.tp-jackson</feature>
+        <feature version="5.1.3" prerequisite="false" dependency="false">openhab.tp-jax-rs-whiteboard</feature>
+        <feature version="5.1.3" prerequisite="false" dependency="false">openhab.tp-jna</feature>
+        <feature version="5.1.3" prerequisite="false" dependency="false">openhab.tp-cxf</feature>
+        <feature version="5.1.3" prerequisite="false" dependency="false">openhab.tp-jbbp</feature>
+        <feature version="5.1.3" prerequisite="false" dependency="false">openhab.tp-netty</feature>
+        <feature version="5.1.3" prerequisite="false" dependency="false">openhab.tp-jaxb</feature>
+        <feature version="5.1.3" prerequisite="false" dependency="false">openhab.tp-jaxws</feature>
+        <feature version="5.1.3" prerequisite="false" dependency="false">openhab.tp-jollyday</feature>
+        <feature version="5.1.3" prerequisite="false" dependency="false">openhab.tp-jmdns</feature>
+        <feature version="5.1.3" prerequisite="false" dependency="false">openhab.tp-jose4j</feature>
+        <feature version="5.1.3" prerequisite="false" dependency="false">openhab.tp-jupnp</feature>
+        <feature version="5.1.3" prerequisite="false" dependency="false">openhab.tp-lsp4j</feature>
+        <feature version="5.1.3" prerequisite="false" dependency="false">openhab.tp-serial-javacomm</feature>
+        <feature version="5.1.3" prerequisite="false" dependency="false">openhab.tp-serial-rxtx</feature>
+        <feature version="5.1.3" prerequisite="false" dependency="false">openhab.tp-xtext</feature>
+        <feature version="5.1.3" prerequisite="false" dependency="false">openhab.tp-xtext-ide</feature>
+        <feature version="5.1.3" prerequisite="false" dependency="false">openhab.tp-swagger-jaxrs</feature>
+        <feature version="5.1.3" prerequisite="false" dependency="false">distro</feature>
+    </feature>
+</features>

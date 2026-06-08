@@ -1,0 +1,19 @@
+{
+  "to": "coordinator",
+  "type": "register",
+  "data": {
+    "name": "Сим",
+    "public_key": "87cf773ce6c19bb2a756ace5055650da3f68e2dfb985f48644bb2f223f719f2c",
+    "capabilities": [
+      "dialog",
+      "web_search",
+      "file_ops",
+      "sensor",
+      "memory"
+    ],
+    "version": "1.0"
+  },
+  "from": "Сим",
+  "timestamp": "2026-03-06T18:07:46.334407",
+  "signature": "414b3f105f2569191fd96f85faaed1cb1c7f26da55def6807af6f435d79a47a790b27115a1b67098726bcdb8b1bb2c5d317adebaf83d4350d8fece8a3ebccb08"
+}

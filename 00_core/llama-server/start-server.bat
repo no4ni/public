@@ -1,0 +1,1 @@
+cmd /k ""E:\Jericho\public\00_core\llama-server\llama-server.exe" -m "E:\vikhr-llama\huihui-qwen3-4b-thinking-abliterated-q4_k_m.gguf" -ngl 0 -c 6000 --temp 0.7 --repeat-penalty 1.15 --host 127.0.0.1 --port 8080"

@@ -1,0 +1,12 @@
+# learn (seed=42)
+learn(zeros) = -1.9+1.7*zeros-0.25*zeros^2
+coefR = 0.008265
+
+# learn (seed=123)
+learn(zeros) = -1.9+1.7*zeros-0.25*zeros^2
+coefR = 0.008265
+
+# learn (seed=1779277950)
+learn(zeros) = -1.9+1.7*zeros-0.25*zeros^2
+coefR = 0.008265
+

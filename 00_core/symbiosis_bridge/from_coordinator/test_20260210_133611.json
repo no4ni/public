@@ -1,0 +1,8 @@
+{
+  "to": "jarvis_symbiosis",
+  "from": "heimdall",
+  "type": "test",
+  "message": "Привет от координатора! Этот файл должен быть получен симбиозом.",
+  "timestamp": "2026-02-10 13:36:11",
+  "test_id": "890192b1-57cb-4af4-832b-4d375a02c03f"
+}

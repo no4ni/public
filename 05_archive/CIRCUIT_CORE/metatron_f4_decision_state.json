@@ -1,0 +1,12 @@
+{
+    "recommended_action":  "immediate_decision_on_jenuvo",
+    "timestamp":  "2026-02-07T20:58:23",
+    "next_steps":  [
+                       "Проверить финансовую возможность ( для Jenuvo)",
+                       "Детально исследовать E:\\vikhr-llama\\agent",
+                       "Принять решение в течение 24 часов"
+                   ],
+    "agent_state":  "well_structured",
+    "current_ifs":  5.079,
+    "current_f4":  15
+}
